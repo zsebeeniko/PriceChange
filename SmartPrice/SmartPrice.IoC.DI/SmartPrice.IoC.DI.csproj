@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2EC20B8-913B-41DC-A9CF-7B3A60285CD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartPrice.IoC.DI</RootNamespace>
+    <AssemblyName>SmartPrice.IoC.DI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StructureMap, Version=4.6.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StructureMap.4.6.1\lib\net45\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resolver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartPrice.BL.BusinessLayerContracts\SmartPrice.BL.BusinessLayerContracts.csproj">
+      <Project>{5c7cfd7a-413d-41da-b4fa-bfc2105d2840}</Project>
+      <Name>SmartPrice.BL.BusinessLayerContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartPrice.BL.BusinessLayerImpl\SmartPrice.BL.BusinessLayerImpl.csproj">
+      <Project>{55852ff7-0b78-438e-8c96-5277b75a7448}</Project>
+      <Name>SmartPrice.BL.BusinessLayerImpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartPrice.DL.DataLayerContract\SmartPrice.DL.DataLayerContract.csproj">
+      <Project>{37d9804d-7640-48bc-b513-ae8b5208cd4e}</Project>
+      <Name>SmartPrice.DL.DataLayerContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartPrice.DL.EFDataLayer\SmartPrice.DL.EFDataLayer.csproj">
+      <Project>{dd82c1f3-4489-485b-bd7f-254db519e4e3}</Project>
+      <Name>SmartPrice.DL.EFDataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
