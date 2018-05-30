@@ -12,6 +12,11 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter something"
-        android:id="@+id/MyEditText" />
+        android:hint="Shop"
+        android:id="@+id/ShopTextField" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:id="@+id/DescriptionTextField" />
 </LinearLayout>

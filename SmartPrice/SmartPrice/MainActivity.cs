@@ -39,11 +39,13 @@ namespace SmartPrice
             Android.Support.V7.App.AlertDialog.Builder alertdialogbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
             alertdialogbuilder.SetView(mView);
 
-            var userContent = mView.FindViewById<EditText>(Resource.Id.MyEditText);
+            var shopField = mView.FindViewById<EditText>(Resource.Id.ShopTextField);
+            var descriptionField = mView.FindViewById<EditText>(Resource.Id.DescriptionTextField);
+
             alertdialogbuilder.SetCancelable(false)
             .SetPositiveButton("Send", delegate
              {
-                 Toast.MakeText(this, "send content: " + userContent.Text, ToastLength.Short).Show();
+                 Toast.MakeText(this, "Sent successfully! ", ToastLength.Short).Show();
              })
              .SetNegativeButton("Cancel", delegate
              {
