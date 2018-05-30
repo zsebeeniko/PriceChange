@@ -6,11 +6,13 @@ using Android.Content;
 using Android.Provider;
 using Android.Runtime;
 using Android.Graphics;
+using Android.Support.V7.App;
+using Android.Views;
 
 namespace SmartPrice
 {
-    [Activity(Label = "SmartPrice", MainLauncher = true)]
-    public class MainActivity : Activity
+    [Activity(Label = "SmartPrice", MainLauncher = true, Theme="@style/Theme.AppCompat.Light")]
+    public class MainActivity : AppCompatActivity
     {
         ImageView imageView;
         protected override void OnCreate(Bundle savedInstanceState)
@@ -32,6 +34,23 @@ namespace SmartPrice
             base.OnActivityResult(requestCode, resultCode, data);
             Bitmap bitmap = (Bitmap)data.Extras.Get("data");
             imageView.SetImageBitmap(bitmap);
+            LayoutInflater layoutInflaterAndroid = LayoutInflater.From(this);
+            View mView = layoutInflaterAndroid.Inflate(Resource.Layout.AdditionalProps, null);
+            Android.Support.V7.App.AlertDialog.Builder alertdialogbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
+            alertdialogbuilder.SetView(mView);
+
+            var userContent = mView.FindViewById<EditText>(Resource.Id.MyEditText);
+            alertdialogbuilder.SetCancelable(false)
+            .SetPositiveButton("Send", delegate
+             {
+                 Toast.MakeText(this, "send content: " + userContent.Text, ToastLength.Short).Show();
+             })
+             .SetNegativeButton("Cancel", delegate
+             {
+                 alertdialogbuilder.Dispose();
+             });
+            Android.Support.V7.App.AlertDialog alertDialogAndroid = alertdialogbuilder.Create();
+            alertDialogAndroid.Show();
         }
 
         private void BtnCamera_Click(object sender, EventArgs e)
