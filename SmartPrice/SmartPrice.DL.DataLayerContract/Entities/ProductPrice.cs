@@ -1,15 +1,15 @@
-﻿using System;
+using SmartPrice.DL.DataLayerContract.Entities;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartPrice.DL.DataLayerContract.Entities
 {
-    public class ProductPrice : IEntity
+    public partial class ProductPrice :IEntity
     {
-        public int Product_Id { get; set; }
-        public int Price_Type { get; set; }
-        public decimal Value { get; set; }
+        public int PRODUCT_ID { get; set; }
+        public int PRICE_TYPE { get; set; }
+        public decimal VALUE { get; set; }
+        public virtual Price Price { get; set; }
+        public virtual Product Product { get; set; }
     }
 }

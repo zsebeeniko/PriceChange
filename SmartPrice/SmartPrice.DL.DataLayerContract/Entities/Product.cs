@@ -1,16 +1,20 @@
-﻿using System;
+using SmartPrice.DL.DataLayerContract.Entities;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartPrice.DL.DataLayerContract.Entities
 {
-    public class Product: IEntity
+    public partial class Product : IEntity
     {
-        public int Product_Id { get; set; }
-        public string Shop { get; set; }
-        public string Description { get; set; }
-        public byte[] Picture { get; set; }
+        public Product()
+        {
+            this.ProductPrices = new List<ProductPrice>();
+        }
+
+        public int PRODUCT_ID { get; set; }
+        public string SHOP { get; set; }
+        public string DESCRIPTION { get; set; }
+        public byte[] PICTURE { get; set; }
+        public virtual ICollection<ProductPrice> ProductPrices { get; set; }
     }
 }

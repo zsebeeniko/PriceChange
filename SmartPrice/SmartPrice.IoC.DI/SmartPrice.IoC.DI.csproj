@@ -63,7 +63,7 @@
       <Name>SmartPrice.DL.DataLayerContract</Name>
     </ProjectReference>
     <ProjectReference Include="..\SmartPrice.DL.EFDataLayer\SmartPrice.DL.EFDataLayer.csproj">
-      <Project>{dd82c1f3-4489-485b-bd7f-254db519e4e3}</Project>
+      <Project>{DD82C1F3-4489-485B-BD7F-254DB519E4E3}</Project>
       <Name>SmartPrice.DL.EFDataLayer</Name>
     </ProjectReference>
   </ItemGroup>

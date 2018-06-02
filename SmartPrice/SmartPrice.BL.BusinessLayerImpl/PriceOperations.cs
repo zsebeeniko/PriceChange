@@ -21,9 +21,9 @@ namespace SmartPrice.BL.BusinessLayerImpl
             return _priceDataAccess.Read().
                 Select(x => new PriceDTO()
                 {
-                    Price_Type = x.Price_Type,
-                    Description = x.Description,
-                    Signiture = x.Signiture
+                    Price_Type = x.PRICE_TYPE,
+                    Description = x.DESCRIPTION,
+                    Signiture = x.SIGNITURE
                 });
         }
     }

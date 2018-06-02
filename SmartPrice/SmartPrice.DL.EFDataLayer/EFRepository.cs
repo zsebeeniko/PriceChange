@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SmartPrice.DL.DataLayerContract;
 using SmartPrice.DL.DataLayerContract.Entities;
+using SmartPrice.DL.EFDataLayer.Models;
 
 namespace SmartPrice.DL.EFDataLayer
 {

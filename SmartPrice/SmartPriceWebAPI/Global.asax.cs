@@ -12,6 +12,7 @@ namespace SmartPriceWebAPI
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            GlobalConfiguration.Configure(StructureMapConfig.Register);
         }
     }
 }

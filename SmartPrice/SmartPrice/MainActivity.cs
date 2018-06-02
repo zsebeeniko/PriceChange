@@ -8,6 +8,7 @@ using Android.Runtime;
 using Android.Graphics;
 using Android.Support.V7.App;
 using Android.Views;
+using System.Net;
 
 namespace SmartPrice
 {
@@ -31,6 +32,7 @@ namespace SmartPrice
 
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
         {
+            var request = HttpWebRequest.Create(string.Format(@"http://SmartPrice/api/H"));
             base.OnActivityResult(requestCode, resultCode, data);
             Bitmap bitmap = (Bitmap)data.Extras.Get("data");
             imageView.SetImageBitmap(bitmap);

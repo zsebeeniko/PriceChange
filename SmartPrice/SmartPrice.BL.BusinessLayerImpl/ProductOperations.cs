@@ -19,20 +19,20 @@ namespace SmartPrice.BL.BusinessLayerImpl
         {
             _productDataAccess.Add(new Product()
             {
-                Product_Id = product.Product_Id,
-                Shop = product.Shop,
-                Description = product.Description,
-                Picture = product.Picture
+                PRODUCT_ID = product.Product_Id,
+                SHOP = product.Shop,
+                DESCRIPTION = product.Description,
+                PICTURE = product.Picture
             });
         }
 
         public void Delete(ProductDTO product)
         {
             Product entity = new Product();
-            entity.Picture = product.Picture;
-            entity.Product_Id = product.Product_Id;
-            entity.Shop = product.Shop;
-            entity.Description = product.Description;
+            entity.PICTURE = product.Picture;
+            entity.PRODUCT_ID = product.Product_Id;
+            entity.SHOP = product.Shop;
+            entity.DESCRIPTION = product.Description;
             _productDataAccess.Delete(entity);
         }
 
@@ -41,10 +41,10 @@ namespace SmartPrice.BL.BusinessLayerImpl
             return _productDataAccess.Read().
                 Select(x => new ProductDTO()
                 {
-                    Product_Id = x.Product_Id,
-                    Description = x.Description,
-                    Picture = x.Picture,
-                    Shop = x.Shop
+                    Product_Id = x.PRODUCT_ID,
+                    Description = x.DESCRIPTION,
+                    Picture = x.PICTURE,
+                    Shop = x.SHOP
                 });
         }
     }

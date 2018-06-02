@@ -25,14 +25,14 @@ namespace SmartPrice.BL.BusinessLayerImpl
 
         public void Create(ProductPriceDTO productPrice)
         {
-            var product = _productDataAccess.Read().Single(x => x.Product_Id == productPrice.Product_Id);
-            var price = _priceDataAccess.Read().Single(x => x.Price_Type == productPrice.Product_Type);
+            var product = _productDataAccess.Read().Single(x => x.PRODUCT_ID == productPrice.Product_Id);
+            var price = _priceDataAccess.Read().Single(x => x.PRICE_TYPE == productPrice.Product_Type);
 
             _productPriceDataAccess.Add(new ProductPrice()
             {
-                Product_Id = product.Product_Id,
-                Price_Type = price.Price_Type,
-                Value = productPrice.Value
+                PRODUCT_ID = product.PRODUCT_ID,
+                PRICE_TYPE = price.PRICE_TYPE,
+                VALUE = productPrice.Value
             });
         }
 
