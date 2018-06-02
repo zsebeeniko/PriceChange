@@ -9,6 +9,8 @@ using Android.Graphics;
 using Android.Support.V7.App;
 using Android.Views;
 using System.Net;
+using SmartPrice.BL.BusinessLayerContracts.DTOs;
+using System.Drawing;
 
 namespace SmartPrice
 {
@@ -32,9 +34,8 @@ namespace SmartPrice
 
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
         {
-            var request = HttpWebRequest.Create(string.Format(@"http://SmartPrice/api/H"));
             base.OnActivityResult(requestCode, resultCode, data);
-            Bitmap bitmap = (Bitmap)data.Extras.Get("data");
+            Android.Graphics.Bitmap bitmap = (Android.Graphics.Bitmap)data.Extras.Get("data");
             imageView.SetImageBitmap(bitmap);
             LayoutInflater layoutInflaterAndroid = LayoutInflater.From(this);
             View mView = layoutInflaterAndroid.Inflate(Resource.Layout.AdditionalProps, null);
@@ -47,6 +48,12 @@ namespace SmartPrice
             alertdialogbuilder.SetCancelable(false)
             .SetPositiveButton("Send", delegate
              {
+                 var product = new ProductDTO();
+                 ImageConverter converter = new ImageConverter();
+                 product.Picture = (byte[])converter.ConvertTo(bitmap, typeof(byte[]));
+                 product.Shop = shopField.Text;
+                 product.Description = descriptionField.Text;
+                 var request = WebRequest.Create(string.Format(@"http://SmartPrice/api/Product/Submit?product=" + product));
                  Toast.MakeText(this, "Sent successfully! ", ToastLength.Short).Show();
              })
              .SetNegativeButton("Cancel", delegate

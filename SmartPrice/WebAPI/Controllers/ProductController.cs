@@ -20,14 +20,24 @@ namespace WebAPI.Controllers
         
         public IEnumerable<ProductDTO> GetProducts()
         {
-            //var List = new List<ProductDTO>();
-            //var product = new ProductDTO();
-            //product.Description = "Desc";
-            //product.Shop = "shoppy";
-            //List.Add(product);
-            //return List;
             var list = _uow.ProductOperations.Get().ToList();
             return list;
+        }
+
+        [HttpPost]
+        public IHttpActionResult Submit(ProductDTO product)
+        {
+            try
+            {
+                _uow.ProductOperations.Create(product);
+                _uow.SaveChanges();
+            }
+            catch(Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+
+            return Ok();
         }
     }
 }
