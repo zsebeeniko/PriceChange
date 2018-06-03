@@ -11,6 +11,8 @@ using Android.Views;
 using System.Net;
 using SmartPrice.BL.BusinessLayerContracts.DTOs;
 using System.Drawing;
+using RestSharp;
+using System.Threading.Tasks;
 
 namespace SmartPrice
 {
@@ -53,7 +55,8 @@ namespace SmartPrice
                  product.Picture = (byte[])converter.ConvertTo(bitmap, typeof(byte[]));
                  product.Shop = shopField.Text;
                  product.Description = descriptionField.Text;
-                 var request = WebRequest.Create(string.Format(@"http://SmartPrice/api/Product/Submit?product=" + product));
+                 //var request = WebRequest.Create(string.Format(@"http://SmartPrice/api/Product/Submit?product=" + product));
+                 submit(product);
                  Toast.MakeText(this, "Sent successfully! ", ToastLength.Short).Show();
              })
              .SetNegativeButton("Cancel", delegate
@@ -68,6 +71,26 @@ namespace SmartPrice
         {
             Intent intent = new Intent(MediaStore.ActionImageCapture);
             StartActivityForResult(intent, 0);
+        }
+
+        private async void submit(ProductDTO product)
+        {
+            IRestClient client = new RestClient("http://localhost/SmartPrice/api/");
+            IRestRequest request = new RestRequest("Product/Submit?product=" + product, Method.POST);
+            try
+            {
+                await Task.Run(() =>
+                    {
+                        IRestResponse response = client.Execute(request);
+                    }
+                );
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
+
         }
     }
 }
