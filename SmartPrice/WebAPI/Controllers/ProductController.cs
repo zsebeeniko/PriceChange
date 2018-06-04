@@ -39,5 +39,25 @@ namespace WebAPI.Controllers
 
             return Ok();
         }
+
+        [HttpPost]
+        public IHttpActionResult Save(string Image)
+        {
+            try
+            {
+                ProductDTO product = new ProductDTO();
+                product.Shop = "ShopTest";
+                var image = Image;
+                product.Description = "DescriptionTest";
+                _uow.ProductOperations.Create(product);
+                _uow.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+
+            return Ok();
+        }
     }
 }
