@@ -16,6 +16,7 @@ using Android.Support.V4.View;
 using Android.Views;
 using Android.Widget;
 using SmartPrice.BL.BusinessLayerContracts.DTOs;
+using SmartPrice.Models;
 
 namespace SmartPrice
 {
@@ -24,6 +25,10 @@ namespace SmartPrice
         private int position;
         ImageView imageView;
         Context context;
+        private ListView listView;
+        private ProductAdapter adapter;
+        private JavaList<Product> products;
+
         public static ContentFragment NewInstance(int position)
         {
             var f = new ContentFragment();
@@ -45,24 +50,46 @@ namespace SmartPrice
             if (position == 0)
             {
                 root = inflater.Inflate(Resource.Layout.CameraFragment, container, false);
-                var text = root.FindViewById<TextView>(Resource.Id.textView);
-                text.Text = "Camera Page";
                 context = root.Context;
-
-                var btnCamera = root.FindViewById<Button>(Resource.Id.btnCamera);
                 imageView = root.FindViewById<ImageView>(Resource.Id.imageView);
-
-                btnCamera.Click += BtnCamera_Click;
+                Intent intent = new Intent(MediaStore.ActionImageCapture);
+                StartActivityForResult(intent, 0);
             }
             else
             {
                 root = inflater.Inflate(Resource.Layout.ProductList, container, false);
-                var text = root.FindViewById<TextView>(Resource.Id.textView);
-                text.Text = "List of Products";
+                listView = root.FindViewById<ListView>(Resource.Id.productsListView);
                 context = root.Context;
+                adapter = new ProductAdapter(context, GetProducts());
+
+                listView.Adapter = adapter;
+
+                listView.ItemClick += listView_ItemClick;
             }
             ViewCompat.SetElevation(root, 50);
             return root;
+        }
+
+        private JavaList<Product> GetProducts()
+        {
+            products = new JavaList<Product>();
+
+            Product p;
+
+            p = new Product("Picture1", "Description1", Resource.Drawable.pic1);
+            products.Add(p);
+
+            p = new Product("Picture2", "Description2", Resource.Drawable.pic2);
+            products.Add(p);
+
+            p = new Product("Picture3", "Description3",  Resource.Drawable.pic3);
+            products.Add(p);
+
+            p = new Product("Picture4", "Description4", Resource.Drawable.pic4);
+            products.Add(p);
+
+            return products;
+
         }
 
         public override void OnActivityResult(int requestCode, int resultCode, Intent data)
@@ -112,11 +139,16 @@ namespace SmartPrice
             alertDialogAndroid.Show();
         }
 
-        private void BtnCamera_Click(object sender, EventArgs e)
+        void listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            Intent intent = new Intent(MediaStore.ActionImageCapture);
-            StartActivityForResult(intent, 0);
+            Toast.MakeText(context, products[e.Position].Shop, ToastLength.Short).Show();
         }
+
+        //private void BtnCamera_Click(object sender, EventArgs e)
+        //{
+        //    Intent intent = new Intent(MediaStore.ActionImageCapture);
+        //    StartActivityForResult(intent, 0);
+        //}
 
 
 

@@ -44,12 +44,7 @@ namespace SmartPrice
             tabs = FindViewById<PagerSlidingTabStrip>(Resource.Id.tabs);
             pager.Adapter = adapter;
             tabs.SetViewPager(pager);
-            tabs.SetBackgroundColor(Android.Graphics.Color.Green);
-
-            //var btnCamera = FindViewById<Button>(Resource.Id.btnCamera);
-            //imageView = FindViewById<ImageView>(Resource.Id.imageView);
-
-            //btnCamera.Click += BtnCamera_Click;
+            tabs.SetBackgroundColor(Android.Graphics.Color.Argb(255, 255, 128, 0));
 
         }
 
