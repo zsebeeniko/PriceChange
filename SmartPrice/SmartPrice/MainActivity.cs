@@ -18,79 +18,118 @@ using System.Net.Http;
 using System.Text;
 using Newtonsoft.Json;
 using System.Collections.Specialized;
+using Android.Support.V4.App;
+using Java.Lang;
+using com.refractored;
+using Android.Support.V4.View;
 
 namespace SmartPrice
 {
-    [Activity(Label = "SmartPrice", MainLauncher = true, Theme="@style/Theme.AppCompat.Light")]
+    [Activity(Label = "SmartPrice", MainLauncher = true, Theme="@style/Theme.AppCompat.Light.NoActionBar")]
     public class MainActivity : AppCompatActivity
     {
         ImageView imageView;
+        MyAdapter adapter;
+        PagerSlidingTabStrip tabs;
+        ViewPager pager;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+            adapter = new MyAdapter(SupportFragmentManager);
+            pager = FindViewById<ViewPager>(Resource.Id.pager);
+            tabs = FindViewById<PagerSlidingTabStrip>(Resource.Id.tabs);
+            pager.Adapter = adapter;
+            tabs.SetViewPager(pager);
+            tabs.SetBackgroundColor(Android.Graphics.Color.Green);
 
-            var btnCamera = FindViewById<Button>(Resource.Id.btnCamera);
-            imageView = FindViewById<ImageView>(Resource.Id.imageView);
+            //var btnCamera = FindViewById<Button>(Resource.Id.btnCamera);
+            //imageView = FindViewById<ImageView>(Resource.Id.imageView);
 
-            btnCamera.Click += BtnCamera_Click;
+            //btnCamera.Click += BtnCamera_Click;
 
         }
 
-        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        public class MyAdapter : FragmentPagerAdapter
         {
-            base.OnActivityResult(requestCode, resultCode, data);
+            int tabCount = 2;
+            public MyAdapter(Android.Support.V4.App.FragmentManager fm) : base(fm)
+            {
 
-            Android.Graphics.Bitmap bitmap = (Android.Graphics.Bitmap)data.Extras.Get("data");
-            imageView.SetImageBitmap(bitmap);
-            LayoutInflater layoutInflaterAndroid = LayoutInflater.From(this);
-            View mView = layoutInflaterAndroid.Inflate(Resource.Layout.AdditionalProps, null);
-            Android.Support.V7.App.AlertDialog.Builder alertdialogbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
-            alertdialogbuilder.SetView(mView);
+            }
+            public override int Count
+            {
+                get
+                {
+                    return tabCount;
+                }
+            }
 
+            public override ICharSequence GetPageTitleFormatted(int position)
+            {
+                ICharSequence cs;
+                if (position == 0)
+                    cs = new Java.Lang.String("Camera");
+                else
+                    cs = new Java.Lang.String("Products");
+                return cs;
+            }
 
-            MemoryStream memstream = new MemoryStream();
-            bitmap.Compress(Bitmap.CompressFormat.Webp, 100, memstream);
-            byte[] picData = memstream.ToArray();
-
-
-            var shopField = mView.FindViewById<EditText>(Resource.Id.ShopTextField);
-            var descriptionField = mView.FindViewById<EditText>(Resource.Id.DescriptionTextField);
-
-            alertdialogbuilder.SetCancelable(false)
-            .SetPositiveButton("Send", async delegate
-             {
-                 var product = new ProductDTO();
-
-                 product.Shop = shopField.Text;
-                 product.Description = descriptionField.Text;
-
-
-                 WebClient client = new WebClient();
-                 Uri uri = new Uri("http://localhost/SmartPrice/api/Products/Save");
-                 NameValueCollection parameters = new NameValueCollection();
-                 parameters.Add("Image", Convert.ToBase64String(picData));
-
-                 client.UploadValuesAsync(uri, parameters);
-
-                 //ProductDTO newProduct = await Submit(product);
-                 Toast.MakeText(this, "Sent successfully! ", ToastLength.Short).Show();
-             })
-             .SetNegativeButton("Cancel", delegate
-             {
-                 alertdialogbuilder.Dispose();
-             });
-            Android.Support.V7.App.AlertDialog alertDialogAndroid = alertdialogbuilder.Create();
-            alertDialogAndroid.Show();
+            public override Android.Support.V4.App.Fragment GetItem(int position)
+            {
+                return ContentFragment.NewInstance(position);
+            }
         }
 
-        private void BtnCamera_Click(object sender, EventArgs e)
-        {
-            Intent intent = new Intent(MediaStore.ActionImageCapture);
-            StartActivityForResult(intent, 0);
-        }
+        //protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        //{
+        //    base.OnActivityResult(requestCode, resultCode, data);
+
+        //    Android.Graphics.Bitmap bitmap = (Android.Graphics.Bitmap)data.Extras.Get("data");
+        //    imageView.SetImageBitmap(bitmap);
+        //    LayoutInflater layoutInflaterAndroid = LayoutInflater.From(this);
+        //    View mView = layoutInflaterAndroid.Inflate(Resource.Layout.AdditionalProps, null);
+        //    Android.Support.V7.App.AlertDialog.Builder alertdialogbuilder = new Android.Support.V7.App.AlertDialog.Builder(this);
+        //    alertdialogbuilder.SetView(mView);
+
+
+        //    MemoryStream memstream = new MemoryStream();
+        //    bitmap.Compress(Bitmap.CompressFormat.Webp, 100, memstream);
+        //    byte[] picData = memstream.ToArray();
+
+
+        //    var shopField = mView.FindViewById<EditText>(Resource.Id.ShopTextField);
+        //    var descriptionField = mView.FindViewById<EditText>(Resource.Id.DescriptionTextField);
+
+        //    alertdialogbuilder.SetCancelable(false)
+        //    .SetPositiveButton("Send", async delegate
+        //     {
+        //         var product = new ProductDTO();
+
+        //         product.Shop = shopField.Text;
+        //         product.Description = descriptionField.Text;
+
+
+        //         WebClient client = new WebClient();
+        //         Uri uri = new Uri("http://localhost/SmartPrice/api/Products/Save");
+        //         NameValueCollection parameters = new NameValueCollection();
+        //         parameters.Add("Image", Convert.ToBase64String(picData));
+
+        //         client.UploadValuesAsync(uri, parameters);
+
+        //         //ProductDTO newProduct = await Submit(product);
+        //         Toast.MakeText(this, "Sent successfully! ", ToastLength.Short).Show();
+        //     })
+        //     .SetNegativeButton("Cancel", delegate
+        //     {
+        //         alertdialogbuilder.Dispose();
+        //     });
+        //    Android.Support.V7.App.AlertDialog alertDialogAndroid = alertdialogbuilder.Create();
+        //    alertDialogAndroid.Show();
+        //}
 
 
         public async Task<ProductDTO> Submit(ProductDTO product)
@@ -125,7 +164,7 @@ namespace SmartPrice
                     }
                 );
             }
-            catch(Exception ex)
+            catch(System.Exception ex)
             {
                 Console.WriteLine(ex);
             }
