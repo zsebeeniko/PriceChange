@@ -25,8 +25,8 @@ namespace SmartPrice
         private int position;
         ImageView imageView;
         Context context;
-        private ListView listView;
-        private ProductAdapter adapter;
+        //private ListView listView;
+        //private ProductAdapter adapter;
         private JavaList<Product> products;
 
         public static ContentFragment NewInstance(int position)
@@ -50,21 +50,35 @@ namespace SmartPrice
             if (position == 0)
             {
                 root = inflater.Inflate(Resource.Layout.CameraFragment, container, false);
+                var text = root.FindViewById<TextView>(Resource.Id.textView);
+                text.Text = "Camera Page";
                 context = root.Context;
+                
+                var btnCamera = root.FindViewById<Button>(Resource.Id.btnCamera);
                 imageView = root.FindViewById<ImageView>(Resource.Id.imageView);
-                Intent intent = new Intent(MediaStore.ActionImageCapture);
-                StartActivityForResult(intent, 0);
+                
+                btnCamera.Click += BtnCamera_Click;
+
+                //root = inflater.Inflate(Resource.Layout.CameraFragment, container, false);
+                //context = root.Context;
+                //imageView = root.FindViewById<ImageView>(Resource.Id.imageView);
+                //Intent intent = new Intent(MediaStore.ActionImageCapture);
+                //StartActivityForResult(intent, 0);
             }
             else
             {
                 root = inflater.Inflate(Resource.Layout.ProductList, container, false);
-                listView = root.FindViewById<ListView>(Resource.Id.productsListView);
+                var text = root.FindViewById<TextView>(Resource.Id.textView);
+                text.Text = "List of Products";
                 context = root.Context;
-                adapter = new ProductAdapter(context, GetProducts());
+                //root = inflater.Inflate(Resource.Layout.ProductList, container, false);
+                //listView = root.FindViewById<ListView>(Resource.Id.productsListView);
+                //context = root.Context;
+                //adapter = new ProductAdapter(context, GetProducts());
 
-                listView.Adapter = adapter;
+                //listView.Adapter = adapter;
 
-                listView.ItemClick += listView_ItemClick;
+                //listView.ItemClick += listView_ItemClick;
             }
             ViewCompat.SetElevation(root, 50);
             return root;
@@ -144,13 +158,10 @@ namespace SmartPrice
             Toast.MakeText(context, products[e.Position].Shop, ToastLength.Short).Show();
         }
 
-        //private void BtnCamera_Click(object sender, EventArgs e)
-        //{
-        //    Intent intent = new Intent(MediaStore.ActionImageCapture);
-        //    StartActivityForResult(intent, 0);
-        //}
-
-
-
+        private void BtnCamera_Click(object sender, EventArgs e)
+        {
+            Intent intent = new Intent(MediaStore.ActionImageCapture);
+            StartActivityForResult(intent, 0);
+        }
     }
 }

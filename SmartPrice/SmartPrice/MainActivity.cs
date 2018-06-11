@@ -127,55 +127,7 @@ namespace SmartPrice
         //}
 
 
-        public async Task<ProductDTO> Submit(ProductDTO product)
-        {
-            var jsonObj = JsonConvert.SerializeObject(product);
-            using (HttpClient client = new HttpClient())
-            {
-                StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
-                var request = new HttpRequestMessage()
-                {
-                    RequestUri = new Uri("http://localhost/SmartPrice/api/Product/Submit?shop=" + product.Shop + "&description=" + product.Description),
-                    Method = HttpMethod.Post
-                    //Content = content
-                };
-                var response = await client.SendAsync(request);
-                string dataResult = response.Content.ReadAsStringAsync().Result;
-                ProductDTO result = JsonConvert.DeserializeObject<ProductDTO>(dataResult);
-                return result;
-            }
-        }
-
-        private async void submit(ProductDTO product)
-        {
-
-            IRestClient client = new RestClient("http://localhost/SmartPrice/api/");
-            IRestRequest request = new RestRequest("Product/Submit?product=" + product, Method.POST);
-            try
-            {
-                await Task.Run(() =>
-                    {
-                        IRestResponse response = client.Execute(request);
-                    }
-                );
-            }
-            catch(System.Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
-
-
-        }
-    }
-
-    public class ConnectionResult<T>
-    {
-        public string Shop { get; set; }
-        public string Description { get; set; }
-        public T data
-        {
-            get; set;
-        }
+       
     }
 }
 
