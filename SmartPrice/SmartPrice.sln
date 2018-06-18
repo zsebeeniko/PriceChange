@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartPrice.DL.EFDataLayer", "SmartPrice.DL.EFDataLayer\SmartPrice.DL.EFDataLayer.csproj", "{DD82C1F3-4489-485B-BD7F-254DB519E4E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartPriceTest", "SmartPriceTest\SmartPriceTest.csproj", "{1D9F97E6-8C5D-4504-8491-20CFD10E093B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,12 @@ Global
 		{DD82C1F3-4489-485B-BD7F-254DB519E4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD82C1F3-4489-485B-BD7F-254DB519E4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD82C1F3-4489-485B-BD7F-254DB519E4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9F97E6-8C5D-4504-8491-20CFD10E093B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9F97E6-8C5D-4504-8491-20CFD10E093B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9F97E6-8C5D-4504-8491-20CFD10E093B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D9F97E6-8C5D-4504-8491-20CFD10E093B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9F97E6-8C5D-4504-8491-20CFD10E093B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9F97E6-8C5D-4504-8491-20CFD10E093B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +83,7 @@ Global
 		{B2EC20B8-913B-41DC-A9CF-7B3A60285CD6} = {D0ED033F-DD9B-4D69-854B-03E0F6FF2ABF}
 		{96AB3571-E7FC-49F9-B9C9-63A28E75681E} = {36C465B2-C425-4086-B775-9ADC16B932D1}
 		{DD82C1F3-4489-485B-BD7F-254DB519E4E3} = {1E3602E9-C06D-4194-B6B4-DAED85BAA7FD}
+		{1D9F97E6-8C5D-4504-8491-20CFD10E093B} = {B3CFC628-8198-4BF5-8212-B9004893A8A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBE0D0FB-D191-4A9C-829C-07466B3218F0}
