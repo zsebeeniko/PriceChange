@@ -26,6 +26,1269 @@ namespace SmartPriceTest
 		
 		public static void UpdateIdValues()
 		{
+			global::com.refractored.Resource.Animation.abc_fade_in = global::SmartPriceTest.Resource.Animation.abc_fade_in;
+			global::com.refractored.Resource.Animation.abc_fade_out = global::SmartPriceTest.Resource.Animation.abc_fade_out;
+			global::com.refractored.Resource.Animation.abc_grow_fade_in_from_bottom = global::SmartPriceTest.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::com.refractored.Resource.Animation.abc_popup_enter = global::SmartPriceTest.Resource.Animation.abc_popup_enter;
+			global::com.refractored.Resource.Animation.abc_popup_exit = global::SmartPriceTest.Resource.Animation.abc_popup_exit;
+			global::com.refractored.Resource.Animation.abc_shrink_fade_out_from_bottom = global::SmartPriceTest.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_in_bottom = global::SmartPriceTest.Resource.Animation.abc_slide_in_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_in_top = global::SmartPriceTest.Resource.Animation.abc_slide_in_top;
+			global::com.refractored.Resource.Animation.abc_slide_out_bottom = global::SmartPriceTest.Resource.Animation.abc_slide_out_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_out_top = global::SmartPriceTest.Resource.Animation.abc_slide_out_top;
+			global::com.refractored.Resource.Attribute.actionBarDivider = global::SmartPriceTest.Resource.Attribute.actionBarDivider;
+			global::com.refractored.Resource.Attribute.actionBarItemBackground = global::SmartPriceTest.Resource.Attribute.actionBarItemBackground;
+			global::com.refractored.Resource.Attribute.actionBarPopupTheme = global::SmartPriceTest.Resource.Attribute.actionBarPopupTheme;
+			global::com.refractored.Resource.Attribute.actionBarSize = global::SmartPriceTest.Resource.Attribute.actionBarSize;
+			global::com.refractored.Resource.Attribute.actionBarSplitStyle = global::SmartPriceTest.Resource.Attribute.actionBarSplitStyle;
+			global::com.refractored.Resource.Attribute.actionBarStyle = global::SmartPriceTest.Resource.Attribute.actionBarStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabBarStyle = global::SmartPriceTest.Resource.Attribute.actionBarTabBarStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabStyle = global::SmartPriceTest.Resource.Attribute.actionBarTabStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabTextStyle = global::SmartPriceTest.Resource.Attribute.actionBarTabTextStyle;
+			global::com.refractored.Resource.Attribute.actionBarTheme = global::SmartPriceTest.Resource.Attribute.actionBarTheme;
+			global::com.refractored.Resource.Attribute.actionBarWidgetTheme = global::SmartPriceTest.Resource.Attribute.actionBarWidgetTheme;
+			global::com.refractored.Resource.Attribute.actionButtonStyle = global::SmartPriceTest.Resource.Attribute.actionButtonStyle;
+			global::com.refractored.Resource.Attribute.actionDropDownStyle = global::SmartPriceTest.Resource.Attribute.actionDropDownStyle;
+			global::com.refractored.Resource.Attribute.actionLayout = global::SmartPriceTest.Resource.Attribute.actionLayout;
+			global::com.refractored.Resource.Attribute.actionMenuTextAppearance = global::SmartPriceTest.Resource.Attribute.actionMenuTextAppearance;
+			global::com.refractored.Resource.Attribute.actionMenuTextColor = global::SmartPriceTest.Resource.Attribute.actionMenuTextColor;
+			global::com.refractored.Resource.Attribute.actionModeBackground = global::SmartPriceTest.Resource.Attribute.actionModeBackground;
+			global::com.refractored.Resource.Attribute.actionModeCloseButtonStyle = global::SmartPriceTest.Resource.Attribute.actionModeCloseButtonStyle;
+			global::com.refractored.Resource.Attribute.actionModeCloseDrawable = global::SmartPriceTest.Resource.Attribute.actionModeCloseDrawable;
+			global::com.refractored.Resource.Attribute.actionModeCopyDrawable = global::SmartPriceTest.Resource.Attribute.actionModeCopyDrawable;
+			global::com.refractored.Resource.Attribute.actionModeCutDrawable = global::SmartPriceTest.Resource.Attribute.actionModeCutDrawable;
+			global::com.refractored.Resource.Attribute.actionModeFindDrawable = global::SmartPriceTest.Resource.Attribute.actionModeFindDrawable;
+			global::com.refractored.Resource.Attribute.actionModePasteDrawable = global::SmartPriceTest.Resource.Attribute.actionModePasteDrawable;
+			global::com.refractored.Resource.Attribute.actionModePopupWindowStyle = global::SmartPriceTest.Resource.Attribute.actionModePopupWindowStyle;
+			global::com.refractored.Resource.Attribute.actionModeSelectAllDrawable = global::SmartPriceTest.Resource.Attribute.actionModeSelectAllDrawable;
+			global::com.refractored.Resource.Attribute.actionModeShareDrawable = global::SmartPriceTest.Resource.Attribute.actionModeShareDrawable;
+			global::com.refractored.Resource.Attribute.actionModeSplitBackground = global::SmartPriceTest.Resource.Attribute.actionModeSplitBackground;
+			global::com.refractored.Resource.Attribute.actionModeStyle = global::SmartPriceTest.Resource.Attribute.actionModeStyle;
+			global::com.refractored.Resource.Attribute.actionModeWebSearchDrawable = global::SmartPriceTest.Resource.Attribute.actionModeWebSearchDrawable;
+			global::com.refractored.Resource.Attribute.actionOverflowButtonStyle = global::SmartPriceTest.Resource.Attribute.actionOverflowButtonStyle;
+			global::com.refractored.Resource.Attribute.actionOverflowMenuStyle = global::SmartPriceTest.Resource.Attribute.actionOverflowMenuStyle;
+			global::com.refractored.Resource.Attribute.actionProviderClass = global::SmartPriceTest.Resource.Attribute.actionProviderClass;
+			global::com.refractored.Resource.Attribute.actionViewClass = global::SmartPriceTest.Resource.Attribute.actionViewClass;
+			global::com.refractored.Resource.Attribute.activityChooserViewStyle = global::SmartPriceTest.Resource.Attribute.activityChooserViewStyle;
+			global::com.refractored.Resource.Attribute.alertDialogButtonGroupStyle = global::SmartPriceTest.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::com.refractored.Resource.Attribute.alertDialogCenterButtons = global::SmartPriceTest.Resource.Attribute.alertDialogCenterButtons;
+			global::com.refractored.Resource.Attribute.alertDialogStyle = global::SmartPriceTest.Resource.Attribute.alertDialogStyle;
+			global::com.refractored.Resource.Attribute.alertDialogTheme = global::SmartPriceTest.Resource.Attribute.alertDialogTheme;
+			global::com.refractored.Resource.Attribute.allowStacking = global::SmartPriceTest.Resource.Attribute.allowStacking;
+			global::com.refractored.Resource.Attribute.arrowHeadLength = global::SmartPriceTest.Resource.Attribute.arrowHeadLength;
+			global::com.refractored.Resource.Attribute.arrowShaftLength = global::SmartPriceTest.Resource.Attribute.arrowShaftLength;
+			global::com.refractored.Resource.Attribute.autoCompleteTextViewStyle = global::SmartPriceTest.Resource.Attribute.autoCompleteTextViewStyle;
+			global::com.refractored.Resource.Attribute.background = global::SmartPriceTest.Resource.Attribute.background;
+			global::com.refractored.Resource.Attribute.backgroundSplit = global::SmartPriceTest.Resource.Attribute.backgroundSplit;
+			global::com.refractored.Resource.Attribute.backgroundStacked = global::SmartPriceTest.Resource.Attribute.backgroundStacked;
+			global::com.refractored.Resource.Attribute.backgroundTint = global::SmartPriceTest.Resource.Attribute.backgroundTint;
+			global::com.refractored.Resource.Attribute.backgroundTintMode = global::SmartPriceTest.Resource.Attribute.backgroundTintMode;
+			global::com.refractored.Resource.Attribute.barLength = global::SmartPriceTest.Resource.Attribute.barLength;
+			global::com.refractored.Resource.Attribute.borderlessButtonStyle = global::SmartPriceTest.Resource.Attribute.borderlessButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarButtonStyle = global::SmartPriceTest.Resource.Attribute.buttonBarButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarNegativeButtonStyle = global::SmartPriceTest.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarNeutralButtonStyle = global::SmartPriceTest.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarPositiveButtonStyle = global::SmartPriceTest.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarStyle = global::SmartPriceTest.Resource.Attribute.buttonBarStyle;
+			global::com.refractored.Resource.Attribute.buttonPanelSideLayout = global::SmartPriceTest.Resource.Attribute.buttonPanelSideLayout;
+			global::com.refractored.Resource.Attribute.buttonStyle = global::SmartPriceTest.Resource.Attribute.buttonStyle;
+			global::com.refractored.Resource.Attribute.buttonStyleSmall = global::SmartPriceTest.Resource.Attribute.buttonStyleSmall;
+			global::com.refractored.Resource.Attribute.buttonTint = global::SmartPriceTest.Resource.Attribute.buttonTint;
+			global::com.refractored.Resource.Attribute.buttonTintMode = global::SmartPriceTest.Resource.Attribute.buttonTintMode;
+			global::com.refractored.Resource.Attribute.checkboxStyle = global::SmartPriceTest.Resource.Attribute.checkboxStyle;
+			global::com.refractored.Resource.Attribute.checkedTextViewStyle = global::SmartPriceTest.Resource.Attribute.checkedTextViewStyle;
+			global::com.refractored.Resource.Attribute.closeIcon = global::SmartPriceTest.Resource.Attribute.closeIcon;
+			global::com.refractored.Resource.Attribute.closeItemLayout = global::SmartPriceTest.Resource.Attribute.closeItemLayout;
+			global::com.refractored.Resource.Attribute.collapseContentDescription = global::SmartPriceTest.Resource.Attribute.collapseContentDescription;
+			global::com.refractored.Resource.Attribute.collapseIcon = global::SmartPriceTest.Resource.Attribute.collapseIcon;
+			global::com.refractored.Resource.Attribute.color = global::SmartPriceTest.Resource.Attribute.color;
+			global::com.refractored.Resource.Attribute.colorAccent = global::SmartPriceTest.Resource.Attribute.colorAccent;
+			global::com.refractored.Resource.Attribute.colorButtonNormal = global::SmartPriceTest.Resource.Attribute.colorButtonNormal;
+			global::com.refractored.Resource.Attribute.colorControlActivated = global::SmartPriceTest.Resource.Attribute.colorControlActivated;
+			global::com.refractored.Resource.Attribute.colorControlHighlight = global::SmartPriceTest.Resource.Attribute.colorControlHighlight;
+			global::com.refractored.Resource.Attribute.colorControlNormal = global::SmartPriceTest.Resource.Attribute.colorControlNormal;
+			global::com.refractored.Resource.Attribute.colorPrimary = global::SmartPriceTest.Resource.Attribute.colorPrimary;
+			global::com.refractored.Resource.Attribute.colorPrimaryDark = global::SmartPriceTest.Resource.Attribute.colorPrimaryDark;
+			global::com.refractored.Resource.Attribute.colorSwitchThumbNormal = global::SmartPriceTest.Resource.Attribute.colorSwitchThumbNormal;
+			global::com.refractored.Resource.Attribute.commitIcon = global::SmartPriceTest.Resource.Attribute.commitIcon;
+			global::com.refractored.Resource.Attribute.contentInsetEnd = global::SmartPriceTest.Resource.Attribute.contentInsetEnd;
+			global::com.refractored.Resource.Attribute.contentInsetLeft = global::SmartPriceTest.Resource.Attribute.contentInsetLeft;
+			global::com.refractored.Resource.Attribute.contentInsetRight = global::SmartPriceTest.Resource.Attribute.contentInsetRight;
+			global::com.refractored.Resource.Attribute.contentInsetStart = global::SmartPriceTest.Resource.Attribute.contentInsetStart;
+			global::com.refractored.Resource.Attribute.controlBackground = global::SmartPriceTest.Resource.Attribute.controlBackground;
+			global::com.refractored.Resource.Attribute.customNavigationLayout = global::SmartPriceTest.Resource.Attribute.customNavigationLayout;
+			global::com.refractored.Resource.Attribute.defaultQueryHint = global::SmartPriceTest.Resource.Attribute.defaultQueryHint;
+			global::com.refractored.Resource.Attribute.dialogPreferredPadding = global::SmartPriceTest.Resource.Attribute.dialogPreferredPadding;
+			global::com.refractored.Resource.Attribute.dialogTheme = global::SmartPriceTest.Resource.Attribute.dialogTheme;
+			global::com.refractored.Resource.Attribute.displayOptions = global::SmartPriceTest.Resource.Attribute.displayOptions;
+			global::com.refractored.Resource.Attribute.divider = global::SmartPriceTest.Resource.Attribute.divider;
+			global::com.refractored.Resource.Attribute.dividerHorizontal = global::SmartPriceTest.Resource.Attribute.dividerHorizontal;
+			global::com.refractored.Resource.Attribute.dividerPadding = global::SmartPriceTest.Resource.Attribute.dividerPadding;
+			global::com.refractored.Resource.Attribute.dividerVertical = global::SmartPriceTest.Resource.Attribute.dividerVertical;
+			global::com.refractored.Resource.Attribute.drawableSize = global::SmartPriceTest.Resource.Attribute.drawableSize;
+			global::com.refractored.Resource.Attribute.drawerArrowStyle = global::SmartPriceTest.Resource.Attribute.drawerArrowStyle;
+			global::com.refractored.Resource.Attribute.dropDownListViewStyle = global::SmartPriceTest.Resource.Attribute.dropDownListViewStyle;
+			global::com.refractored.Resource.Attribute.dropdownListPreferredItemHeight = global::SmartPriceTest.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::com.refractored.Resource.Attribute.editTextBackground = global::SmartPriceTest.Resource.Attribute.editTextBackground;
+			global::com.refractored.Resource.Attribute.editTextColor = global::SmartPriceTest.Resource.Attribute.editTextColor;
+			global::com.refractored.Resource.Attribute.editTextStyle = global::SmartPriceTest.Resource.Attribute.editTextStyle;
+			global::com.refractored.Resource.Attribute.elevation = global::SmartPriceTest.Resource.Attribute.elevation;
+			global::com.refractored.Resource.Attribute.expandActivityOverflowButtonDrawable = global::SmartPriceTest.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::com.refractored.Resource.Attribute.gapBetweenBars = global::SmartPriceTest.Resource.Attribute.gapBetweenBars;
+			global::com.refractored.Resource.Attribute.goIcon = global::SmartPriceTest.Resource.Attribute.goIcon;
+			global::com.refractored.Resource.Attribute.height = global::SmartPriceTest.Resource.Attribute.height;
+			global::com.refractored.Resource.Attribute.hideOnContentScroll = global::SmartPriceTest.Resource.Attribute.hideOnContentScroll;
+			global::com.refractored.Resource.Attribute.homeAsUpIndicator = global::SmartPriceTest.Resource.Attribute.homeAsUpIndicator;
+			global::com.refractored.Resource.Attribute.homeLayout = global::SmartPriceTest.Resource.Attribute.homeLayout;
+			global::com.refractored.Resource.Attribute.icon = global::SmartPriceTest.Resource.Attribute.icon;
+			global::com.refractored.Resource.Attribute.iconifiedByDefault = global::SmartPriceTest.Resource.Attribute.iconifiedByDefault;
+			global::com.refractored.Resource.Attribute.imageButtonStyle = global::SmartPriceTest.Resource.Attribute.imageButtonStyle;
+			global::com.refractored.Resource.Attribute.indeterminateProgressStyle = global::SmartPriceTest.Resource.Attribute.indeterminateProgressStyle;
+			global::com.refractored.Resource.Attribute.initialActivityCount = global::SmartPriceTest.Resource.Attribute.initialActivityCount;
+			global::com.refractored.Resource.Attribute.isLightTheme = global::SmartPriceTest.Resource.Attribute.isLightTheme;
+			global::com.refractored.Resource.Attribute.itemPadding = global::SmartPriceTest.Resource.Attribute.itemPadding;
+			global::com.refractored.Resource.Attribute.layout = global::SmartPriceTest.Resource.Attribute.layout;
+			global::com.refractored.Resource.Attribute.listChoiceBackgroundIndicator = global::SmartPriceTest.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::com.refractored.Resource.Attribute.listDividerAlertDialog = global::SmartPriceTest.Resource.Attribute.listDividerAlertDialog;
+			global::com.refractored.Resource.Attribute.listItemLayout = global::SmartPriceTest.Resource.Attribute.listItemLayout;
+			global::com.refractored.Resource.Attribute.listLayout = global::SmartPriceTest.Resource.Attribute.listLayout;
+			global::com.refractored.Resource.Attribute.listPopupWindowStyle = global::SmartPriceTest.Resource.Attribute.listPopupWindowStyle;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeight = global::SmartPriceTest.Resource.Attribute.listPreferredItemHeight;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeightLarge = global::SmartPriceTest.Resource.Attribute.listPreferredItemHeightLarge;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeightSmall = global::SmartPriceTest.Resource.Attribute.listPreferredItemHeightSmall;
+			global::com.refractored.Resource.Attribute.listPreferredItemPaddingLeft = global::SmartPriceTest.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::com.refractored.Resource.Attribute.listPreferredItemPaddingRight = global::SmartPriceTest.Resource.Attribute.listPreferredItemPaddingRight;
+			global::com.refractored.Resource.Attribute.logo = global::SmartPriceTest.Resource.Attribute.logo;
+			global::com.refractored.Resource.Attribute.logoDescription = global::SmartPriceTest.Resource.Attribute.logoDescription;
+			global::com.refractored.Resource.Attribute.maxButtonHeight = global::SmartPriceTest.Resource.Attribute.maxButtonHeight;
+			global::com.refractored.Resource.Attribute.measureWithLargestChild = global::SmartPriceTest.Resource.Attribute.measureWithLargestChild;
+			global::com.refractored.Resource.Attribute.multiChoiceItemLayout = global::SmartPriceTest.Resource.Attribute.multiChoiceItemLayout;
+			global::com.refractored.Resource.Attribute.navigationContentDescription = global::SmartPriceTest.Resource.Attribute.navigationContentDescription;
+			global::com.refractored.Resource.Attribute.navigationIcon = global::SmartPriceTest.Resource.Attribute.navigationIcon;
+			global::com.refractored.Resource.Attribute.navigationMode = global::SmartPriceTest.Resource.Attribute.navigationMode;
+			global::com.refractored.Resource.Attribute.overlapAnchor = global::SmartPriceTest.Resource.Attribute.overlapAnchor;
+			global::com.refractored.Resource.Attribute.paddingEnd = global::SmartPriceTest.Resource.Attribute.paddingEnd;
+			global::com.refractored.Resource.Attribute.paddingStart = global::SmartPriceTest.Resource.Attribute.paddingStart;
+			global::com.refractored.Resource.Attribute.panelBackground = global::SmartPriceTest.Resource.Attribute.panelBackground;
+			global::com.refractored.Resource.Attribute.panelMenuListTheme = global::SmartPriceTest.Resource.Attribute.panelMenuListTheme;
+			global::com.refractored.Resource.Attribute.panelMenuListWidth = global::SmartPriceTest.Resource.Attribute.panelMenuListWidth;
+			global::com.refractored.Resource.Attribute.popupMenuStyle = global::SmartPriceTest.Resource.Attribute.popupMenuStyle;
+			global::com.refractored.Resource.Attribute.popupTheme = global::SmartPriceTest.Resource.Attribute.popupTheme;
+			global::com.refractored.Resource.Attribute.popupWindowStyle = global::SmartPriceTest.Resource.Attribute.popupWindowStyle;
+			global::com.refractored.Resource.Attribute.preserveIconSpacing = global::SmartPriceTest.Resource.Attribute.preserveIconSpacing;
+			global::com.refractored.Resource.Attribute.progressBarPadding = global::SmartPriceTest.Resource.Attribute.progressBarPadding;
+			global::com.refractored.Resource.Attribute.progressBarStyle = global::SmartPriceTest.Resource.Attribute.progressBarStyle;
+			global::com.refractored.Resource.Attribute.pstsDividerColor = global::SmartPriceTest.Resource.Attribute.pstsDividerColor;
+			global::com.refractored.Resource.Attribute.pstsDividerPadding = global::SmartPriceTest.Resource.Attribute.pstsDividerPadding;
+			global::com.refractored.Resource.Attribute.pstsDividerWidth = global::SmartPriceTest.Resource.Attribute.pstsDividerWidth;
+			global::com.refractored.Resource.Attribute.pstsIndicatorColor = global::SmartPriceTest.Resource.Attribute.pstsIndicatorColor;
+			global::com.refractored.Resource.Attribute.pstsIndicatorHeight = global::SmartPriceTest.Resource.Attribute.pstsIndicatorHeight;
+			global::com.refractored.Resource.Attribute.pstsPaddingMiddle = global::SmartPriceTest.Resource.Attribute.pstsPaddingMiddle;
+			global::com.refractored.Resource.Attribute.pstsScrollOffset = global::SmartPriceTest.Resource.Attribute.pstsScrollOffset;
+			global::com.refractored.Resource.Attribute.pstsShouldExpand = global::SmartPriceTest.Resource.Attribute.pstsShouldExpand;
+			global::com.refractored.Resource.Attribute.pstsTabBackground = global::SmartPriceTest.Resource.Attribute.pstsTabBackground;
+			global::com.refractored.Resource.Attribute.pstsTabPaddingLeftRight = global::SmartPriceTest.Resource.Attribute.pstsTabPaddingLeftRight;
+			global::com.refractored.Resource.Attribute.pstsTextAllCaps = global::SmartPriceTest.Resource.Attribute.pstsTextAllCaps;
+			global::com.refractored.Resource.Attribute.pstsTextAlpha = global::SmartPriceTest.Resource.Attribute.pstsTextAlpha;
+			global::com.refractored.Resource.Attribute.pstsTextColorSelected = global::SmartPriceTest.Resource.Attribute.pstsTextColorSelected;
+			global::com.refractored.Resource.Attribute.pstsTextSelectedStyle = global::SmartPriceTest.Resource.Attribute.pstsTextSelectedStyle;
+			global::com.refractored.Resource.Attribute.pstsTextStyle = global::SmartPriceTest.Resource.Attribute.pstsTextStyle;
+			global::com.refractored.Resource.Attribute.pstsUnderlineColor = global::SmartPriceTest.Resource.Attribute.pstsUnderlineColor;
+			global::com.refractored.Resource.Attribute.pstsUnderlineHeight = global::SmartPriceTest.Resource.Attribute.pstsUnderlineHeight;
+			global::com.refractored.Resource.Attribute.queryBackground = global::SmartPriceTest.Resource.Attribute.queryBackground;
+			global::com.refractored.Resource.Attribute.queryHint = global::SmartPriceTest.Resource.Attribute.queryHint;
+			global::com.refractored.Resource.Attribute.radioButtonStyle = global::SmartPriceTest.Resource.Attribute.radioButtonStyle;
+			global::com.refractored.Resource.Attribute.ratingBarStyle = global::SmartPriceTest.Resource.Attribute.ratingBarStyle;
+			global::com.refractored.Resource.Attribute.ratingBarStyleIndicator = global::SmartPriceTest.Resource.Attribute.ratingBarStyleIndicator;
+			global::com.refractored.Resource.Attribute.ratingBarStyleSmall = global::SmartPriceTest.Resource.Attribute.ratingBarStyleSmall;
+			global::com.refractored.Resource.Attribute.searchHintIcon = global::SmartPriceTest.Resource.Attribute.searchHintIcon;
+			global::com.refractored.Resource.Attribute.searchIcon = global::SmartPriceTest.Resource.Attribute.searchIcon;
+			global::com.refractored.Resource.Attribute.searchViewStyle = global::SmartPriceTest.Resource.Attribute.searchViewStyle;
+			global::com.refractored.Resource.Attribute.seekBarStyle = global::SmartPriceTest.Resource.Attribute.seekBarStyle;
+			global::com.refractored.Resource.Attribute.selectableItemBackground = global::SmartPriceTest.Resource.Attribute.selectableItemBackground;
+			global::com.refractored.Resource.Attribute.selectableItemBackgroundBorderless = global::SmartPriceTest.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::com.refractored.Resource.Attribute.showAsAction = global::SmartPriceTest.Resource.Attribute.showAsAction;
+			global::com.refractored.Resource.Attribute.showDividers = global::SmartPriceTest.Resource.Attribute.showDividers;
+			global::com.refractored.Resource.Attribute.showText = global::SmartPriceTest.Resource.Attribute.showText;
+			global::com.refractored.Resource.Attribute.singleChoiceItemLayout = global::SmartPriceTest.Resource.Attribute.singleChoiceItemLayout;
+			global::com.refractored.Resource.Attribute.spinBars = global::SmartPriceTest.Resource.Attribute.spinBars;
+			global::com.refractored.Resource.Attribute.spinnerDropDownItemStyle = global::SmartPriceTest.Resource.Attribute.spinnerDropDownItemStyle;
+			global::com.refractored.Resource.Attribute.spinnerStyle = global::SmartPriceTest.Resource.Attribute.spinnerStyle;
+			global::com.refractored.Resource.Attribute.splitTrack = global::SmartPriceTest.Resource.Attribute.splitTrack;
+			global::com.refractored.Resource.Attribute.srcCompat = global::SmartPriceTest.Resource.Attribute.srcCompat;
+			global::com.refractored.Resource.Attribute.state_above_anchor = global::SmartPriceTest.Resource.Attribute.state_above_anchor;
+			global::com.refractored.Resource.Attribute.submitBackground = global::SmartPriceTest.Resource.Attribute.submitBackground;
+			global::com.refractored.Resource.Attribute.subtitle = global::SmartPriceTest.Resource.Attribute.subtitle;
+			global::com.refractored.Resource.Attribute.subtitleTextAppearance = global::SmartPriceTest.Resource.Attribute.subtitleTextAppearance;
+			global::com.refractored.Resource.Attribute.subtitleTextColor = global::SmartPriceTest.Resource.Attribute.subtitleTextColor;
+			global::com.refractored.Resource.Attribute.subtitleTextStyle = global::SmartPriceTest.Resource.Attribute.subtitleTextStyle;
+			global::com.refractored.Resource.Attribute.suggestionRowLayout = global::SmartPriceTest.Resource.Attribute.suggestionRowLayout;
+			global::com.refractored.Resource.Attribute.switchMinWidth = global::SmartPriceTest.Resource.Attribute.switchMinWidth;
+			global::com.refractored.Resource.Attribute.switchPadding = global::SmartPriceTest.Resource.Attribute.switchPadding;
+			global::com.refractored.Resource.Attribute.switchStyle = global::SmartPriceTest.Resource.Attribute.switchStyle;
+			global::com.refractored.Resource.Attribute.switchTextAppearance = global::SmartPriceTest.Resource.Attribute.switchTextAppearance;
+			global::com.refractored.Resource.Attribute.textAllCaps = global::SmartPriceTest.Resource.Attribute.textAllCaps;
+			global::com.refractored.Resource.Attribute.textAppearanceLargePopupMenu = global::SmartPriceTest.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::com.refractored.Resource.Attribute.textAppearanceListItem = global::SmartPriceTest.Resource.Attribute.textAppearanceListItem;
+			global::com.refractored.Resource.Attribute.textAppearanceListItemSmall = global::SmartPriceTest.Resource.Attribute.textAppearanceListItemSmall;
+			global::com.refractored.Resource.Attribute.textAppearanceSearchResultSubtitle = global::SmartPriceTest.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::com.refractored.Resource.Attribute.textAppearanceSearchResultTitle = global::SmartPriceTest.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::com.refractored.Resource.Attribute.textAppearanceSmallPopupMenu = global::SmartPriceTest.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::com.refractored.Resource.Attribute.textColorAlertDialogListItem = global::SmartPriceTest.Resource.Attribute.textColorAlertDialogListItem;
+			global::com.refractored.Resource.Attribute.textColorSearchUrl = global::SmartPriceTest.Resource.Attribute.textColorSearchUrl;
+			global::com.refractored.Resource.Attribute.theme = global::SmartPriceTest.Resource.Attribute.theme;
+			global::com.refractored.Resource.Attribute.thickness = global::SmartPriceTest.Resource.Attribute.thickness;
+			global::com.refractored.Resource.Attribute.thumbTextPadding = global::SmartPriceTest.Resource.Attribute.thumbTextPadding;
+			global::com.refractored.Resource.Attribute.title = global::SmartPriceTest.Resource.Attribute.title;
+			global::com.refractored.Resource.Attribute.titleMarginBottom = global::SmartPriceTest.Resource.Attribute.titleMarginBottom;
+			global::com.refractored.Resource.Attribute.titleMarginEnd = global::SmartPriceTest.Resource.Attribute.titleMarginEnd;
+			global::com.refractored.Resource.Attribute.titleMarginStart = global::SmartPriceTest.Resource.Attribute.titleMarginStart;
+			global::com.refractored.Resource.Attribute.titleMarginTop = global::SmartPriceTest.Resource.Attribute.titleMarginTop;
+			global::com.refractored.Resource.Attribute.titleMargins = global::SmartPriceTest.Resource.Attribute.titleMargins;
+			global::com.refractored.Resource.Attribute.titleTextAppearance = global::SmartPriceTest.Resource.Attribute.titleTextAppearance;
+			global::com.refractored.Resource.Attribute.titleTextColor = global::SmartPriceTest.Resource.Attribute.titleTextColor;
+			global::com.refractored.Resource.Attribute.titleTextStyle = global::SmartPriceTest.Resource.Attribute.titleTextStyle;
+			global::com.refractored.Resource.Attribute.toolbarNavigationButtonStyle = global::SmartPriceTest.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::com.refractored.Resource.Attribute.toolbarStyle = global::SmartPriceTest.Resource.Attribute.toolbarStyle;
+			global::com.refractored.Resource.Attribute.track = global::SmartPriceTest.Resource.Attribute.track;
+			global::com.refractored.Resource.Attribute.voiceIcon = global::SmartPriceTest.Resource.Attribute.voiceIcon;
+			global::com.refractored.Resource.Attribute.windowActionBar = global::SmartPriceTest.Resource.Attribute.windowActionBar;
+			global::com.refractored.Resource.Attribute.windowActionBarOverlay = global::SmartPriceTest.Resource.Attribute.windowActionBarOverlay;
+			global::com.refractored.Resource.Attribute.windowActionModeOverlay = global::SmartPriceTest.Resource.Attribute.windowActionModeOverlay;
+			global::com.refractored.Resource.Attribute.windowFixedHeightMajor = global::SmartPriceTest.Resource.Attribute.windowFixedHeightMajor;
+			global::com.refractored.Resource.Attribute.windowFixedHeightMinor = global::SmartPriceTest.Resource.Attribute.windowFixedHeightMinor;
+			global::com.refractored.Resource.Attribute.windowFixedWidthMajor = global::SmartPriceTest.Resource.Attribute.windowFixedWidthMajor;
+			global::com.refractored.Resource.Attribute.windowFixedWidthMinor = global::SmartPriceTest.Resource.Attribute.windowFixedWidthMinor;
+			global::com.refractored.Resource.Attribute.windowMinWidthMajor = global::SmartPriceTest.Resource.Attribute.windowMinWidthMajor;
+			global::com.refractored.Resource.Attribute.windowMinWidthMinor = global::SmartPriceTest.Resource.Attribute.windowMinWidthMinor;
+			global::com.refractored.Resource.Attribute.windowNoTitle = global::SmartPriceTest.Resource.Attribute.windowNoTitle;
+			global::com.refractored.Resource.Boolean.abc_action_bar_embed_tabs = global::SmartPriceTest.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::com.refractored.Resource.Boolean.abc_allow_stacked_button_bar = global::SmartPriceTest.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::com.refractored.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::SmartPriceTest.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::com.refractored.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::SmartPriceTest.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::com.refractored.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::SmartPriceTest.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_dark = global::SmartPriceTest.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_light = global::SmartPriceTest.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::com.refractored.Resource.Color.abc_color_highlight_material = global::SmartPriceTest.Resource.Color.abc_color_highlight_material;
+			global::com.refractored.Resource.Color.abc_input_method_navigation_guard = global::SmartPriceTest.Resource.Color.abc_input_method_navigation_guard;
+			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_dark = global::SmartPriceTest.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_light = global::SmartPriceTest.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::com.refractored.Resource.Color.abc_primary_text_material_dark = global::SmartPriceTest.Resource.Color.abc_primary_text_material_dark;
+			global::com.refractored.Resource.Color.abc_primary_text_material_light = global::SmartPriceTest.Resource.Color.abc_primary_text_material_light;
+			global::com.refractored.Resource.Color.abc_search_url_text = global::SmartPriceTest.Resource.Color.abc_search_url_text;
+			global::com.refractored.Resource.Color.abc_search_url_text_normal = global::SmartPriceTest.Resource.Color.abc_search_url_text_normal;
+			global::com.refractored.Resource.Color.abc_search_url_text_pressed = global::SmartPriceTest.Resource.Color.abc_search_url_text_pressed;
+			global::com.refractored.Resource.Color.abc_search_url_text_selected = global::SmartPriceTest.Resource.Color.abc_search_url_text_selected;
+			global::com.refractored.Resource.Color.abc_secondary_text_material_dark = global::SmartPriceTest.Resource.Color.abc_secondary_text_material_dark;
+			global::com.refractored.Resource.Color.abc_secondary_text_material_light = global::SmartPriceTest.Resource.Color.abc_secondary_text_material_light;
+			global::com.refractored.Resource.Color.accent_material_dark = global::SmartPriceTest.Resource.Color.accent_material_dark;
+			global::com.refractored.Resource.Color.accent_material_light = global::SmartPriceTest.Resource.Color.accent_material_light;
+			global::com.refractored.Resource.Color.background_floating_material_dark = global::SmartPriceTest.Resource.Color.background_floating_material_dark;
+			global::com.refractored.Resource.Color.background_floating_material_light = global::SmartPriceTest.Resource.Color.background_floating_material_light;
+			global::com.refractored.Resource.Color.background_material_dark = global::SmartPriceTest.Resource.Color.background_material_dark;
+			global::com.refractored.Resource.Color.background_material_light = global::SmartPriceTest.Resource.Color.background_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_disabled_material_dark = global::SmartPriceTest.Resource.Color.bright_foreground_disabled_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_disabled_material_light = global::SmartPriceTest.Resource.Color.bright_foreground_disabled_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_inverse_material_dark = global::SmartPriceTest.Resource.Color.bright_foreground_inverse_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_inverse_material_light = global::SmartPriceTest.Resource.Color.bright_foreground_inverse_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_material_dark = global::SmartPriceTest.Resource.Color.bright_foreground_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_material_light = global::SmartPriceTest.Resource.Color.bright_foreground_material_light;
+			global::com.refractored.Resource.Color.button_material_dark = global::SmartPriceTest.Resource.Color.button_material_dark;
+			global::com.refractored.Resource.Color.button_material_light = global::SmartPriceTest.Resource.Color.button_material_light;
+			global::com.refractored.Resource.Color.dim_foreground_disabled_material_dark = global::SmartPriceTest.Resource.Color.dim_foreground_disabled_material_dark;
+			global::com.refractored.Resource.Color.dim_foreground_disabled_material_light = global::SmartPriceTest.Resource.Color.dim_foreground_disabled_material_light;
+			global::com.refractored.Resource.Color.dim_foreground_material_dark = global::SmartPriceTest.Resource.Color.dim_foreground_material_dark;
+			global::com.refractored.Resource.Color.dim_foreground_material_light = global::SmartPriceTest.Resource.Color.dim_foreground_material_light;
+			global::com.refractored.Resource.Color.foreground_material_dark = global::SmartPriceTest.Resource.Color.foreground_material_dark;
+			global::com.refractored.Resource.Color.foreground_material_light = global::SmartPriceTest.Resource.Color.foreground_material_light;
+			global::com.refractored.Resource.Color.highlighted_text_material_dark = global::SmartPriceTest.Resource.Color.highlighted_text_material_dark;
+			global::com.refractored.Resource.Color.highlighted_text_material_light = global::SmartPriceTest.Resource.Color.highlighted_text_material_light;
+			global::com.refractored.Resource.Color.material_blue_grey_800 = global::SmartPriceTest.Resource.Color.material_blue_grey_800;
+			global::com.refractored.Resource.Color.material_blue_grey_900 = global::SmartPriceTest.Resource.Color.material_blue_grey_900;
+			global::com.refractored.Resource.Color.material_blue_grey_950 = global::SmartPriceTest.Resource.Color.material_blue_grey_950;
+			global::com.refractored.Resource.Color.material_deep_teal_200 = global::SmartPriceTest.Resource.Color.material_deep_teal_200;
+			global::com.refractored.Resource.Color.material_deep_teal_500 = global::SmartPriceTest.Resource.Color.material_deep_teal_500;
+			global::com.refractored.Resource.Color.material_grey_100 = global::SmartPriceTest.Resource.Color.material_grey_100;
+			global::com.refractored.Resource.Color.material_grey_300 = global::SmartPriceTest.Resource.Color.material_grey_300;
+			global::com.refractored.Resource.Color.material_grey_50 = global::SmartPriceTest.Resource.Color.material_grey_50;
+			global::com.refractored.Resource.Color.material_grey_600 = global::SmartPriceTest.Resource.Color.material_grey_600;
+			global::com.refractored.Resource.Color.material_grey_800 = global::SmartPriceTest.Resource.Color.material_grey_800;
+			global::com.refractored.Resource.Color.material_grey_850 = global::SmartPriceTest.Resource.Color.material_grey_850;
+			global::com.refractored.Resource.Color.material_grey_900 = global::SmartPriceTest.Resource.Color.material_grey_900;
+			global::com.refractored.Resource.Color.primary_dark_material_dark = global::SmartPriceTest.Resource.Color.primary_dark_material_dark;
+			global::com.refractored.Resource.Color.primary_dark_material_light = global::SmartPriceTest.Resource.Color.primary_dark_material_light;
+			global::com.refractored.Resource.Color.primary_material_dark = global::SmartPriceTest.Resource.Color.primary_material_dark;
+			global::com.refractored.Resource.Color.primary_material_light = global::SmartPriceTest.Resource.Color.primary_material_light;
+			global::com.refractored.Resource.Color.primary_text_default_material_dark = global::SmartPriceTest.Resource.Color.primary_text_default_material_dark;
+			global::com.refractored.Resource.Color.primary_text_default_material_light = global::SmartPriceTest.Resource.Color.primary_text_default_material_light;
+			global::com.refractored.Resource.Color.primary_text_disabled_material_dark = global::SmartPriceTest.Resource.Color.primary_text_disabled_material_dark;
+			global::com.refractored.Resource.Color.primary_text_disabled_material_light = global::SmartPriceTest.Resource.Color.primary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.psts_background_tab_pressed = global::SmartPriceTest.Resource.Color.psts_background_tab_pressed;
+			global::com.refractored.Resource.Color.ripple_material_dark = global::SmartPriceTest.Resource.Color.ripple_material_dark;
+			global::com.refractored.Resource.Color.ripple_material_light = global::SmartPriceTest.Resource.Color.ripple_material_light;
+			global::com.refractored.Resource.Color.secondary_text_default_material_dark = global::SmartPriceTest.Resource.Color.secondary_text_default_material_dark;
+			global::com.refractored.Resource.Color.secondary_text_default_material_light = global::SmartPriceTest.Resource.Color.secondary_text_default_material_light;
+			global::com.refractored.Resource.Color.secondary_text_disabled_material_dark = global::SmartPriceTest.Resource.Color.secondary_text_disabled_material_dark;
+			global::com.refractored.Resource.Color.secondary_text_disabled_material_light = global::SmartPriceTest.Resource.Color.secondary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_disabled_material_dark = global::SmartPriceTest.Resource.Color.switch_thumb_disabled_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_disabled_material_light = global::SmartPriceTest.Resource.Color.switch_thumb_disabled_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_material_dark = global::SmartPriceTest.Resource.Color.switch_thumb_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_material_light = global::SmartPriceTest.Resource.Color.switch_thumb_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_normal_material_dark = global::SmartPriceTest.Resource.Color.switch_thumb_normal_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_normal_material_light = global::SmartPriceTest.Resource.Color.switch_thumb_normal_material_light;
+			global::com.refractored.Resource.Dimension.abc_action_bar_content_inset_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_height_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_default_height_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_padding_end_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_padding_start_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_progress_bar_size = global::SmartPriceTest.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_max_height = global::SmartPriceTest.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::SmartPriceTest.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::SmartPriceTest.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_height_material = global::SmartPriceTest.Resource.Dimension.abc_action_button_min_height_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_width_material = global::SmartPriceTest.Resource.Dimension.abc_action_button_min_width_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_width_overflow_material = global::SmartPriceTest.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::com.refractored.Resource.Dimension.abc_alert_dialog_button_bar_height = global::SmartPriceTest.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::com.refractored.Resource.Dimension.abc_button_inset_horizontal_material = global::SmartPriceTest.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_button_inset_vertical_material = global::SmartPriceTest.Resource.Dimension.abc_button_inset_vertical_material;
+			global::com.refractored.Resource.Dimension.abc_button_padding_horizontal_material = global::SmartPriceTest.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_button_padding_vertical_material = global::SmartPriceTest.Resource.Dimension.abc_button_padding_vertical_material;
+			global::com.refractored.Resource.Dimension.abc_config_prefDialogWidth = global::SmartPriceTest.Resource.Dimension.abc_config_prefDialogWidth;
+			global::com.refractored.Resource.Dimension.abc_control_corner_material = global::SmartPriceTest.Resource.Dimension.abc_control_corner_material;
+			global::com.refractored.Resource.Dimension.abc_control_inset_material = global::SmartPriceTest.Resource.Dimension.abc_control_inset_material;
+			global::com.refractored.Resource.Dimension.abc_control_padding_material = global::SmartPriceTest.Resource.Dimension.abc_control_padding_material;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_height_major = global::SmartPriceTest.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_height_minor = global::SmartPriceTest.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_width_major = global::SmartPriceTest.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_width_minor = global::SmartPriceTest.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_min_width_major = global::SmartPriceTest.Resource.Dimension.abc_dialog_min_width_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_min_width_minor = global::SmartPriceTest.Resource.Dimension.abc_dialog_min_width_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_padding_material = global::SmartPriceTest.Resource.Dimension.abc_dialog_padding_material;
+			global::com.refractored.Resource.Dimension.abc_dialog_padding_top_material = global::SmartPriceTest.Resource.Dimension.abc_dialog_padding_top_material;
+			global::com.refractored.Resource.Dimension.abc_disabled_alpha_material_dark = global::SmartPriceTest.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.abc_disabled_alpha_material_light = global::SmartPriceTest.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_icon_width = global::SmartPriceTest.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_left = global::SmartPriceTest.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_right = global::SmartPriceTest.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_bottom_material = global::SmartPriceTest.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::SmartPriceTest.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_top_material = global::SmartPriceTest.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::com.refractored.Resource.Dimension.abc_floating_window_z = global::SmartPriceTest.Resource.Dimension.abc_floating_window_z;
+			global::com.refractored.Resource.Dimension.abc_list_item_padding_horizontal_material = global::SmartPriceTest.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_panel_menu_list_width = global::SmartPriceTest.Resource.Dimension.abc_panel_menu_list_width;
+			global::com.refractored.Resource.Dimension.abc_search_view_preferred_width = global::SmartPriceTest.Resource.Dimension.abc_search_view_preferred_width;
+			global::com.refractored.Resource.Dimension.abc_seekbar_track_background_height_material = global::SmartPriceTest.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::com.refractored.Resource.Dimension.abc_seekbar_track_progress_height_material = global::SmartPriceTest.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::com.refractored.Resource.Dimension.abc_select_dialog_padding_start_material = global::SmartPriceTest.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_switch_padding = global::SmartPriceTest.Resource.Dimension.abc_switch_padding;
+			global::com.refractored.Resource.Dimension.abc_text_size_body_1_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_body_1_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_body_2_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_body_2_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_button_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_button_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_caption_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_caption_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_1_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_display_1_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_2_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_display_2_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_3_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_display_3_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_4_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_display_4_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_headline_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_headline_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_large_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_large_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_medium_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_medium_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_menu_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_menu_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_small_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_small_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_subhead_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_subhead_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::SmartPriceTest.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::com.refractored.Resource.Dimension.abc_text_size_title_material = global::SmartPriceTest.Resource.Dimension.abc_text_size_title_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_title_material_toolbar = global::SmartPriceTest.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::com.refractored.Resource.Dimension.disabled_alpha_material_dark = global::SmartPriceTest.Resource.Dimension.disabled_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.disabled_alpha_material_light = global::SmartPriceTest.Resource.Dimension.disabled_alpha_material_light;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_colored = global::SmartPriceTest.Resource.Dimension.highlight_alpha_material_colored;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_dark = global::SmartPriceTest.Resource.Dimension.highlight_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_light = global::SmartPriceTest.Resource.Dimension.highlight_alpha_material_light;
+			global::com.refractored.Resource.Dimension.notification_large_icon_height = global::SmartPriceTest.Resource.Dimension.notification_large_icon_height;
+			global::com.refractored.Resource.Dimension.notification_large_icon_width = global::SmartPriceTest.Resource.Dimension.notification_large_icon_width;
+			global::com.refractored.Resource.Dimension.notification_subtext_size = global::SmartPriceTest.Resource.Dimension.notification_subtext_size;
+			global::com.refractored.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_action_bar_item_background_material = global::SmartPriceTest.Resource.Drawable.abc_action_bar_item_background_material;
+			global::com.refractored.Resource.Drawable.abc_btn_borderless_material = global::SmartPriceTest.Resource.Drawable.abc_btn_borderless_material;
+			global::com.refractored.Resource.Drawable.abc_btn_check_material = global::SmartPriceTest.Resource.Drawable.abc_btn_check_material;
+			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::SmartPriceTest.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::SmartPriceTest.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_colored_material = global::SmartPriceTest.Resource.Drawable.abc_btn_colored_material;
+			global::com.refractored.Resource.Drawable.abc_btn_default_mtrl_shape = global::SmartPriceTest.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_material = global::SmartPriceTest.Resource.Drawable.abc_btn_radio_material;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::SmartPriceTest.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::SmartPriceTest.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::SmartPriceTest.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::SmartPriceTest.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::com.refractored.Resource.Drawable.abc_cab_background_internal_bg = global::SmartPriceTest.Resource.Drawable.abc_cab_background_internal_bg;
+			global::com.refractored.Resource.Drawable.abc_cab_background_top_material = global::SmartPriceTest.Resource.Drawable.abc_cab_background_top_material;
+			global::com.refractored.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_control_background_material = global::SmartPriceTest.Resource.Drawable.abc_control_background_material;
+			global::com.refractored.Resource.Drawable.abc_edit_text_material = global::SmartPriceTest.Resource.Drawable.abc_edit_text_material;
+			global::com.refractored.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::SmartPriceTest.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::SmartPriceTest.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_star_black_16dp = global::SmartPriceTest.Resource.Drawable.abc_ic_star_black_16dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_black_36dp = global::SmartPriceTest.Resource.Drawable.abc_ic_star_black_36dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_half_black_16dp = global::SmartPriceTest.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_half_black_36dp = global::SmartPriceTest.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::com.refractored.Resource.Drawable.abc_item_background_holo_dark = global::SmartPriceTest.Resource.Drawable.abc_item_background_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_item_background_holo_light = global::SmartPriceTest.Resource.Drawable.abc_item_background_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_divider_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_list_focused_holo = global::SmartPriceTest.Resource.Drawable.abc_list_focused_holo;
+			global::com.refractored.Resource.Drawable.abc_list_longpressed_holo = global::SmartPriceTest.Resource.Drawable.abc_list_longpressed_holo;
+			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_dark = global::SmartPriceTest.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_light = global::SmartPriceTest.Resource.Drawable.abc_list_pressed_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::SmartPriceTest.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::SmartPriceTest.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::SmartPriceTest.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_light = global::SmartPriceTest.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_holo_dark = global::SmartPriceTest.Resource.Drawable.abc_list_selector_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_holo_light = global::SmartPriceTest.Resource.Drawable.abc_list_selector_holo_light;
+			global::com.refractored.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::SmartPriceTest.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_popup_background_mtrl_mult = global::SmartPriceTest.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_ratingbar_indicator_material = global::SmartPriceTest.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::com.refractored.Resource.Drawable.abc_ratingbar_small_material = global::SmartPriceTest.Resource.Drawable.abc_ratingbar_small_material;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::SmartPriceTest.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::SmartPriceTest.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::com.refractored.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_seekbar_thumb_material = global::SmartPriceTest.Resource.Drawable.abc_seekbar_thumb_material;
+			global::com.refractored.Resource.Drawable.abc_seekbar_track_material = global::SmartPriceTest.Resource.Drawable.abc_seekbar_track_material;
+			global::com.refractored.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::SmartPriceTest.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_spinner_textfield_background_material = global::SmartPriceTest.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::com.refractored.Resource.Drawable.abc_switch_thumb_material = global::SmartPriceTest.Resource.Drawable.abc_switch_thumb_material;
+			global::com.refractored.Resource.Drawable.abc_switch_track_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_tab_indicator_material = global::SmartPriceTest.Resource.Drawable.abc_tab_indicator_material;
+			global::com.refractored.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_text_cursor_material = global::SmartPriceTest.Resource.Drawable.abc_text_cursor_material;
+			global::com.refractored.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::SmartPriceTest.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_material = global::SmartPriceTest.Resource.Drawable.abc_textfield_search_material;
+			global::com.refractored.Resource.Drawable.notification_template_icon_bg = global::SmartPriceTest.Resource.Drawable.notification_template_icon_bg;
+			global::com.refractored.Resource.Drawable.psts_background_tab = global::SmartPriceTest.Resource.Drawable.psts_background_tab;
+			global::com.refractored.Resource.Id.action0 = global::SmartPriceTest.Resource.Id.action0;
+			global::com.refractored.Resource.Id.action_bar = global::SmartPriceTest.Resource.Id.action_bar;
+			global::com.refractored.Resource.Id.action_bar_activity_content = global::SmartPriceTest.Resource.Id.action_bar_activity_content;
+			global::com.refractored.Resource.Id.action_bar_container = global::SmartPriceTest.Resource.Id.action_bar_container;
+			global::com.refractored.Resource.Id.action_bar_root = global::SmartPriceTest.Resource.Id.action_bar_root;
+			global::com.refractored.Resource.Id.action_bar_spinner = global::SmartPriceTest.Resource.Id.action_bar_spinner;
+			global::com.refractored.Resource.Id.action_bar_subtitle = global::SmartPriceTest.Resource.Id.action_bar_subtitle;
+			global::com.refractored.Resource.Id.action_bar_title = global::SmartPriceTest.Resource.Id.action_bar_title;
+			global::com.refractored.Resource.Id.action_context_bar = global::SmartPriceTest.Resource.Id.action_context_bar;
+			global::com.refractored.Resource.Id.action_divider = global::SmartPriceTest.Resource.Id.action_divider;
+			global::com.refractored.Resource.Id.action_menu_divider = global::SmartPriceTest.Resource.Id.action_menu_divider;
+			global::com.refractored.Resource.Id.action_menu_presenter = global::SmartPriceTest.Resource.Id.action_menu_presenter;
+			global::com.refractored.Resource.Id.action_mode_bar = global::SmartPriceTest.Resource.Id.action_mode_bar;
+			global::com.refractored.Resource.Id.action_mode_bar_stub = global::SmartPriceTest.Resource.Id.action_mode_bar_stub;
+			global::com.refractored.Resource.Id.action_mode_close_button = global::SmartPriceTest.Resource.Id.action_mode_close_button;
+			global::com.refractored.Resource.Id.activity_chooser_view_content = global::SmartPriceTest.Resource.Id.activity_chooser_view_content;
+			global::com.refractored.Resource.Id.alertTitle = global::SmartPriceTest.Resource.Id.alertTitle;
+			global::com.refractored.Resource.Id.always = global::SmartPriceTest.Resource.Id.always;
+			global::com.refractored.Resource.Id.beginning = global::SmartPriceTest.Resource.Id.beginning;
+			global::com.refractored.Resource.Id.bold = global::SmartPriceTest.Resource.Id.bold;
+			global::com.refractored.Resource.Id.buttonPanel = global::SmartPriceTest.Resource.Id.buttonPanel;
+			global::com.refractored.Resource.Id.cancel_action = global::SmartPriceTest.Resource.Id.cancel_action;
+			global::com.refractored.Resource.Id.checkbox = global::SmartPriceTest.Resource.Id.checkbox;
+			global::com.refractored.Resource.Id.chronometer = global::SmartPriceTest.Resource.Id.chronometer;
+			global::com.refractored.Resource.Id.collapseActionView = global::SmartPriceTest.Resource.Id.collapseActionView;
+			global::com.refractored.Resource.Id.contentPanel = global::SmartPriceTest.Resource.Id.contentPanel;
+			global::com.refractored.Resource.Id.custom = global::SmartPriceTest.Resource.Id.custom;
+			global::com.refractored.Resource.Id.customPanel = global::SmartPriceTest.Resource.Id.customPanel;
+			global::com.refractored.Resource.Id.decor_content_parent = global::SmartPriceTest.Resource.Id.decor_content_parent;
+			global::com.refractored.Resource.Id.default_activity_button = global::SmartPriceTest.Resource.Id.default_activity_button;
+			global::com.refractored.Resource.Id.disableHome = global::SmartPriceTest.Resource.Id.disableHome;
+			global::com.refractored.Resource.Id.edit_query = global::SmartPriceTest.Resource.Id.edit_query;
+			global::com.refractored.Resource.Id.end = global::SmartPriceTest.Resource.Id.end;
+			global::com.refractored.Resource.Id.end_padder = global::SmartPriceTest.Resource.Id.end_padder;
+			global::com.refractored.Resource.Id.expand_activities_button = global::SmartPriceTest.Resource.Id.expand_activities_button;
+			global::com.refractored.Resource.Id.expanded_menu = global::SmartPriceTest.Resource.Id.expanded_menu;
+			global::com.refractored.Resource.Id.home = global::SmartPriceTest.Resource.Id.home;
+			global::com.refractored.Resource.Id.homeAsUp = global::SmartPriceTest.Resource.Id.homeAsUp;
+			global::com.refractored.Resource.Id.icon = global::SmartPriceTest.Resource.Id.icon;
+			global::com.refractored.Resource.Id.ifRoom = global::SmartPriceTest.Resource.Id.ifRoom;
+			global::com.refractored.Resource.Id.image = global::SmartPriceTest.Resource.Id.image;
+			global::com.refractored.Resource.Id.info = global::SmartPriceTest.Resource.Id.info;
+			global::com.refractored.Resource.Id.italic = global::SmartPriceTest.Resource.Id.italic;
+			global::com.refractored.Resource.Id.line1 = global::SmartPriceTest.Resource.Id.line1;
+			global::com.refractored.Resource.Id.line3 = global::SmartPriceTest.Resource.Id.line3;
+			global::com.refractored.Resource.Id.listMode = global::SmartPriceTest.Resource.Id.listMode;
+			global::com.refractored.Resource.Id.list_item = global::SmartPriceTest.Resource.Id.list_item;
+			global::com.refractored.Resource.Id.media_actions = global::SmartPriceTest.Resource.Id.media_actions;
+			global::com.refractored.Resource.Id.middle = global::SmartPriceTest.Resource.Id.middle;
+			global::com.refractored.Resource.Id.multiply = global::SmartPriceTest.Resource.Id.multiply;
+			global::com.refractored.Resource.Id.never = global::SmartPriceTest.Resource.Id.never;
+			global::com.refractored.Resource.Id.none = global::SmartPriceTest.Resource.Id.none;
+			global::com.refractored.Resource.Id.normal = global::SmartPriceTest.Resource.Id.normal;
+			global::com.refractored.Resource.Id.parentPanel = global::SmartPriceTest.Resource.Id.parentPanel;
+			global::com.refractored.Resource.Id.progress_circular = global::SmartPriceTest.Resource.Id.progress_circular;
+			global::com.refractored.Resource.Id.progress_horizontal = global::SmartPriceTest.Resource.Id.progress_horizontal;
+			global::com.refractored.Resource.Id.psts_tab_title = global::SmartPriceTest.Resource.Id.psts_tab_title;
+			global::com.refractored.Resource.Id.radio = global::SmartPriceTest.Resource.Id.radio;
+			global::com.refractored.Resource.Id.screen = global::SmartPriceTest.Resource.Id.screen;
+			global::com.refractored.Resource.Id.scrollIndicatorDown = global::SmartPriceTest.Resource.Id.scrollIndicatorDown;
+			global::com.refractored.Resource.Id.scrollIndicatorUp = global::SmartPriceTest.Resource.Id.scrollIndicatorUp;
+			global::com.refractored.Resource.Id.scrollView = global::SmartPriceTest.Resource.Id.scrollView;
+			global::com.refractored.Resource.Id.search_badge = global::SmartPriceTest.Resource.Id.search_badge;
+			global::com.refractored.Resource.Id.search_bar = global::SmartPriceTest.Resource.Id.search_bar;
+			global::com.refractored.Resource.Id.search_button = global::SmartPriceTest.Resource.Id.search_button;
+			global::com.refractored.Resource.Id.search_close_btn = global::SmartPriceTest.Resource.Id.search_close_btn;
+			global::com.refractored.Resource.Id.search_edit_frame = global::SmartPriceTest.Resource.Id.search_edit_frame;
+			global::com.refractored.Resource.Id.search_go_btn = global::SmartPriceTest.Resource.Id.search_go_btn;
+			global::com.refractored.Resource.Id.search_mag_icon = global::SmartPriceTest.Resource.Id.search_mag_icon;
+			global::com.refractored.Resource.Id.search_plate = global::SmartPriceTest.Resource.Id.search_plate;
+			global::com.refractored.Resource.Id.search_src_text = global::SmartPriceTest.Resource.Id.search_src_text;
+			global::com.refractored.Resource.Id.search_voice_btn = global::SmartPriceTest.Resource.Id.search_voice_btn;
+			global::com.refractored.Resource.Id.select_dialog_listview = global::SmartPriceTest.Resource.Id.select_dialog_listview;
+			global::com.refractored.Resource.Id.shortcut = global::SmartPriceTest.Resource.Id.shortcut;
+			global::com.refractored.Resource.Id.showCustom = global::SmartPriceTest.Resource.Id.showCustom;
+			global::com.refractored.Resource.Id.showHome = global::SmartPriceTest.Resource.Id.showHome;
+			global::com.refractored.Resource.Id.showTitle = global::SmartPriceTest.Resource.Id.showTitle;
+			global::com.refractored.Resource.Id.spacer = global::SmartPriceTest.Resource.Id.spacer;
+			global::com.refractored.Resource.Id.split_action_bar = global::SmartPriceTest.Resource.Id.split_action_bar;
+			global::com.refractored.Resource.Id.src_atop = global::SmartPriceTest.Resource.Id.src_atop;
+			global::com.refractored.Resource.Id.src_in = global::SmartPriceTest.Resource.Id.src_in;
+			global::com.refractored.Resource.Id.src_over = global::SmartPriceTest.Resource.Id.src_over;
+			global::com.refractored.Resource.Id.status_bar_latest_event_content = global::SmartPriceTest.Resource.Id.status_bar_latest_event_content;
+			global::com.refractored.Resource.Id.submit_area = global::SmartPriceTest.Resource.Id.submit_area;
+			global::com.refractored.Resource.Id.tabMode = global::SmartPriceTest.Resource.Id.tabMode;
+			global::com.refractored.Resource.Id.text = global::SmartPriceTest.Resource.Id.text;
+			global::com.refractored.Resource.Id.text2 = global::SmartPriceTest.Resource.Id.text2;
+			global::com.refractored.Resource.Id.textSpacerNoButtons = global::SmartPriceTest.Resource.Id.textSpacerNoButtons;
+			global::com.refractored.Resource.Id.time = global::SmartPriceTest.Resource.Id.time;
+			global::com.refractored.Resource.Id.title = global::SmartPriceTest.Resource.Id.title;
+			global::com.refractored.Resource.Id.title_template = global::SmartPriceTest.Resource.Id.title_template;
+			global::com.refractored.Resource.Id.topPanel = global::SmartPriceTest.Resource.Id.topPanel;
+			global::com.refractored.Resource.Id.up = global::SmartPriceTest.Resource.Id.up;
+			global::com.refractored.Resource.Id.useLogo = global::SmartPriceTest.Resource.Id.useLogo;
+			global::com.refractored.Resource.Id.withText = global::SmartPriceTest.Resource.Id.withText;
+			global::com.refractored.Resource.Id.wrap_content = global::SmartPriceTest.Resource.Id.wrap_content;
+			global::com.refractored.Resource.Integer.abc_config_activityDefaultDur = global::SmartPriceTest.Resource.Integer.abc_config_activityDefaultDur;
+			global::com.refractored.Resource.Integer.abc_config_activityShortDur = global::SmartPriceTest.Resource.Integer.abc_config_activityShortDur;
+			global::com.refractored.Resource.Integer.cancel_button_image_alpha = global::SmartPriceTest.Resource.Integer.cancel_button_image_alpha;
+			global::com.refractored.Resource.Integer.status_bar_notification_info_maxnum = global::SmartPriceTest.Resource.Integer.status_bar_notification_info_maxnum;
+			global::com.refractored.Resource.Layout.abc_action_bar_title_item = global::SmartPriceTest.Resource.Layout.abc_action_bar_title_item;
+			global::com.refractored.Resource.Layout.abc_action_bar_up_container = global::SmartPriceTest.Resource.Layout.abc_action_bar_up_container;
+			global::com.refractored.Resource.Layout.abc_action_bar_view_list_nav_layout = global::SmartPriceTest.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::com.refractored.Resource.Layout.abc_action_menu_item_layout = global::SmartPriceTest.Resource.Layout.abc_action_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_action_menu_layout = global::SmartPriceTest.Resource.Layout.abc_action_menu_layout;
+			global::com.refractored.Resource.Layout.abc_action_mode_bar = global::SmartPriceTest.Resource.Layout.abc_action_mode_bar;
+			global::com.refractored.Resource.Layout.abc_action_mode_close_item_material = global::SmartPriceTest.Resource.Layout.abc_action_mode_close_item_material;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view = global::SmartPriceTest.Resource.Layout.abc_activity_chooser_view;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view_list_item = global::SmartPriceTest.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::com.refractored.Resource.Layout.abc_alert_dialog_button_bar_material = global::SmartPriceTest.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::com.refractored.Resource.Layout.abc_alert_dialog_material = global::SmartPriceTest.Resource.Layout.abc_alert_dialog_material;
+			global::com.refractored.Resource.Layout.abc_dialog_title_material = global::SmartPriceTest.Resource.Layout.abc_dialog_title_material;
+			global::com.refractored.Resource.Layout.abc_expanded_menu_layout = global::SmartPriceTest.Resource.Layout.abc_expanded_menu_layout;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_checkbox = global::SmartPriceTest.Resource.Layout.abc_list_menu_item_checkbox;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_icon = global::SmartPriceTest.Resource.Layout.abc_list_menu_item_icon;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_layout = global::SmartPriceTest.Resource.Layout.abc_list_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_radio = global::SmartPriceTest.Resource.Layout.abc_list_menu_item_radio;
+			global::com.refractored.Resource.Layout.abc_popup_menu_item_layout = global::SmartPriceTest.Resource.Layout.abc_popup_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_screen_content_include = global::SmartPriceTest.Resource.Layout.abc_screen_content_include;
+			global::com.refractored.Resource.Layout.abc_screen_simple = global::SmartPriceTest.Resource.Layout.abc_screen_simple;
+			global::com.refractored.Resource.Layout.abc_screen_simple_overlay_action_mode = global::SmartPriceTest.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::com.refractored.Resource.Layout.abc_screen_toolbar = global::SmartPriceTest.Resource.Layout.abc_screen_toolbar;
+			global::com.refractored.Resource.Layout.abc_search_dropdown_item_icons_2line = global::SmartPriceTest.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::com.refractored.Resource.Layout.abc_search_view = global::SmartPriceTest.Resource.Layout.abc_search_view;
+			global::com.refractored.Resource.Layout.abc_select_dialog_material = global::SmartPriceTest.Resource.Layout.abc_select_dialog_material;
+			global::com.refractored.Resource.Layout.notification_media_action = global::SmartPriceTest.Resource.Layout.notification_media_action;
+			global::com.refractored.Resource.Layout.notification_media_cancel_action = global::SmartPriceTest.Resource.Layout.notification_media_cancel_action;
+			global::com.refractored.Resource.Layout.notification_template_big_media = global::SmartPriceTest.Resource.Layout.notification_template_big_media;
+			global::com.refractored.Resource.Layout.notification_template_big_media_narrow = global::SmartPriceTest.Resource.Layout.notification_template_big_media_narrow;
+			global::com.refractored.Resource.Layout.notification_template_media = global::SmartPriceTest.Resource.Layout.notification_template_media;
+			global::com.refractored.Resource.Layout.notification_template_part_chronometer = global::SmartPriceTest.Resource.Layout.notification_template_part_chronometer;
+			global::com.refractored.Resource.Layout.notification_template_part_time = global::SmartPriceTest.Resource.Layout.notification_template_part_time;
+			global::com.refractored.Resource.Layout.psts_tab = global::SmartPriceTest.Resource.Layout.psts_tab;
+			global::com.refractored.Resource.Layout.select_dialog_item_material = global::SmartPriceTest.Resource.Layout.select_dialog_item_material;
+			global::com.refractored.Resource.Layout.select_dialog_multichoice_material = global::SmartPriceTest.Resource.Layout.select_dialog_multichoice_material;
+			global::com.refractored.Resource.Layout.select_dialog_singlechoice_material = global::SmartPriceTest.Resource.Layout.select_dialog_singlechoice_material;
+			global::com.refractored.Resource.Layout.support_simple_spinner_dropdown_item = global::SmartPriceTest.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::com.refractored.Resource.String.abc_action_bar_home_description = global::SmartPriceTest.Resource.String.abc_action_bar_home_description;
+			global::com.refractored.Resource.String.abc_action_bar_home_description_format = global::SmartPriceTest.Resource.String.abc_action_bar_home_description_format;
+			global::com.refractored.Resource.String.abc_action_bar_home_subtitle_description_format = global::SmartPriceTest.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::com.refractored.Resource.String.abc_action_bar_up_description = global::SmartPriceTest.Resource.String.abc_action_bar_up_description;
+			global::com.refractored.Resource.String.abc_action_menu_overflow_description = global::SmartPriceTest.Resource.String.abc_action_menu_overflow_description;
+			global::com.refractored.Resource.String.abc_action_mode_done = global::SmartPriceTest.Resource.String.abc_action_mode_done;
+			global::com.refractored.Resource.String.abc_activity_chooser_view_see_all = global::SmartPriceTest.Resource.String.abc_activity_chooser_view_see_all;
+			global::com.refractored.Resource.String.abc_activitychooserview_choose_application = global::SmartPriceTest.Resource.String.abc_activitychooserview_choose_application;
+			global::com.refractored.Resource.String.abc_capital_off = global::SmartPriceTest.Resource.String.abc_capital_off;
+			global::com.refractored.Resource.String.abc_capital_on = global::SmartPriceTest.Resource.String.abc_capital_on;
+			global::com.refractored.Resource.String.abc_search_hint = global::SmartPriceTest.Resource.String.abc_search_hint;
+			global::com.refractored.Resource.String.abc_searchview_description_clear = global::SmartPriceTest.Resource.String.abc_searchview_description_clear;
+			global::com.refractored.Resource.String.abc_searchview_description_query = global::SmartPriceTest.Resource.String.abc_searchview_description_query;
+			global::com.refractored.Resource.String.abc_searchview_description_search = global::SmartPriceTest.Resource.String.abc_searchview_description_search;
+			global::com.refractored.Resource.String.abc_searchview_description_submit = global::SmartPriceTest.Resource.String.abc_searchview_description_submit;
+			global::com.refractored.Resource.String.abc_searchview_description_voice = global::SmartPriceTest.Resource.String.abc_searchview_description_voice;
+			global::com.refractored.Resource.String.abc_shareactionprovider_share_with = global::SmartPriceTest.Resource.String.abc_shareactionprovider_share_with;
+			global::com.refractored.Resource.String.abc_shareactionprovider_share_with_application = global::SmartPriceTest.Resource.String.abc_shareactionprovider_share_with_application;
+			global::com.refractored.Resource.String.abc_toolbar_collapse_description = global::SmartPriceTest.Resource.String.abc_toolbar_collapse_description;
+			global::com.refractored.Resource.String.status_bar_notification_info_overflow = global::SmartPriceTest.Resource.String.status_bar_notification_info_overflow;
+			global::com.refractored.Resource.Style.AlertDialog_AppCompat = global::SmartPriceTest.Resource.Style.AlertDialog_AppCompat;
+			global::com.refractored.Resource.Style.AlertDialog_AppCompat_Light = global::SmartPriceTest.Resource.Style.AlertDialog_AppCompat_Light;
+			global::com.refractored.Resource.Style.Animation_AppCompat_Dialog = global::SmartPriceTest.Resource.Style.Animation_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Animation_AppCompat_DropDownUp = global::SmartPriceTest.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::com.refractored.Resource.Style.Base_AlertDialog_AppCompat = global::SmartPriceTest.Resource.Style.Base_AlertDialog_AppCompat;
+			global::com.refractored.Resource.Style.Base_AlertDialog_AppCompat_Light = global::SmartPriceTest.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_Animation_AppCompat_Dialog = global::SmartPriceTest.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::SmartPriceTest.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::com.refractored.Resource.Style.Base_DialogWindowTitle_AppCompat = global::SmartPriceTest.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::com.refractored.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::SmartPriceTest.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Button = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SmartPriceTest.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SmartPriceTest.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SmartPriceTest.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::SmartPriceTest.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::SmartPriceTest.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat = global::SmartPriceTest.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::SmartPriceTest.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::SmartPriceTest.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::SmartPriceTest.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::SmartPriceTest.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::SmartPriceTest.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::SmartPriceTest.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::SmartPriceTest.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::SmartPriceTest.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat = global::SmartPriceTest.Resource.Style.Base_V21_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::SmartPriceTest.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light = global::SmartPriceTest.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::SmartPriceTest.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V22_Theme_AppCompat = global::SmartPriceTest.Resource.Style.Base_V22_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V22_Theme_AppCompat_Light = global::SmartPriceTest.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V23_Theme_AppCompat = global::SmartPriceTest.Resource.Style.Base_V23_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V23_Theme_AppCompat_Light = global::SmartPriceTest.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat = global::SmartPriceTest.Resource.Style.Base_V7_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::SmartPriceTest.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Light = global::SmartPriceTest.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::SmartPriceTest.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::SmartPriceTest.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::SmartPriceTest.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionMode = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Button;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Small = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_EditText = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ImageButton = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SeekBar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::SmartPriceTest.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.refractored.Resource.Style.Platform_AppCompat = global::SmartPriceTest.Resource.Style.Platform_AppCompat;
+			global::com.refractored.Resource.Style.Platform_AppCompat_Light = global::SmartPriceTest.Resource.Style.Platform_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat = global::SmartPriceTest.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::SmartPriceTest.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::SmartPriceTest.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_V11_AppCompat = global::SmartPriceTest.Resource.Style.Platform_V11_AppCompat;
+			global::com.refractored.Resource.Style.Platform_V11_AppCompat_Light = global::SmartPriceTest.Resource.Style.Platform_V11_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_V14_AppCompat = global::SmartPriceTest.Resource.Style.Platform_V14_AppCompat;
+			global::com.refractored.Resource.Style.Platform_V14_AppCompat_Light = global::SmartPriceTest.Resource.Style.Platform_V14_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_Widget_AppCompat_Spinner = global::SmartPriceTest.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::SmartPriceTest.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::SmartPriceTest.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::com.refractored.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::SmartPriceTest.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::SmartPriceTest.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body1 = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body2 = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Button = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Button;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Caption = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display1 = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display2 = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display3 = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display4 = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Headline = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Menu = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SmartPriceTest.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SmartPriceTest.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SmartPriceTest.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::SmartPriceTest.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.refractored.Resource.Style.Theme_AppCompat = global::SmartPriceTest.Resource.Style.Theme_AppCompat;
+			global::com.refractored.Resource.Style.Theme_AppCompat_CompactMenu = global::SmartPriceTest.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight = global::SmartPriceTest.Resource.Style.Theme_AppCompat_DayNight;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::SmartPriceTest.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::SmartPriceTest.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::SmartPriceTest.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::SmartPriceTest.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::SmartPriceTest.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::SmartPriceTest.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog_Alert = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::SmartPriceTest.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::SmartPriceTest.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_NoActionBar = global::SmartPriceTest.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat = global::SmartPriceTest.Resource.Style.ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::SmartPriceTest.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark = global::SmartPriceTest.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::SmartPriceTest.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Light = global::SmartPriceTest.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionMode = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActionMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActivityChooserView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Button;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Borderless = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Colored = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Small = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Button_Small;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ButtonBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::SmartPriceTest.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::SmartPriceTest.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::SmartPriceTest.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::com.refractored.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::SmartPriceTest.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::SmartPriceTest.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_EditText = global::SmartPriceTest.Resource.Style.Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ImageButton = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ImageButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_SearchView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListPopupWindow = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ListView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_DropDown = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_Menu = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu = global::SmartPriceTest.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::SmartPriceTest.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupWindow = global::SmartPriceTest.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::SmartPriceTest.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_RatingBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::SmartPriceTest.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar_Small = global::SmartPriceTest.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView = global::SmartPriceTest.Resource.Style.Widget_AppCompat_SearchView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SeekBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_SeekBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::com.refractored.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::SmartPriceTest.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Toolbar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::SmartPriceTest.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.refractored.Resource.Styleable.ActionBar = global::SmartPriceTest.Resource.Styleable.ActionBar;
+			global::com.refractored.Resource.Styleable.ActionBar_background = global::SmartPriceTest.Resource.Styleable.ActionBar_background;
+			global::com.refractored.Resource.Styleable.ActionBar_backgroundSplit = global::SmartPriceTest.Resource.Styleable.ActionBar_backgroundSplit;
+			global::com.refractored.Resource.Styleable.ActionBar_backgroundStacked = global::SmartPriceTest.Resource.Styleable.ActionBar_backgroundStacked;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetEnd = global::SmartPriceTest.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetLeft = global::SmartPriceTest.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetRight = global::SmartPriceTest.Resource.Styleable.ActionBar_contentInsetRight;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetStart = global::SmartPriceTest.Resource.Styleable.ActionBar_contentInsetStart;
+			global::com.refractored.Resource.Styleable.ActionBar_customNavigationLayout = global::SmartPriceTest.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::com.refractored.Resource.Styleable.ActionBar_displayOptions = global::SmartPriceTest.Resource.Styleable.ActionBar_displayOptions;
+			global::com.refractored.Resource.Styleable.ActionBar_divider = global::SmartPriceTest.Resource.Styleable.ActionBar_divider;
+			global::com.refractored.Resource.Styleable.ActionBar_elevation = global::SmartPriceTest.Resource.Styleable.ActionBar_elevation;
+			global::com.refractored.Resource.Styleable.ActionBar_height = global::SmartPriceTest.Resource.Styleable.ActionBar_height;
+			global::com.refractored.Resource.Styleable.ActionBar_hideOnContentScroll = global::SmartPriceTest.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::com.refractored.Resource.Styleable.ActionBar_homeAsUpIndicator = global::SmartPriceTest.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::com.refractored.Resource.Styleable.ActionBar_homeLayout = global::SmartPriceTest.Resource.Styleable.ActionBar_homeLayout;
+			global::com.refractored.Resource.Styleable.ActionBar_icon = global::SmartPriceTest.Resource.Styleable.ActionBar_icon;
+			global::com.refractored.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::SmartPriceTest.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_itemPadding = global::SmartPriceTest.Resource.Styleable.ActionBar_itemPadding;
+			global::com.refractored.Resource.Styleable.ActionBar_logo = global::SmartPriceTest.Resource.Styleable.ActionBar_logo;
+			global::com.refractored.Resource.Styleable.ActionBar_navigationMode = global::SmartPriceTest.Resource.Styleable.ActionBar_navigationMode;
+			global::com.refractored.Resource.Styleable.ActionBar_popupTheme = global::SmartPriceTest.Resource.Styleable.ActionBar_popupTheme;
+			global::com.refractored.Resource.Styleable.ActionBar_progressBarPadding = global::SmartPriceTest.Resource.Styleable.ActionBar_progressBarPadding;
+			global::com.refractored.Resource.Styleable.ActionBar_progressBarStyle = global::SmartPriceTest.Resource.Styleable.ActionBar_progressBarStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_subtitle = global::SmartPriceTest.Resource.Styleable.ActionBar_subtitle;
+			global::com.refractored.Resource.Styleable.ActionBar_subtitleTextStyle = global::SmartPriceTest.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_title = global::SmartPriceTest.Resource.Styleable.ActionBar_title;
+			global::com.refractored.Resource.Styleable.ActionBar_titleTextStyle = global::SmartPriceTest.Resource.Styleable.ActionBar_titleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionBarLayout = global::SmartPriceTest.Resource.Styleable.ActionBarLayout;
+			global::com.refractored.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::SmartPriceTest.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::com.refractored.Resource.Styleable.ActionMenuItemView = global::SmartPriceTest.Resource.Styleable.ActionMenuItemView;
+			global::com.refractored.Resource.Styleable.ActionMenuItemView_android_minWidth = global::SmartPriceTest.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::com.refractored.Resource.Styleable.ActionMenuView = global::SmartPriceTest.Resource.Styleable.ActionMenuView;
+			global::com.refractored.Resource.Styleable.ActionMode = global::SmartPriceTest.Resource.Styleable.ActionMode;
+			global::com.refractored.Resource.Styleable.ActionMode_background = global::SmartPriceTest.Resource.Styleable.ActionMode_background;
+			global::com.refractored.Resource.Styleable.ActionMode_backgroundSplit = global::SmartPriceTest.Resource.Styleable.ActionMode_backgroundSplit;
+			global::com.refractored.Resource.Styleable.ActionMode_closeItemLayout = global::SmartPriceTest.Resource.Styleable.ActionMode_closeItemLayout;
+			global::com.refractored.Resource.Styleable.ActionMode_height = global::SmartPriceTest.Resource.Styleable.ActionMode_height;
+			global::com.refractored.Resource.Styleable.ActionMode_subtitleTextStyle = global::SmartPriceTest.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionMode_titleTextStyle = global::SmartPriceTest.Resource.Styleable.ActionMode_titleTextStyle;
+			global::com.refractored.Resource.Styleable.ActivityChooserView = global::SmartPriceTest.Resource.Styleable.ActivityChooserView;
+			global::com.refractored.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::SmartPriceTest.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::com.refractored.Resource.Styleable.ActivityChooserView_initialActivityCount = global::SmartPriceTest.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::com.refractored.Resource.Styleable.AlertDialog = global::SmartPriceTest.Resource.Styleable.AlertDialog;
+			global::com.refractored.Resource.Styleable.AlertDialog_android_layout = global::SmartPriceTest.Resource.Styleable.AlertDialog_android_layout;
+			global::com.refractored.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::SmartPriceTest.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_listItemLayout = global::SmartPriceTest.Resource.Styleable.AlertDialog_listItemLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_listLayout = global::SmartPriceTest.Resource.Styleable.AlertDialog_listLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::SmartPriceTest.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::SmartPriceTest.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::com.refractored.Resource.Styleable.AppCompatImageView = global::SmartPriceTest.Resource.Styleable.AppCompatImageView;
+			global::com.refractored.Resource.Styleable.AppCompatImageView_android_src = global::SmartPriceTest.Resource.Styleable.AppCompatImageView_android_src;
+			global::com.refractored.Resource.Styleable.AppCompatImageView_srcCompat = global::SmartPriceTest.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::com.refractored.Resource.Styleable.AppCompatTextView = global::SmartPriceTest.Resource.Styleable.AppCompatTextView;
+			global::com.refractored.Resource.Styleable.AppCompatTextView_android_textAppearance = global::SmartPriceTest.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::com.refractored.Resource.Styleable.AppCompatTextView_textAllCaps = global::SmartPriceTest.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::com.refractored.Resource.Styleable.AppCompatTheme = global::SmartPriceTest.Resource.Styleable.AppCompatTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarDivider = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarSize = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTheme = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeBackground = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_checkboxStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorAccent = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlActivated = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlNormal = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorPrimary = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_controlBackground = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dialogTheme = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dividerVertical = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextBackground = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextColor = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelBackground = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_searchViewStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_seekBarStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_spinnerStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_switchStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_toolbarStyle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionBar = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowNoTitle = global::SmartPriceTest.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::com.refractored.Resource.Styleable.ButtonBarLayout = global::SmartPriceTest.Resource.Styleable.ButtonBarLayout;
+			global::com.refractored.Resource.Styleable.ButtonBarLayout_allowStacking = global::SmartPriceTest.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::com.refractored.Resource.Styleable.CompoundButton = global::SmartPriceTest.Resource.Styleable.CompoundButton;
+			global::com.refractored.Resource.Styleable.CompoundButton_android_button = global::SmartPriceTest.Resource.Styleable.CompoundButton_android_button;
+			global::com.refractored.Resource.Styleable.CompoundButton_buttonTint = global::SmartPriceTest.Resource.Styleable.CompoundButton_buttonTint;
+			global::com.refractored.Resource.Styleable.CompoundButton_buttonTintMode = global::SmartPriceTest.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_barLength = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_color = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle_color;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_drawableSize = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_spinBars = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_thickness = global::SmartPriceTest.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_gravity = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_orientation = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_divider = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_divider;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_showDividers = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::SmartPriceTest.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::com.refractored.Resource.Styleable.ListPopupWindow = global::SmartPriceTest.Resource.Styleable.ListPopupWindow;
+			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::SmartPriceTest.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::SmartPriceTest.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::com.refractored.Resource.Styleable.MenuGroup = global::SmartPriceTest.Resource.Styleable.MenuGroup;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_checkableBehavior = global::SmartPriceTest.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_enabled = global::SmartPriceTest.Resource.Styleable.MenuGroup_android_enabled;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_id = global::SmartPriceTest.Resource.Styleable.MenuGroup_android_id;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_menuCategory = global::SmartPriceTest.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_orderInCategory = global::SmartPriceTest.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_visible = global::SmartPriceTest.Resource.Styleable.MenuGroup_android_visible;
+			global::com.refractored.Resource.Styleable.MenuItem = global::SmartPriceTest.Resource.Styleable.MenuItem;
+			global::com.refractored.Resource.Styleable.MenuItem_actionLayout = global::SmartPriceTest.Resource.Styleable.MenuItem_actionLayout;
+			global::com.refractored.Resource.Styleable.MenuItem_actionProviderClass = global::SmartPriceTest.Resource.Styleable.MenuItem_actionProviderClass;
+			global::com.refractored.Resource.Styleable.MenuItem_actionViewClass = global::SmartPriceTest.Resource.Styleable.MenuItem_actionViewClass;
+			global::com.refractored.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::SmartPriceTest.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::com.refractored.Resource.Styleable.MenuItem_android_checkable = global::SmartPriceTest.Resource.Styleable.MenuItem_android_checkable;
+			global::com.refractored.Resource.Styleable.MenuItem_android_checked = global::SmartPriceTest.Resource.Styleable.MenuItem_android_checked;
+			global::com.refractored.Resource.Styleable.MenuItem_android_enabled = global::SmartPriceTest.Resource.Styleable.MenuItem_android_enabled;
+			global::com.refractored.Resource.Styleable.MenuItem_android_icon = global::SmartPriceTest.Resource.Styleable.MenuItem_android_icon;
+			global::com.refractored.Resource.Styleable.MenuItem_android_id = global::SmartPriceTest.Resource.Styleable.MenuItem_android_id;
+			global::com.refractored.Resource.Styleable.MenuItem_android_menuCategory = global::SmartPriceTest.Resource.Styleable.MenuItem_android_menuCategory;
+			global::com.refractored.Resource.Styleable.MenuItem_android_numericShortcut = global::SmartPriceTest.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::com.refractored.Resource.Styleable.MenuItem_android_onClick = global::SmartPriceTest.Resource.Styleable.MenuItem_android_onClick;
+			global::com.refractored.Resource.Styleable.MenuItem_android_orderInCategory = global::SmartPriceTest.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::com.refractored.Resource.Styleable.MenuItem_android_title = global::SmartPriceTest.Resource.Styleable.MenuItem_android_title;
+			global::com.refractored.Resource.Styleable.MenuItem_android_titleCondensed = global::SmartPriceTest.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::com.refractored.Resource.Styleable.MenuItem_android_visible = global::SmartPriceTest.Resource.Styleable.MenuItem_android_visible;
+			global::com.refractored.Resource.Styleable.MenuItem_showAsAction = global::SmartPriceTest.Resource.Styleable.MenuItem_showAsAction;
+			global::com.refractored.Resource.Styleable.MenuView = global::SmartPriceTest.Resource.Styleable.MenuView;
+			global::com.refractored.Resource.Styleable.MenuView_android_headerBackground = global::SmartPriceTest.Resource.Styleable.MenuView_android_headerBackground;
+			global::com.refractored.Resource.Styleable.MenuView_android_horizontalDivider = global::SmartPriceTest.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemBackground = global::SmartPriceTest.Resource.Styleable.MenuView_android_itemBackground;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::SmartPriceTest.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemTextAppearance = global::SmartPriceTest.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::com.refractored.Resource.Styleable.MenuView_android_verticalDivider = global::SmartPriceTest.Resource.Styleable.MenuView_android_verticalDivider;
+			global::com.refractored.Resource.Styleable.MenuView_android_windowAnimationStyle = global::SmartPriceTest.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::com.refractored.Resource.Styleable.MenuView_preserveIconSpacing = global::SmartPriceTest.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsScrollOffset = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsScrollOffset;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsShouldExpand = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsShouldExpand;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight = global::SmartPriceTest.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight;
+			global::com.refractored.Resource.Styleable.PopupWindow = global::SmartPriceTest.Resource.Styleable.PopupWindow;
+			global::com.refractored.Resource.Styleable.PopupWindow_android_popupBackground = global::SmartPriceTest.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::com.refractored.Resource.Styleable.PopupWindow_overlapAnchor = global::SmartPriceTest.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState = global::SmartPriceTest.Resource.Styleable.PopupWindowBackgroundState;
+			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::SmartPriceTest.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::com.refractored.Resource.Styleable.SearchView = global::SmartPriceTest.Resource.Styleable.SearchView;
+			global::com.refractored.Resource.Styleable.SearchView_android_focusable = global::SmartPriceTest.Resource.Styleable.SearchView_android_focusable;
+			global::com.refractored.Resource.Styleable.SearchView_android_imeOptions = global::SmartPriceTest.Resource.Styleable.SearchView_android_imeOptions;
+			global::com.refractored.Resource.Styleable.SearchView_android_inputType = global::SmartPriceTest.Resource.Styleable.SearchView_android_inputType;
+			global::com.refractored.Resource.Styleable.SearchView_android_maxWidth = global::SmartPriceTest.Resource.Styleable.SearchView_android_maxWidth;
+			global::com.refractored.Resource.Styleable.SearchView_closeIcon = global::SmartPriceTest.Resource.Styleable.SearchView_closeIcon;
+			global::com.refractored.Resource.Styleable.SearchView_commitIcon = global::SmartPriceTest.Resource.Styleable.SearchView_commitIcon;
+			global::com.refractored.Resource.Styleable.SearchView_defaultQueryHint = global::SmartPriceTest.Resource.Styleable.SearchView_defaultQueryHint;
+			global::com.refractored.Resource.Styleable.SearchView_goIcon = global::SmartPriceTest.Resource.Styleable.SearchView_goIcon;
+			global::com.refractored.Resource.Styleable.SearchView_iconifiedByDefault = global::SmartPriceTest.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::com.refractored.Resource.Styleable.SearchView_layout = global::SmartPriceTest.Resource.Styleable.SearchView_layout;
+			global::com.refractored.Resource.Styleable.SearchView_queryBackground = global::SmartPriceTest.Resource.Styleable.SearchView_queryBackground;
+			global::com.refractored.Resource.Styleable.SearchView_queryHint = global::SmartPriceTest.Resource.Styleable.SearchView_queryHint;
+			global::com.refractored.Resource.Styleable.SearchView_searchHintIcon = global::SmartPriceTest.Resource.Styleable.SearchView_searchHintIcon;
+			global::com.refractored.Resource.Styleable.SearchView_searchIcon = global::SmartPriceTest.Resource.Styleable.SearchView_searchIcon;
+			global::com.refractored.Resource.Styleable.SearchView_submitBackground = global::SmartPriceTest.Resource.Styleable.SearchView_submitBackground;
+			global::com.refractored.Resource.Styleable.SearchView_suggestionRowLayout = global::SmartPriceTest.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::com.refractored.Resource.Styleable.SearchView_voiceIcon = global::SmartPriceTest.Resource.Styleable.SearchView_voiceIcon;
+			global::com.refractored.Resource.Styleable.Spinner = global::SmartPriceTest.Resource.Styleable.Spinner;
+			global::com.refractored.Resource.Styleable.Spinner_android_dropDownWidth = global::SmartPriceTest.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::com.refractored.Resource.Styleable.Spinner_android_entries = global::SmartPriceTest.Resource.Styleable.Spinner_android_entries;
+			global::com.refractored.Resource.Styleable.Spinner_android_popupBackground = global::SmartPriceTest.Resource.Styleable.Spinner_android_popupBackground;
+			global::com.refractored.Resource.Styleable.Spinner_android_prompt = global::SmartPriceTest.Resource.Styleable.Spinner_android_prompt;
+			global::com.refractored.Resource.Styleable.Spinner_popupTheme = global::SmartPriceTest.Resource.Styleable.Spinner_popupTheme;
+			global::com.refractored.Resource.Styleable.SwitchCompat = global::SmartPriceTest.Resource.Styleable.SwitchCompat;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOff = global::SmartPriceTest.Resource.Styleable.SwitchCompat_android_textOff;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOn = global::SmartPriceTest.Resource.Styleable.SwitchCompat_android_textOn;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_thumb = global::SmartPriceTest.Resource.Styleable.SwitchCompat_android_thumb;
+			global::com.refractored.Resource.Styleable.SwitchCompat_showText = global::SmartPriceTest.Resource.Styleable.SwitchCompat_showText;
+			global::com.refractored.Resource.Styleable.SwitchCompat_splitTrack = global::SmartPriceTest.Resource.Styleable.SwitchCompat_splitTrack;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchMinWidth = global::SmartPriceTest.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchPadding = global::SmartPriceTest.Resource.Styleable.SwitchCompat_switchPadding;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchTextAppearance = global::SmartPriceTest.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::com.refractored.Resource.Styleable.SwitchCompat_thumbTextPadding = global::SmartPriceTest.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::com.refractored.Resource.Styleable.SwitchCompat_track = global::SmartPriceTest.Resource.Styleable.SwitchCompat_track;
+			global::com.refractored.Resource.Styleable.TextAppearance = global::SmartPriceTest.Resource.Styleable.TextAppearance;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowColor = global::SmartPriceTest.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowDx = global::SmartPriceTest.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowDy = global::SmartPriceTest.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowRadius = global::SmartPriceTest.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textColor = global::SmartPriceTest.Resource.Styleable.TextAppearance_android_textColor;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textSize = global::SmartPriceTest.Resource.Styleable.TextAppearance_android_textSize;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textStyle = global::SmartPriceTest.Resource.Styleable.TextAppearance_android_textStyle;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_typeface = global::SmartPriceTest.Resource.Styleable.TextAppearance_android_typeface;
+			global::com.refractored.Resource.Styleable.TextAppearance_textAllCaps = global::SmartPriceTest.Resource.Styleable.TextAppearance_textAllCaps;
+			global::com.refractored.Resource.Styleable.Toolbar = global::SmartPriceTest.Resource.Styleable.Toolbar;
+			global::com.refractored.Resource.Styleable.Toolbar_android_gravity = global::SmartPriceTest.Resource.Styleable.Toolbar_android_gravity;
+			global::com.refractored.Resource.Styleable.Toolbar_android_minHeight = global::SmartPriceTest.Resource.Styleable.Toolbar_android_minHeight;
+			global::com.refractored.Resource.Styleable.Toolbar_collapseContentDescription = global::SmartPriceTest.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_collapseIcon = global::SmartPriceTest.Resource.Styleable.Toolbar_collapseIcon;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetEnd = global::SmartPriceTest.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetLeft = global::SmartPriceTest.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetRight = global::SmartPriceTest.Resource.Styleable.Toolbar_contentInsetRight;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetStart = global::SmartPriceTest.Resource.Styleable.Toolbar_contentInsetStart;
+			global::com.refractored.Resource.Styleable.Toolbar_logo = global::SmartPriceTest.Resource.Styleable.Toolbar_logo;
+			global::com.refractored.Resource.Styleable.Toolbar_logoDescription = global::SmartPriceTest.Resource.Styleable.Toolbar_logoDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_maxButtonHeight = global::SmartPriceTest.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::com.refractored.Resource.Styleable.Toolbar_navigationContentDescription = global::SmartPriceTest.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_navigationIcon = global::SmartPriceTest.Resource.Styleable.Toolbar_navigationIcon;
+			global::com.refractored.Resource.Styleable.Toolbar_popupTheme = global::SmartPriceTest.Resource.Styleable.Toolbar_popupTheme;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitle = global::SmartPriceTest.Resource.Styleable.Toolbar_subtitle;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitleTextAppearance = global::SmartPriceTest.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitleTextColor = global::SmartPriceTest.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::com.refractored.Resource.Styleable.Toolbar_title = global::SmartPriceTest.Resource.Styleable.Toolbar_title;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginBottom = global::SmartPriceTest.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginEnd = global::SmartPriceTest.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginStart = global::SmartPriceTest.Resource.Styleable.Toolbar_titleMarginStart;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginTop = global::SmartPriceTest.Resource.Styleable.Toolbar_titleMarginTop;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMargins = global::SmartPriceTest.Resource.Styleable.Toolbar_titleMargins;
+			global::com.refractored.Resource.Styleable.Toolbar_titleTextAppearance = global::SmartPriceTest.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::com.refractored.Resource.Styleable.Toolbar_titleTextColor = global::SmartPriceTest.Resource.Styleable.Toolbar_titleTextColor;
+			global::com.refractored.Resource.Styleable.View = global::SmartPriceTest.Resource.Styleable.View;
+			global::com.refractored.Resource.Styleable.View_android_focusable = global::SmartPriceTest.Resource.Styleable.View_android_focusable;
+			global::com.refractored.Resource.Styleable.View_android_theme = global::SmartPriceTest.Resource.Styleable.View_android_theme;
+			global::com.refractored.Resource.Styleable.View_paddingEnd = global::SmartPriceTest.Resource.Styleable.View_paddingEnd;
+			global::com.refractored.Resource.Styleable.View_paddingStart = global::SmartPriceTest.Resource.Styleable.View_paddingStart;
+			global::com.refractored.Resource.Styleable.View_theme = global::SmartPriceTest.Resource.Styleable.View_theme;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper = global::SmartPriceTest.Resource.Styleable.ViewBackgroundHelper;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_android_background = global::SmartPriceTest.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::SmartPriceTest.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::SmartPriceTest.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::com.refractored.Resource.Styleable.ViewStubCompat = global::SmartPriceTest.Resource.Styleable.ViewStubCompat;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_id = global::SmartPriceTest.Resource.Styleable.ViewStubCompat_android_id;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_inflatedId = global::SmartPriceTest.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_layout = global::SmartPriceTest.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -804,6 +2067,57 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f01001a
 			public const int progressBarStyle = 2130771994;
 			
+			// aapt resource value: 0x7f01015c
+			public const int pstsDividerColor = 2130772316;
+			
+			// aapt resource value: 0x7f010160
+			public const int pstsDividerPadding = 2130772320;
+			
+			// aapt resource value: 0x7f01015d
+			public const int pstsDividerWidth = 2130772317;
+			
+			// aapt resource value: 0x7f01015a
+			public const int pstsIndicatorColor = 2130772314;
+			
+			// aapt resource value: 0x7f01015e
+			public const int pstsIndicatorHeight = 2130772318;
+			
+			// aapt resource value: 0x7f010166
+			public const int pstsPaddingMiddle = 2130772326;
+			
+			// aapt resource value: 0x7f010162
+			public const int pstsScrollOffset = 2130772322;
+			
+			// aapt resource value: 0x7f010164
+			public const int pstsShouldExpand = 2130772324;
+			
+			// aapt resource value: 0x7f010163
+			public const int pstsTabBackground = 2130772323;
+			
+			// aapt resource value: 0x7f010161
+			public const int pstsTabPaddingLeftRight = 2130772321;
+			
+			// aapt resource value: 0x7f010165
+			public const int pstsTextAllCaps = 2130772325;
+			
+			// aapt resource value: 0x7f010168
+			public const int pstsTextAlpha = 2130772328;
+			
+			// aapt resource value: 0x7f010167
+			public const int pstsTextColorSelected = 2130772327;
+			
+			// aapt resource value: 0x7f01016a
+			public const int pstsTextSelectedStyle = 2130772330;
+			
+			// aapt resource value: 0x7f010169
+			public const int pstsTextStyle = 2130772329;
+			
+			// aapt resource value: 0x7f01015b
+			public const int pstsUnderlineColor = 2130772315;
+			
+			// aapt resource value: 0x7f01015f
+			public const int pstsUnderlineHeight = 2130772319;
+			
 			// aapt resource value: 0x7f0100dc
 			public const int queryBackground = 2130772188;
 			
@@ -1187,44 +2501,44 @@ namespace SmartPriceTest
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131492939;
-			
 			// aapt resource value: 0x7f0c004c
-			public const int abc_background_cache_hint_selector_material_light = 2131492940;
+			public const int abc_background_cache_hint_selector_material_dark = 2131492940;
 			
 			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_borderless_text_material = 2131492941;
+			public const int abc_background_cache_hint_selector_material_light = 2131492941;
 			
 			// aapt resource value: 0x7f0c004e
-			public const int abc_btn_colored_text_material = 2131492942;
+			public const int abc_btn_colored_borderless_text_material = 2131492942;
 			
 			// aapt resource value: 0x7f0c004f
-			public const int abc_color_highlight_material = 2131492943;
+			public const int abc_btn_colored_text_material = 2131492943;
 			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_dark = 2131492944;
+			public const int abc_color_highlight_material = 2131492944;
 			
 			// aapt resource value: 0x7f0c0051
-			public const int abc_hint_foreground_material_light = 2131492945;
+			public const int abc_hint_foreground_material_dark = 2131492945;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int abc_hint_foreground_material_light = 2131492946;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int abc_input_method_navigation_guard = 2131492864;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_dark = 2131492946;
-			
 			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_disable_only_material_light = 2131492947;
+			public const int abc_primary_text_disable_only_material_dark = 2131492947;
 			
 			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_dark = 2131492948;
+			public const int abc_primary_text_disable_only_material_light = 2131492948;
 			
 			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_material_light = 2131492949;
+			public const int abc_primary_text_material_dark = 2131492949;
 			
 			// aapt resource value: 0x7f0c0056
-			public const int abc_search_url_text = 2131492950;
+			public const int abc_primary_text_material_light = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int abc_search_url_text = 2131492951;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int abc_search_url_text_normal = 2131492865;
@@ -1235,29 +2549,29 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0c0003
 			public const int abc_search_url_text_selected = 2131492867;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_dark = 2131492951;
-			
 			// aapt resource value: 0x7f0c0058
-			public const int abc_secondary_text_material_light = 2131492952;
+			public const int abc_secondary_text_material_dark = 2131492952;
 			
 			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_btn_checkable = 2131492953;
+			public const int abc_secondary_text_material_light = 2131492953;
 			
 			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_default = 2131492954;
+			public const int abc_tint_btn_checkable = 2131492954;
 			
 			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_edittext = 2131492955;
+			public const int abc_tint_default = 2131492955;
 			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_seek_thumb = 2131492956;
+			public const int abc_tint_edittext = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_spinner = 2131492957;
+			public const int abc_tint_seek_thumb = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			public const int abc_tint_spinner = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int abc_tint_switch_track = 2131492959;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int accent_material_dark = 2131492868;
@@ -1301,20 +2615,20 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0c0011
 			public const int button_material_light = 2131492881;
 			
-			// aapt resource value: 0x7f0c0049
-			public const int colorAccent = 2131492937;
-			
-			// aapt resource value: 0x7f0c0047
-			public const int colorPrimary = 2131492935;
+			// aapt resource value: 0x7f0c004a
+			public const int colorAccent = 2131492938;
 			
 			// aapt resource value: 0x7f0c0048
-			public const int colorPrimaryDark = 2131492936;
+			public const int colorPrimary = 2131492936;
+			
+			// aapt resource value: 0x7f0c0049
+			public const int colorPrimaryDark = 2131492937;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int design_bottom_navigation_shadow_color = 2131492924;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c0060
+			public const int design_error = 2131492960;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int design_fab_shadow_end_color = 2131492925;
@@ -1340,8 +2654,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0c0044
 			public const int design_snackbar_background_color = 2131492932;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c0061
+			public const int design_tint_password_toggle = 2131492961;
 			
 			// aapt resource value: 0x7f0c0012
 			public const int dim_foreground_disabled_material_dark = 2131492882;
@@ -1370,8 +2684,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0c001a
 			public const int highlighted_text_material_light = 2131492890;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int ic_launcher_background = 2131492938;
+			// aapt resource value: 0x7f0c004b
+			public const int ic_launcher_background = 2131492939;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int material_blue_grey_800 = 2131492891;
@@ -1442,6 +2756,9 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0c002e
 			public const int primary_text_disabled_material_light = 2131492910;
 			
+			// aapt resource value: 0x7f0c0047
+			public const int psts_background_tab_pressed = 2131492935;
+			
 			// aapt resource value: 0x7f0c002f
 			public const int ripple_material_dark = 2131492911;
 			
@@ -1466,11 +2783,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0c0036
 			public const int switch_thumb_disabled_material_light = 2131492918;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
-			
 			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			public const int switch_thumb_material_dark = 2131492962;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int switch_thumb_material_light = 2131492963;
 			
 			// aapt resource value: 0x7f0c0037
 			public const int switch_thumb_normal_material_dark = 2131492919;
@@ -2227,26 +3544,26 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006e
-			public const int avd_hide_password_1 = 2130837614;
-			
 			// aapt resource value: 0x7f02006f
-			public const int avd_hide_password_2 = 2130837615;
+			public const int avd_hide_password_1 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int avd_hide_password_3 = 2130837616;
+			public const int avd_hide_password_2 = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int avd_hide_password_3 = 2130837617;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020071
-			public const int avd_show_password_1 = 2130837617;
-			
 			// aapt resource value: 0x7f020072
-			public const int avd_show_password_2 = 2130837618;
+			public const int avd_show_password_1 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int avd_show_password_3 = 2130837619;
+			public const int avd_show_password_2 = 2130837619;
+			
+			// aapt resource value: 0x7f020074
+			public const int avd_show_password_3 = 2130837620;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2293,11 +3610,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f020063
 			public const int notification_icon_background = 2130837603;
 			
-			// aapt resource value: 0x7f02006c
-			public const int notification_template_icon_bg = 2130837612;
-			
 			// aapt resource value: 0x7f02006d
-			public const int notification_template_icon_low_bg = 2130837613;
+			public const int notification_template_icon_bg = 2130837613;
+			
+			// aapt resource value: 0x7f02006e
+			public const int notification_template_icon_low_bg = 2130837614;
 			
 			// aapt resource value: 0x7f020064
 			public const int notification_tile_bg = 2130837604;
@@ -2318,10 +3635,13 @@ namespace SmartPriceTest
 			public const int pic4 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int tooltip_frame_dark = 2130837610;
+			public const int psts_background_tab = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int tooltip_frame_light = 2130837611;
+			public const int tooltip_frame_dark = 2130837611;
+			
+			// aapt resource value: 0x7f02006c
+			public const int tooltip_frame_light = 2130837612;
 			
 			static Drawable()
 			{
@@ -2336,26 +3656,35 @@ namespace SmartPriceTest
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f080031
+			public const int ALT = 2131230769;
+			
+			// aapt resource value: 0x7f08008b
+			public const int AdditionalProp = 2131230859;
+			
 			// aapt resource value: 0x7f080032
-			public const int ALT = 2131230770;
+			public const int CTRL = 2131230770;
+			
+			// aapt resource value: 0x7f08008d
+			public const int DescriptionTextField = 2131230861;
 			
 			// aapt resource value: 0x7f080033
-			public const int CTRL = 2131230771;
+			public const int FUNCTION = 2131230771;
 			
 			// aapt resource value: 0x7f080034
-			public const int FUNCTION = 2131230772;
+			public const int META = 2131230772;
 			
 			// aapt resource value: 0x7f080035
-			public const int META = 2131230773;
+			public const int SHIFT = 2131230773;
 			
 			// aapt resource value: 0x7f080036
-			public const int SHIFT = 2131230774;
+			public const int SYM = 2131230774;
 			
-			// aapt resource value: 0x7f080037
-			public const int SYM = 2131230775;
+			// aapt resource value: 0x7f08008c
+			public const int ShopTextField = 2131230860;
 			
-			// aapt resource value: 0x7f08009d
-			public const int action0 = 2131230877;
+			// aapt resource value: 0x7f0800a2
+			public const int action0 = 2131230882;
 			
 			// aapt resource value: 0x7f08007c
 			public const int action_bar = 2131230844;
@@ -2378,17 +3707,17 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f08005a
 			public const int action_bar_title = 2131230810;
 			
-			// aapt resource value: 0x7f08009a
-			public const int action_container = 2131230874;
+			// aapt resource value: 0x7f08009f
+			public const int action_container = 2131230879;
 			
 			// aapt resource value: 0x7f08007d
 			public const int action_context_bar = 2131230845;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int action_divider = 2131230881;
+			// aapt resource value: 0x7f0800a6
+			public const int action_divider = 2131230886;
 			
-			// aapt resource value: 0x7f08009b
-			public const int action_image = 2131230875;
+			// aapt resource value: 0x7f0800a0
+			public const int action_image = 2131230880;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2405,80 +3734,83 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-			// aapt resource value: 0x7f08009c
-			public const int action_text = 2131230876;
+			// aapt resource value: 0x7f0800a1
+			public const int action_text = 2131230881;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int actions = 2131230890;
+			// aapt resource value: 0x7f0800af
+			public const int actions = 2131230895;
 			
 			// aapt resource value: 0x7f08005d
 			public const int activity_chooser_view_content = 2131230813;
 			
-			// aapt resource value: 0x7f080027
-			public const int add = 2131230759;
+			// aapt resource value: 0x7f08002b
+			public const int add = 2131230763;
 			
 			// aapt resource value: 0x7f080070
 			public const int alertTitle = 2131230832;
 			
-			// aapt resource value: 0x7f080052
-			public const int all = 2131230802;
+			// aapt resource value: 0x7f080051
+			public const int all = 2131230801;
 			
-			// aapt resource value: 0x7f080038
-			public const int always = 2131230776;
+			// aapt resource value: 0x7f080037
+			public const int always = 2131230775;
+			
+			// aapt resource value: 0x7f080055
+			public const int async = 2131230805;
+			
+			// aapt resource value: 0x7f080043
+			public const int auto = 2131230787;
+			
+			// aapt resource value: 0x7f08002e
+			public const int beginning = 2131230766;
 			
 			// aapt resource value: 0x7f080056
-			public const int async = 2131230806;
+			public const int blocking = 2131230806;
 			
-			// aapt resource value: 0x7f080044
-			public const int auto = 2131230788;
+			// aapt resource value: 0x7f080059
+			public const int bold = 2131230809;
 			
-			// aapt resource value: 0x7f08002f
-			public const int beginning = 2131230767;
-			
-			// aapt resource value: 0x7f080057
-			public const int blocking = 2131230807;
-			
-			// aapt resource value: 0x7f08003d
-			public const int bottom = 2131230781;
+			// aapt resource value: 0x7f08003c
+			public const int bottom = 2131230780;
 			
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f08009e
-			public const int cancel_action = 2131230878;
+			// aapt resource value: 0x7f0800a3
+			public const int cancel_action = 2131230883;
+			
+			// aapt resource value: 0x7f080044
+			public const int center = 2131230788;
 			
 			// aapt resource value: 0x7f080045
-			public const int center = 2131230789;
+			public const int center_horizontal = 2131230789;
 			
 			// aapt resource value: 0x7f080046
-			public const int center_horizontal = 2131230790;
-			
-			// aapt resource value: 0x7f080047
-			public const int center_vertical = 2131230791;
+			public const int center_vertical = 2131230790;
 			
 			// aapt resource value: 0x7f080073
 			public const int checkbox = 2131230835;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int chronometer = 2131230886;
+			// aapt resource value: 0x7f0800ab
+			public const int chronometer = 2131230891;
+			
+			// aapt resource value: 0x7f08004d
+			public const int clip_horizontal = 2131230797;
 			
 			// aapt resource value: 0x7f08004e
-			public const int clip_horizontal = 2131230798;
+			public const int clip_vertical = 2131230798;
 			
-			// aapt resource value: 0x7f08004f
-			public const int clip_vertical = 2131230799;
+			// aapt resource value: 0x7f080038
+			public const int collapseActionView = 2131230776;
 			
-			// aapt resource value: 0x7f080039
-			public const int collapseActionView = 2131230777;
-			
-			// aapt resource value: 0x7f08008d
-			public const int container = 2131230861;
+			// aapt resource value: 0x7f080091
+			public const int container = 2131230865;
 			
 			// aapt resource value: 0x7f080066
 			public const int contentPanel = 2131230822;
 			
-			// aapt resource value: 0x7f08008e
-			public const int coordinator = 2131230862;
+			// aapt resource value: 0x7f080092
+			public const int coordinator = 2131230866;
 			
 			// aapt resource value: 0x7f08006d
 			public const int custom = 2131230829;
@@ -2492,41 +3824,41 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080060
 			public const int default_activity_button = 2131230816;
 			
-			// aapt resource value: 0x7f080090
-			public const int design_bottom_sheet = 2131230864;
-			
-			// aapt resource value: 0x7f080097
-			public const int design_menu_item_action_area = 2131230871;
-			
-			// aapt resource value: 0x7f080096
-			public const int design_menu_item_action_area_stub = 2131230870;
-			
-			// aapt resource value: 0x7f080095
-			public const int design_menu_item_text = 2131230869;
-			
 			// aapt resource value: 0x7f080094
-			public const int design_navigation_view = 2131230868;
+			public const int design_bottom_sheet = 2131230868;
 			
-			// aapt resource value: 0x7f080020
-			public const int disableHome = 2131230752;
+			// aapt resource value: 0x7f08009b
+			public const int design_menu_item_action_area = 2131230875;
+			
+			// aapt resource value: 0x7f08009a
+			public const int design_menu_item_action_area_stub = 2131230874;
+			
+			// aapt resource value: 0x7f080099
+			public const int design_menu_item_text = 2131230873;
+			
+			// aapt resource value: 0x7f080098
+			public const int design_navigation_view = 2131230872;
+			
+			// aapt resource value: 0x7f08001f
+			public const int disableHome = 2131230751;
 			
 			// aapt resource value: 0x7f08007e
 			public const int edit_query = 2131230846;
 			
-			// aapt resource value: 0x7f080030
-			public const int end = 2131230768;
+			// aapt resource value: 0x7f08002f
+			public const int end = 2131230767;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int end_padder = 2131230892;
+			// aapt resource value: 0x7f0800b1
+			public const int end_padder = 2131230897;
+			
+			// aapt resource value: 0x7f08003e
+			public const int enterAlways = 2131230782;
 			
 			// aapt resource value: 0x7f08003f
-			public const int enterAlways = 2131230783;
+			public const int enterAlwaysCollapsed = 2131230783;
 			
 			// aapt resource value: 0x7f080040
-			public const int enterAlwaysCollapsed = 2131230784;
-			
-			// aapt resource value: 0x7f080041
-			public const int exitUntilCollapsed = 2131230785;
+			public const int exitUntilCollapsed = 2131230784;
 			
 			// aapt resource value: 0x7f08005e
 			public const int expand_activities_button = 2131230814;
@@ -2534,20 +3866,20 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080072
 			public const int expanded_menu = 2131230834;
 			
+			// aapt resource value: 0x7f08004f
+			public const int fill = 2131230799;
+			
 			// aapt resource value: 0x7f080050
-			public const int fill = 2131230800;
+			public const int fill_horizontal = 2131230800;
 			
-			// aapt resource value: 0x7f080051
-			public const int fill_horizontal = 2131230801;
+			// aapt resource value: 0x7f080047
+			public const int fill_vertical = 2131230791;
 			
-			// aapt resource value: 0x7f080048
-			public const int fill_vertical = 2131230792;
+			// aapt resource value: 0x7f080053
+			public const int @fixed = 2131230803;
 			
-			// aapt resource value: 0x7f080054
-			public const int @fixed = 2131230804;
-			
-			// aapt resource value: 0x7f080058
-			public const int forever = 2131230808;
+			// aapt resource value: 0x7f080057
+			public const int forever = 2131230807;
 			
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
@@ -2555,35 +3887,35 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
 			
-			// aapt resource value: 0x7f080021
-			public const int homeAsUp = 2131230753;
+			// aapt resource value: 0x7f080020
+			public const int homeAsUp = 2131230752;
 			
 			// aapt resource value: 0x7f080062
 			public const int icon = 2131230818;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int icon_group = 2131230891;
+			// aapt resource value: 0x7f0800b0
+			public const int icon_group = 2131230896;
 			
-			// aapt resource value: 0x7f08003a
-			public const int ifRoom = 2131230778;
+			// aapt resource value: 0x7f080039
+			public const int ifRoom = 2131230777;
 			
 			// aapt resource value: 0x7f08005f
 			public const int image = 2131230815;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int info = 2131230887;
+			// aapt resource value: 0x7f0800ac
+			public const int info = 2131230892;
 			
-			// aapt resource value: 0x7f080059
-			public const int italic = 2131230809;
+			// aapt resource value: 0x7f080058
+			public const int italic = 2131230808;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f08008c
-			public const int largeLabel = 2131230860;
+			// aapt resource value: 0x7f080090
+			public const int largeLabel = 2131230864;
 			
-			// aapt resource value: 0x7f080049
-			public const int left = 2131230793;
+			// aapt resource value: 0x7f080048
+			public const int left = 2131230792;
 			
 			// aapt resource value: 0x7f080017
 			public const int line1 = 2131230743;
@@ -2591,56 +3923,59 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080018
 			public const int line3 = 2131230744;
 			
-			// aapt resource value: 0x7f08001d
-			public const int listMode = 2131230749;
+			// aapt resource value: 0x7f08001c
+			public const int listMode = 2131230748;
 			
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int masked = 2131230897;
+			// aapt resource value: 0x7f0800b8
+			public const int masked = 2131230904;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int media_actions = 2131230880;
+			// aapt resource value: 0x7f0800a5
+			public const int media_actions = 2131230885;
 			
-			// aapt resource value: 0x7f0800af
-			public const int message = 2131230895;
+			// aapt resource value: 0x7f0800b6
+			public const int message = 2131230902;
 			
-			// aapt resource value: 0x7f080031
-			public const int middle = 2131230769;
+			// aapt resource value: 0x7f080030
+			public const int middle = 2131230768;
 			
-			// aapt resource value: 0x7f080053
-			public const int mini = 2131230803;
+			// aapt resource value: 0x7f080052
+			public const int mini = 2131230802;
 			
-			// aapt resource value: 0x7f080028
-			public const int multiply = 2131230760;
+			// aapt resource value: 0x7f080026
+			public const int multiply = 2131230758;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int nameTxt = 2131230900;
+			
+			// aapt resource value: 0x7f080097
+			public const int navigation_header_container = 2131230871;
+			
+			// aapt resource value: 0x7f08003a
+			public const int never = 2131230778;
+			
+			// aapt resource value: 0x7f080021
+			public const int none = 2131230753;
+			
+			// aapt resource value: 0x7f08001d
+			public const int normal = 2131230749;
 			
 			// aapt resource value: 0x7f0800ae
-			public const int nameTxt = 2131230894;
+			public const int notification_background = 2131230894;
 			
-			// aapt resource value: 0x7f080093
-			public const int navigation_header_container = 2131230867;
+			// aapt resource value: 0x7f0800a8
+			public const int notification_main_column = 2131230888;
 			
-			// aapt resource value: 0x7f08003b
-			public const int never = 2131230779;
+			// aapt resource value: 0x7f0800a7
+			public const int notification_main_column_container = 2131230887;
 			
-			// aapt resource value: 0x7f080022
-			public const int none = 2131230754;
+			// aapt resource value: 0x7f08009e
+			public const int pager = 2131230878;
 			
-			// aapt resource value: 0x7f08001e
-			public const int normal = 2131230750;
-			
-			// aapt resource value: 0x7f0800a9
-			public const int notification_background = 2131230889;
-			
-			// aapt resource value: 0x7f0800a3
-			public const int notification_main_column = 2131230883;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int notification_main_column_container = 2131230882;
-			
-			// aapt resource value: 0x7f08004c
-			public const int parallax = 2131230796;
+			// aapt resource value: 0x7f08004b
+			public const int parallax = 2131230795;
 			
 			// aapt resource value: 0x7f080065
 			public const int parentPanel = 2131230821;
@@ -2648,14 +3983,14 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f08000b
 			public const int parent_matrix = 2131230731;
 			
-			// aapt resource value: 0x7f08004d
-			public const int pin = 2131230797;
+			// aapt resource value: 0x7f08004c
+			public const int pin = 2131230796;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int productImg = 2131230893;
+			// aapt resource value: 0x7f0800b3
+			public const int productImg = 2131230899;
 			
-			// aapt resource value: 0x7f080099
-			public const int productsList = 2131230873;
+			// aapt resource value: 0x7f0800b2
+			public const int productsList = 2131230898;
 			
 			// aapt resource value: 0x7f080006
 			public const int progress_circular = 2131230726;
@@ -2663,17 +3998,20 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
+			// aapt resource value: 0x7f0800b5
+			public const int psts_tab_title = 2131230901;
+			
 			// aapt resource value: 0x7f080075
 			public const int radio = 2131230837;
 			
-			// aapt resource value: 0x7f08004a
-			public const int right = 2131230794;
+			// aapt resource value: 0x7f080049
+			public const int right = 2131230793;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int right_icon = 2131230888;
+			// aapt resource value: 0x7f0800ad
+			public const int right_icon = 2131230893;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int right_side = 2131230884;
+			// aapt resource value: 0x7f0800a9
+			public const int right_side = 2131230889;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2684,11 +4022,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f08000e
 			public const int save_scale_type = 2131230734;
 			
-			// aapt resource value: 0x7f080029
-			public const int screen = 2131230761;
+			// aapt resource value: 0x7f080027
+			public const int screen = 2131230759;
 			
-			// aapt resource value: 0x7f080042
-			public const int scroll = 2131230786;
+			// aapt resource value: 0x7f080041
+			public const int scroll = 2131230785;
 			
 			// aapt resource value: 0x7f08006b
 			public const int scrollIndicatorDown = 2131230827;
@@ -2699,8 +4037,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080068
 			public const int scrollView = 2131230824;
 			
-			// aapt resource value: 0x7f080055
-			public const int scrollable = 2131230805;
+			// aapt resource value: 0x7f080054
+			public const int scrollable = 2131230804;
 			
 			// aapt resource value: 0x7f080080
 			public const int search_badge = 2131230848;
@@ -2738,26 +4076,26 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080074
 			public const int shortcut = 2131230836;
 			
+			// aapt resource value: 0x7f080022
+			public const int showCustom = 2131230754;
+			
 			// aapt resource value: 0x7f080023
-			public const int showCustom = 2131230755;
+			public const int showHome = 2131230755;
 			
 			// aapt resource value: 0x7f080024
-			public const int showHome = 2131230756;
+			public const int showTitle = 2131230756;
 			
-			// aapt resource value: 0x7f080025
-			public const int showTitle = 2131230757;
+			// aapt resource value: 0x7f08008f
+			public const int smallLabel = 2131230863;
 			
-			// aapt resource value: 0x7f08008b
-			public const int smallLabel = 2131230859;
+			// aapt resource value: 0x7f080096
+			public const int snackbar_action = 2131230870;
 			
-			// aapt resource value: 0x7f080092
-			public const int snackbar_action = 2131230866;
+			// aapt resource value: 0x7f080095
+			public const int snackbar_text = 2131230869;
 			
-			// aapt resource value: 0x7f080091
-			public const int snackbar_text = 2131230865;
-			
-			// aapt resource value: 0x7f080043
-			public const int snap = 2131230787;
+			// aapt resource value: 0x7f080042
+			public const int snap = 2131230786;
 			
 			// aapt resource value: 0x7f080064
 			public const int spacer = 2131230820;
@@ -2765,20 +4103,20 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
 			
+			// aapt resource value: 0x7f080028
+			public const int src_atop = 2131230760;
+			
+			// aapt resource value: 0x7f080029
+			public const int src_in = 2131230761;
+			
 			// aapt resource value: 0x7f08002a
-			public const int src_atop = 2131230762;
+			public const int src_over = 2131230762;
 			
-			// aapt resource value: 0x7f08002b
-			public const int src_in = 2131230763;
+			// aapt resource value: 0x7f08004a
+			public const int start = 2131230794;
 			
-			// aapt resource value: 0x7f08002c
-			public const int src_over = 2131230764;
-			
-			// aapt resource value: 0x7f08004b
-			public const int start = 2131230795;
-			
-			// aapt resource value: 0x7f08009f
-			public const int status_bar_latest_event_content = 2131230879;
+			// aapt resource value: 0x7f0800a4
+			public const int status_bar_latest_event_content = 2131230884;
 			
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
@@ -2786,17 +4124,17 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080087
 			public const int submit_area = 2131230855;
 			
-			// aapt resource value: 0x7f08001f
-			public const int tabMode = 2131230751;
+			// aapt resource value: 0x7f08001e
+			public const int tabMode = 2131230750;
+			
+			// aapt resource value: 0x7f08009d
+			public const int tabs = 2131230877;
 			
 			// aapt resource value: 0x7f080019
-			public const int tag_transition_group = 2131230745;
+			public const int text = 2131230745;
 			
 			// aapt resource value: 0x7f08001a
-			public const int text = 2131230746;
-			
-			// aapt resource value: 0x7f08001b
-			public const int text2 = 2131230747;
+			public const int text2 = 2131230746;
 			
 			// aapt resource value: 0x7f08006a
 			public const int textSpacerNoButtons = 2131230826;
@@ -2804,8 +4142,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080069
 			public const int textSpacerNoTitle = 2131230825;
 			
-			// aapt resource value: 0x7f080098
-			public const int text_input_password_toggle = 2131230872;
+			// aapt resource value: 0x7f08008e
+			public const int textView = 2131230862;
+			
+			// aapt resource value: 0x7f08009c
+			public const int text_input_password_toggle = 2131230876;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;
@@ -2813,11 +4154,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int time = 2131230885;
+			// aapt resource value: 0x7f0800aa
+			public const int time = 2131230890;
 			
-			// aapt resource value: 0x7f08001c
-			public const int title = 2131230748;
+			// aapt resource value: 0x7f08001b
+			public const int title = 2131230747;
 			
 			// aapt resource value: 0x7f080071
 			public const int titleDividerNoCustom = 2131230833;
@@ -2825,14 +4166,14 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f08006f
 			public const int title_template = 2131230831;
 			
-			// aapt resource value: 0x7f08003e
-			public const int top = 2131230782;
+			// aapt resource value: 0x7f08003d
+			public const int top = 2131230781;
 			
 			// aapt resource value: 0x7f08006e
 			public const int topPanel = 2131230830;
 			
-			// aapt resource value: 0x7f08008f
-			public const int touch_outside = 2131230863;
+			// aapt resource value: 0x7f080093
+			public const int touch_outside = 2131230867;
 			
 			// aapt resource value: 0x7f08000f
 			public const int transition_current_scene = 2131230735;
@@ -2849,26 +4190,26 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080013
 			public const int transition_transform = 2131230739;
 			
-			// aapt resource value: 0x7f08002d
-			public const int uniform = 2131230765;
+			// aapt resource value: 0x7f08002c
+			public const int uniform = 2131230764;
 			
 			// aapt resource value: 0x7f080009
 			public const int up = 2131230729;
 			
-			// aapt resource value: 0x7f080026
-			public const int useLogo = 2131230758;
+			// aapt resource value: 0x7f080025
+			public const int useLogo = 2131230757;
 			
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int visible = 2131230896;
+			// aapt resource value: 0x7f0800b7
+			public const int visible = 2131230903;
 			
-			// aapt resource value: 0x7f08003c
-			public const int withText = 2131230780;
+			// aapt resource value: 0x7f08003b
+			public const int withText = 2131230779;
 			
-			// aapt resource value: 0x7f08002e
-			public const int wrap_content = 2131230766;
+			// aapt resource value: 0x7f08002d
+			public const int wrap_content = 2131230765;
 			
 			static Id()
 			{
@@ -2933,184 +4274,199 @@ namespace SmartPriceTest
 			public const int abc_action_bar_up_container = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int abc_action_menu_item_layout = 2130968578;
+			public const int abc_action_bar_view_list_nav_layout = 2130968578;
 			
 			// aapt resource value: 0x7f040003
-			public const int abc_action_menu_layout = 2130968579;
+			public const int abc_action_menu_item_layout = 2130968579;
 			
 			// aapt resource value: 0x7f040004
-			public const int abc_action_mode_bar = 2130968580;
+			public const int abc_action_menu_layout = 2130968580;
 			
 			// aapt resource value: 0x7f040005
-			public const int abc_action_mode_close_item_material = 2130968581;
+			public const int abc_action_mode_bar = 2130968581;
 			
 			// aapt resource value: 0x7f040006
-			public const int abc_activity_chooser_view = 2130968582;
+			public const int abc_action_mode_close_item_material = 2130968582;
 			
 			// aapt resource value: 0x7f040007
-			public const int abc_activity_chooser_view_list_item = 2130968583;
+			public const int abc_activity_chooser_view = 2130968583;
 			
 			// aapt resource value: 0x7f040008
-			public const int abc_alert_dialog_button_bar_material = 2130968584;
+			public const int abc_activity_chooser_view_list_item = 2130968584;
 			
 			// aapt resource value: 0x7f040009
-			public const int abc_alert_dialog_material = 2130968585;
+			public const int abc_alert_dialog_button_bar_material = 2130968585;
 			
 			// aapt resource value: 0x7f04000a
-			public const int abc_alert_dialog_title_material = 2130968586;
+			public const int abc_alert_dialog_material = 2130968586;
 			
 			// aapt resource value: 0x7f04000b
-			public const int abc_dialog_title_material = 2130968587;
+			public const int abc_alert_dialog_title_material = 2130968587;
 			
 			// aapt resource value: 0x7f04000c
-			public const int abc_expanded_menu_layout = 2130968588;
+			public const int abc_dialog_title_material = 2130968588;
 			
 			// aapt resource value: 0x7f04000d
-			public const int abc_list_menu_item_checkbox = 2130968589;
+			public const int abc_expanded_menu_layout = 2130968589;
 			
 			// aapt resource value: 0x7f04000e
-			public const int abc_list_menu_item_icon = 2130968590;
+			public const int abc_list_menu_item_checkbox = 2130968590;
 			
 			// aapt resource value: 0x7f04000f
-			public const int abc_list_menu_item_layout = 2130968591;
+			public const int abc_list_menu_item_icon = 2130968591;
 			
 			// aapt resource value: 0x7f040010
-			public const int abc_list_menu_item_radio = 2130968592;
+			public const int abc_list_menu_item_layout = 2130968592;
 			
 			// aapt resource value: 0x7f040011
-			public const int abc_popup_menu_header_item_layout = 2130968593;
+			public const int abc_list_menu_item_radio = 2130968593;
 			
 			// aapt resource value: 0x7f040012
-			public const int abc_popup_menu_item_layout = 2130968594;
+			public const int abc_popup_menu_header_item_layout = 2130968594;
 			
 			// aapt resource value: 0x7f040013
-			public const int abc_screen_content_include = 2130968595;
+			public const int abc_popup_menu_item_layout = 2130968595;
 			
 			// aapt resource value: 0x7f040014
-			public const int abc_screen_simple = 2130968596;
+			public const int abc_screen_content_include = 2130968596;
 			
 			// aapt resource value: 0x7f040015
-			public const int abc_screen_simple_overlay_action_mode = 2130968597;
+			public const int abc_screen_simple = 2130968597;
 			
 			// aapt resource value: 0x7f040016
-			public const int abc_screen_toolbar = 2130968598;
+			public const int abc_screen_simple_overlay_action_mode = 2130968598;
 			
 			// aapt resource value: 0x7f040017
-			public const int abc_search_dropdown_item_icons_2line = 2130968599;
+			public const int abc_screen_toolbar = 2130968599;
 			
 			// aapt resource value: 0x7f040018
-			public const int abc_search_view = 2130968600;
+			public const int abc_search_dropdown_item_icons_2line = 2130968600;
 			
 			// aapt resource value: 0x7f040019
-			public const int abc_select_dialog_material = 2130968601;
+			public const int abc_search_view = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int design_bottom_navigation_item = 2130968602;
+			public const int abc_select_dialog_material = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_bottom_sheet_dialog = 2130968603;
+			public const int AdditionalProps = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_layout_snackbar = 2130968604;
+			public const int CameraFragment = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_snackbar_include = 2130968605;
+			public const int design_bottom_navigation_item = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_tab_icon = 2130968606;
+			public const int design_bottom_sheet_dialog = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_tab_text = 2130968607;
+			public const int design_layout_snackbar = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_menu_item_action_area = 2130968608;
+			public const int design_layout_snackbar_include = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_navigation_item = 2130968609;
+			public const int design_layout_tab_icon = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item_header = 2130968610;
+			public const int design_layout_tab_text = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item_separator = 2130968611;
+			public const int design_menu_item_action_area = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_subheader = 2130968612;
+			public const int design_navigation_item = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_menu = 2130968613;
+			public const int design_navigation_item_header = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_menu_item = 2130968614;
+			public const int design_navigation_item_separator = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_text_input_password_icon = 2130968615;
+			public const int design_navigation_item_subheader = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int Main = 2130968616;
+			public const int design_navigation_menu = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_action = 2130968617;
+			public const int design_navigation_menu_item = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action_tombstone = 2130968618;
+			public const int design_text_input_password_icon = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_media_action = 2130968619;
+			public const int Main = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_cancel_action = 2130968620;
+			public const int notification_action = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_big_media = 2130968621;
+			public const int notification_action_tombstone = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media_custom = 2130968622;
+			public const int notification_media_action = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_narrow = 2130968623;
+			public const int notification_media_cancel_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow_custom = 2130968624;
+			public const int notification_template_big_media = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_custom_big = 2130968625;
+			public const int notification_template_big_media_custom = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_icon_group = 2130968626;
+			public const int notification_template_big_media_narrow = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_lines_media = 2130968627;
+			public const int notification_template_big_media_narrow_custom = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_media = 2130968628;
+			public const int notification_template_custom_big = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media_custom = 2130968629;
+			public const int notification_template_icon_group = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_part_chronometer = 2130968630;
+			public const int notification_template_lines_media = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_time = 2130968631;
+			public const int notification_template_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int ProductRow = 2130968632;
+			public const int notification_template_media_custom = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int select_dialog_item_material = 2130968633;
+			public const int notification_template_part_chronometer = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_multichoice_material = 2130968634;
+			public const int notification_template_part_time = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int select_dialog_singlechoice_material = 2130968635;
+			public const int ProductList = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int support_simple_spinner_dropdown_item = 2130968636;
+			public const int ProductRow = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int tooltip = 2130968637;
+			public const int psts_tab = 2130968637;
+			
+			// aapt resource value: 0x7f04003e
+			public const int select_dialog_item_material = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int select_dialog_multichoice_material = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int select_dialog_singlechoice_material = 2130968640;
+			
+			// aapt resource value: 0x7f040041
+			public const int support_simple_spinner_dropdown_item = 2130968641;
+			
+			// aapt resource value: 0x7f040042
+			public const int tooltip = 2130968642;
 			
 			static Layout()
 			{
@@ -3151,124 +4507,130 @@ namespace SmartPriceTest
 			public const int abc_action_bar_home_description = 2131296256;
 			
 			// aapt resource value: 0x7f090001
-			public const int abc_action_bar_up_description = 2131296257;
+			public const int abc_action_bar_home_description_format = 2131296257;
 			
 			// aapt resource value: 0x7f090002
-			public const int abc_action_menu_overflow_description = 2131296258;
+			public const int abc_action_bar_home_subtitle_description_format = 2131296258;
 			
 			// aapt resource value: 0x7f090003
-			public const int abc_action_mode_done = 2131296259;
+			public const int abc_action_bar_up_description = 2131296259;
 			
 			// aapt resource value: 0x7f090004
-			public const int abc_activity_chooser_view_see_all = 2131296260;
+			public const int abc_action_menu_overflow_description = 2131296260;
 			
 			// aapt resource value: 0x7f090005
-			public const int abc_activitychooserview_choose_application = 2131296261;
+			public const int abc_action_mode_done = 2131296261;
 			
 			// aapt resource value: 0x7f090006
-			public const int abc_capital_off = 2131296262;
+			public const int abc_activity_chooser_view_see_all = 2131296262;
 			
 			// aapt resource value: 0x7f090007
-			public const int abc_capital_on = 2131296263;
-			
-			// aapt resource value: 0x7f090012
-			public const int abc_font_family_body_1_material = 2131296274;
-			
-			// aapt resource value: 0x7f090013
-			public const int abc_font_family_body_2_material = 2131296275;
-			
-			// aapt resource value: 0x7f090014
-			public const int abc_font_family_button_material = 2131296276;
-			
-			// aapt resource value: 0x7f090015
-			public const int abc_font_family_caption_material = 2131296277;
-			
-			// aapt resource value: 0x7f090016
-			public const int abc_font_family_display_1_material = 2131296278;
-			
-			// aapt resource value: 0x7f090017
-			public const int abc_font_family_display_2_material = 2131296279;
-			
-			// aapt resource value: 0x7f090018
-			public const int abc_font_family_display_3_material = 2131296280;
-			
-			// aapt resource value: 0x7f090019
-			public const int abc_font_family_display_4_material = 2131296281;
-			
-			// aapt resource value: 0x7f09001a
-			public const int abc_font_family_headline_material = 2131296282;
-			
-			// aapt resource value: 0x7f09001b
-			public const int abc_font_family_menu_material = 2131296283;
-			
-			// aapt resource value: 0x7f09001c
-			public const int abc_font_family_subhead_material = 2131296284;
-			
-			// aapt resource value: 0x7f09001d
-			public const int abc_font_family_title_material = 2131296285;
+			public const int abc_activitychooserview_choose_application = 2131296263;
 			
 			// aapt resource value: 0x7f090008
-			public const int abc_search_hint = 2131296264;
+			public const int abc_capital_off = 2131296264;
 			
 			// aapt resource value: 0x7f090009
-			public const int abc_searchview_description_clear = 2131296265;
+			public const int abc_capital_on = 2131296265;
 			
-			// aapt resource value: 0x7f09000a
-			public const int abc_searchview_description_query = 2131296266;
+			// aapt resource value: 0x7f090015
+			public const int abc_font_family_body_1_material = 2131296277;
 			
-			// aapt resource value: 0x7f09000b
-			public const int abc_searchview_description_search = 2131296267;
+			// aapt resource value: 0x7f090016
+			public const int abc_font_family_body_2_material = 2131296278;
 			
-			// aapt resource value: 0x7f09000c
-			public const int abc_searchview_description_submit = 2131296268;
+			// aapt resource value: 0x7f090017
+			public const int abc_font_family_button_material = 2131296279;
 			
-			// aapt resource value: 0x7f09000d
-			public const int abc_searchview_description_voice = 2131296269;
+			// aapt resource value: 0x7f090018
+			public const int abc_font_family_caption_material = 2131296280;
 			
-			// aapt resource value: 0x7f09000e
-			public const int abc_shareactionprovider_share_with = 2131296270;
+			// aapt resource value: 0x7f090019
+			public const int abc_font_family_display_1_material = 2131296281;
 			
-			// aapt resource value: 0x7f09000f
-			public const int abc_shareactionprovider_share_with_application = 2131296271;
+			// aapt resource value: 0x7f09001a
+			public const int abc_font_family_display_2_material = 2131296282;
 			
-			// aapt resource value: 0x7f090010
-			public const int abc_toolbar_collapse_description = 2131296272;
+			// aapt resource value: 0x7f09001b
+			public const int abc_font_family_display_3_material = 2131296283;
 			
-			// aapt resource value: 0x7f090028
-			public const int action_settings = 2131296296;
+			// aapt resource value: 0x7f09001c
+			public const int abc_font_family_display_4_material = 2131296284;
 			
-			// aapt resource value: 0x7f090027
-			public const int app_name = 2131296295;
+			// aapt resource value: 0x7f09001d
+			public const int abc_font_family_headline_material = 2131296285;
 			
 			// aapt resource value: 0x7f09001e
-			public const int appbar_scrolling_view_behavior = 2131296286;
+			public const int abc_font_family_menu_material = 2131296286;
 			
 			// aapt resource value: 0x7f09001f
-			public const int bottom_sheet_behavior = 2131296287;
+			public const int abc_font_family_subhead_material = 2131296287;
 			
 			// aapt resource value: 0x7f090020
-			public const int character_counter_pattern = 2131296288;
+			public const int abc_font_family_title_material = 2131296288;
 			
-			// aapt resource value: 0x7f090021
-			public const int password_toggle_content_description = 2131296289;
+			// aapt resource value: 0x7f09000a
+			public const int abc_search_hint = 2131296266;
 			
-			// aapt resource value: 0x7f090022
-			public const int path_password_eye = 2131296290;
+			// aapt resource value: 0x7f09000b
+			public const int abc_searchview_description_clear = 2131296267;
 			
-			// aapt resource value: 0x7f090023
-			public const int path_password_eye_mask_strike_through = 2131296291;
+			// aapt resource value: 0x7f09000c
+			public const int abc_searchview_description_query = 2131296268;
 			
-			// aapt resource value: 0x7f090024
-			public const int path_password_eye_mask_visible = 2131296292;
+			// aapt resource value: 0x7f09000d
+			public const int abc_searchview_description_search = 2131296269;
 			
-			// aapt resource value: 0x7f090025
-			public const int path_password_strike_through = 2131296293;
+			// aapt resource value: 0x7f09000e
+			public const int abc_searchview_description_submit = 2131296270;
+			
+			// aapt resource value: 0x7f09000f
+			public const int abc_searchview_description_voice = 2131296271;
+			
+			// aapt resource value: 0x7f090010
+			public const int abc_shareactionprovider_share_with = 2131296272;
 			
 			// aapt resource value: 0x7f090011
-			public const int search_menu_title = 2131296273;
+			public const int abc_shareactionprovider_share_with_application = 2131296273;
+			
+			// aapt resource value: 0x7f090012
+			public const int abc_toolbar_collapse_description = 2131296274;
+			
+			// aapt resource value: 0x7f09002a
+			public const int action_settings = 2131296298;
+			
+			// aapt resource value: 0x7f090029
+			public const int app_name = 2131296297;
+			
+			// aapt resource value: 0x7f090021
+			public const int appbar_scrolling_view_behavior = 2131296289;
+			
+			// aapt resource value: 0x7f090022
+			public const int bottom_sheet_behavior = 2131296290;
+			
+			// aapt resource value: 0x7f090023
+			public const int character_counter_pattern = 2131296291;
+			
+			// aapt resource value: 0x7f090024
+			public const int password_toggle_content_description = 2131296292;
+			
+			// aapt resource value: 0x7f090025
+			public const int path_password_eye = 2131296293;
 			
 			// aapt resource value: 0x7f090026
-			public const int status_bar_notification_info_overflow = 2131296294;
+			public const int path_password_eye_mask_strike_through = 2131296294;
+			
+			// aapt resource value: 0x7f090027
+			public const int path_password_eye_mask_visible = 2131296295;
+			
+			// aapt resource value: 0x7f090028
+			public const int path_password_strike_through = 2131296296;
+			
+			// aapt resource value: 0x7f090013
+			public const int search_menu_title = 2131296275;
+			
+			// aapt resource value: 0x7f090014
+			public const int status_bar_notification_info_overflow = 2131296276;
 			
 			static String()
 			{
@@ -3283,47 +4645,47 @@ namespace SmartPriceTest
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0a0095
-			public const int AlertDialog_AppCompat = 2131361941;
-			
-			// aapt resource value: 0x7f0a0096
-			public const int AlertDialog_AppCompat_Light = 2131361942;
-			
-			// aapt resource value: 0x7f0a0097
-			public const int Animation_AppCompat_Dialog = 2131361943;
-			
-			// aapt resource value: 0x7f0a0098
-			public const int Animation_AppCompat_DropDownUp = 2131361944;
-			
-			// aapt resource value: 0x7f0a0099
-			public const int Animation_AppCompat_Tooltip = 2131361945;
-			
-			// aapt resource value: 0x7f0a015f
-			public const int Animation_Design_BottomSheetDialog = 2131362143;
-			
-			// aapt resource value: 0x7f0a0180
-			public const int AppTheme = 2131362176;
-			
-			// aapt resource value: 0x7f0a009a
-			public const int Base_AlertDialog_AppCompat = 2131361946;
-			
-			// aapt resource value: 0x7f0a009b
-			public const int Base_AlertDialog_AppCompat_Light = 2131361947;
-			
-			// aapt resource value: 0x7f0a009c
-			public const int Base_Animation_AppCompat_Dialog = 2131361948;
-			
 			// aapt resource value: 0x7f0a009d
-			public const int Base_Animation_AppCompat_DropDownUp = 2131361949;
+			public const int AlertDialog_AppCompat = 2131361949;
 			
 			// aapt resource value: 0x7f0a009e
-			public const int Base_Animation_AppCompat_Tooltip = 2131361950;
+			public const int AlertDialog_AppCompat_Light = 2131361950;
 			
 			// aapt resource value: 0x7f0a009f
-			public const int Base_DialogWindowTitle_AppCompat = 2131361951;
+			public const int Animation_AppCompat_Dialog = 2131361951;
 			
 			// aapt resource value: 0x7f0a00a0
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361952;
+			public const int Animation_AppCompat_DropDownUp = 2131361952;
+			
+			// aapt resource value: 0x7f0a00a1
+			public const int Animation_AppCompat_Tooltip = 2131361953;
+			
+			// aapt resource value: 0x7f0a0169
+			public const int Animation_Design_BottomSheetDialog = 2131362153;
+			
+			// aapt resource value: 0x7f0a018a
+			public const int AppTheme = 2131362186;
+			
+			// aapt resource value: 0x7f0a00a2
+			public const int Base_AlertDialog_AppCompat = 2131361954;
+			
+			// aapt resource value: 0x7f0a00a3
+			public const int Base_AlertDialog_AppCompat_Light = 2131361955;
+			
+			// aapt resource value: 0x7f0a00a4
+			public const int Base_Animation_AppCompat_Dialog = 2131361956;
+			
+			// aapt resource value: 0x7f0a00a5
+			public const int Base_Animation_AppCompat_DropDownUp = 2131361957;
+			
+			// aapt resource value: 0x7f0a00a6
+			public const int Base_Animation_AppCompat_Tooltip = 2131361958;
+			
+			// aapt resource value: 0x7f0a00a7
+			public const int Base_DialogWindowTitle_AppCompat = 2131361959;
+			
+			// aapt resource value: 0x7f0a00a8
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361960;
 			
 			// aapt resource value: 0x7f0a0039
 			public const int Base_TextAppearance_AppCompat = 2131361849;
@@ -3379,8 +4741,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0046
 			public const int Base_TextAppearance_AppCompat_Menu = 2131361862;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361953;
+			// aapt resource value: 0x7f0a00a9
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361961;
 			
 			// aapt resource value: 0x7f0a0047
 			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131361863;
@@ -3406,11 +4768,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0010
 			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131361808;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131361954;
+			// aapt resource value: 0x7f0a00aa
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131361962;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131361926;
+			// aapt resource value: 0x7f0a008e
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131361934;
 			
 			// aapt resource value: 0x7f0a004c
 			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131361868;
@@ -3433,17 +4795,17 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0052
 			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131361874;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131361933;
+			// aapt resource value: 0x7f0a0095
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131361941;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131361934;
+			// aapt resource value: 0x7f0a0096
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131361942;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131361927;
+			// aapt resource value: 0x7f0a008f
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131361935;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131361955;
+			// aapt resource value: 0x7f0a00ab
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131361963;
 			
 			// aapt resource value: 0x7f0a0053
 			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131361875;
@@ -3460,8 +4822,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0057
 			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131361879;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131361956;
+			// aapt resource value: 0x7f0a00ac
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131361964;
 			
 			// aapt resource value: 0x7f0a0058
 			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131361880;
@@ -3472,8 +4834,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a005a
 			public const int Base_Theme_AppCompat = 2131361882;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int Base_Theme_AppCompat_CompactMenu = 2131361957;
+			// aapt resource value: 0x7f0a00ad
+			public const int Base_Theme_AppCompat_CompactMenu = 2131361965;
 			
 			// aapt resource value: 0x7f0a0011
 			public const int Base_Theme_AppCompat_Dialog = 2131361809;
@@ -3481,8 +4843,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0012
 			public const int Base_Theme_AppCompat_Dialog_Alert = 2131361810;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131361958;
+			// aapt resource value: 0x7f0a00ae
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131361966;
 			
 			// aapt resource value: 0x7f0a0013
 			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131361811;
@@ -3493,8 +4855,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a005b
 			public const int Base_Theme_AppCompat_Light = 2131361883;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131361959;
+			// aapt resource value: 0x7f0a00af
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131361967;
 			
 			// aapt resource value: 0x7f0a0014
 			public const int Base_Theme_AppCompat_Light_Dialog = 2131361812;
@@ -3502,8 +4864,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0015
 			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131361813;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131361960;
+			// aapt resource value: 0x7f0a00b0
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131361968;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131361814;
@@ -3511,17 +4873,17 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0002
 			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131361794;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int Base_ThemeOverlay_AppCompat = 2131361961;
+			// aapt resource value: 0x7f0a00b1
+			public const int Base_ThemeOverlay_AppCompat = 2131361969;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131361962;
+			// aapt resource value: 0x7f0a00b2
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131361970;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131361963;
+			// aapt resource value: 0x7f0a00b3
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131361971;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131361964;
+			// aapt resource value: 0x7f0a00b4
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131361972;
 			
 			// aapt resource value: 0x7f0a0017
 			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131361815;
@@ -3529,8 +4891,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0018
 			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131361816;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131361965;
+			// aapt resource value: 0x7f0a00b5
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131361973;
 			
 			// aapt resource value: 0x7f0a0019
 			public const int Base_V11_Theme_AppCompat_Dialog = 2131361817;
@@ -3547,8 +4909,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0024
 			public const int Base_V12_Widget_AppCompat_EditText = 2131361828;
 			
-			// aapt resource value: 0x7f0a0160
-			public const int Base_V14_Widget_Design_AppBarLayout = 2131362144;
+			// aapt resource value: 0x7f0a016a
+			public const int Base_V14_Widget_Design_AppBarLayout = 2131362154;
 			
 			// aapt resource value: 0x7f0a005c
 			public const int Base_V21_Theme_AppCompat = 2131361884;
@@ -3565,65 +4927,65 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0060
 			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131361888;
 			
-			// aapt resource value: 0x7f0a015c
-			public const int Base_V21_Widget_Design_AppBarLayout = 2131362140;
+			// aapt resource value: 0x7f0a0166
+			public const int Base_V21_Widget_Design_AppBarLayout = 2131362150;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int Base_V22_Theme_AppCompat = 2131361924;
+			// aapt resource value: 0x7f0a008c
+			public const int Base_V22_Theme_AppCompat = 2131361932;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int Base_V22_Theme_AppCompat_Light = 2131361925;
+			// aapt resource value: 0x7f0a008d
+			public const int Base_V22_Theme_AppCompat_Light = 2131361933;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int Base_V23_Theme_AppCompat = 2131361928;
-			
-			// aapt resource value: 0x7f0a0089
-			public const int Base_V23_Theme_AppCompat_Light = 2131361929;
+			// aapt resource value: 0x7f0a0090
+			public const int Base_V23_Theme_AppCompat = 2131361936;
 			
 			// aapt resource value: 0x7f0a0091
-			public const int Base_V26_Theme_AppCompat = 2131361937;
+			public const int Base_V23_Theme_AppCompat_Light = 2131361937;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int Base_V26_Theme_AppCompat_Light = 2131361938;
+			// aapt resource value: 0x7f0a0099
+			public const int Base_V26_Theme_AppCompat = 2131361945;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131361939;
+			// aapt resource value: 0x7f0a009a
+			public const int Base_V26_Theme_AppCompat_Light = 2131361946;
 			
-			// aapt resource value: 0x7f0a015e
-			public const int Base_V26_Widget_Design_AppBarLayout = 2131362142;
+			// aapt resource value: 0x7f0a009b
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131361947;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int Base_V7_Theme_AppCompat = 2131361966;
-			
-			// aapt resource value: 0x7f0a00af
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131361967;
-			
-			// aapt resource value: 0x7f0a00b0
-			public const int Base_V7_Theme_AppCompat_Light = 2131361968;
-			
-			// aapt resource value: 0x7f0a00b1
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131361969;
-			
-			// aapt resource value: 0x7f0a00b2
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131361970;
-			
-			// aapt resource value: 0x7f0a00b3
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131361971;
-			
-			// aapt resource value: 0x7f0a00b4
-			public const int Base_V7_Widget_AppCompat_EditText = 2131361972;
-			
-			// aapt resource value: 0x7f0a00b5
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131361973;
+			// aapt resource value: 0x7f0a0168
+			public const int Base_V26_Widget_Design_AppBarLayout = 2131362152;
 			
 			// aapt resource value: 0x7f0a00b6
-			public const int Base_Widget_AppCompat_ActionBar = 2131361974;
+			public const int Base_V7_Theme_AppCompat = 2131361974;
 			
 			// aapt resource value: 0x7f0a00b7
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131361975;
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131361975;
 			
 			// aapt resource value: 0x7f0a00b8
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131361976;
+			public const int Base_V7_Theme_AppCompat_Light = 2131361976;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131361977;
+			
+			// aapt resource value: 0x7f0a00ba
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131361978;
+			
+			// aapt resource value: 0x7f0a00bb
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131361979;
+			
+			// aapt resource value: 0x7f0a00bc
+			public const int Base_V7_Widget_AppCompat_EditText = 2131361980;
+			
+			// aapt resource value: 0x7f0a00bd
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131361981;
+			
+			// aapt resource value: 0x7f0a00be
+			public const int Base_Widget_AppCompat_ActionBar = 2131361982;
+			
+			// aapt resource value: 0x7f0a00bf
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131361983;
+			
+			// aapt resource value: 0x7f0a00c0
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131361984;
 			
 			// aapt resource value: 0x7f0a0061
 			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131361889;
@@ -3640,11 +5002,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0065
 			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131361893;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int Base_Widget_AppCompat_ActionMode = 2131361977;
+			// aapt resource value: 0x7f0a00c1
+			public const int Base_Widget_AppCompat_ActionMode = 2131361985;
 			
-			// aapt resource value: 0x7f0a00ba
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131361978;
+			// aapt resource value: 0x7f0a00c2
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131361986;
 			
 			// aapt resource value: 0x7f0a0025
 			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131361829;
@@ -3658,11 +5020,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0068
 			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131361896;
 			
-			// aapt resource value: 0x7f0a00bb
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131361979;
+			// aapt resource value: 0x7f0a00c3
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131361987;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int Base_Widget_AppCompat_Button_Colored = 2131361930;
+			// aapt resource value: 0x7f0a0092
+			public const int Base_Widget_AppCompat_Button_Colored = 2131361938;
 			
 			// aapt resource value: 0x7f0a0069
 			public const int Base_Widget_AppCompat_Button_Small = 2131361897;
@@ -3670,8 +5032,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a006a
 			public const int Base_Widget_AppCompat_ButtonBar = 2131361898;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131361980;
+			// aapt resource value: 0x7f0a00c4
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131361988;
 			
 			// aapt resource value: 0x7f0a006b
 			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131361899;
@@ -3679,14 +5041,14 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a006c
 			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131361900;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131361981;
+			// aapt resource value: 0x7f0a00c5
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131361989;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131361792;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131361982;
+			// aapt resource value: 0x7f0a00c6
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131361990;
 			
 			// aapt resource value: 0x7f0a006d
 			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131361901;
@@ -3697,14 +5059,14 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a006e
 			public const int Base_Widget_AppCompat_ImageButton = 2131361902;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131361983;
+			// aapt resource value: 0x7f0a00c7
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131361991;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131361984;
+			// aapt resource value: 0x7f0a00c8
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131361992;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131361985;
+			// aapt resource value: 0x7f0a00c9
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131361993;
 			
 			// aapt resource value: 0x7f0a006f
 			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131361903;
@@ -3721,8 +5083,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0073
 			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131361907;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int Base_Widget_AppCompat_ListMenuView = 2131361986;
+			// aapt resource value: 0x7f0a00ca
+			public const int Base_Widget_AppCompat_ListMenuView = 2131361994;
 			
 			// aapt resource value: 0x7f0a0074
 			public const int Base_Widget_AppCompat_ListPopupWindow = 2131361908;
@@ -3742,8 +5104,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0079
 			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131361913;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int Base_Widget_AppCompat_PopupWindow = 2131361987;
+			// aapt resource value: 0x7f0a00cb
+			public const int Base_Widget_AppCompat_PopupWindow = 2131361995;
 			
 			// aapt resource value: 0x7f0a001c
 			public const int Base_Widget_AppCompat_ProgressBar = 2131361820;
@@ -3754,23 +5116,23 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a007a
 			public const int Base_Widget_AppCompat_RatingBar = 2131361914;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131361931;
+			// aapt resource value: 0x7f0a0093
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131361939;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131361932;
+			// aapt resource value: 0x7f0a0094
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131361940;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int Base_Widget_AppCompat_SearchView = 2131361988;
+			// aapt resource value: 0x7f0a00cc
+			public const int Base_Widget_AppCompat_SearchView = 2131361996;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131361989;
+			// aapt resource value: 0x7f0a00cd
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131361997;
 			
 			// aapt resource value: 0x7f0a007b
 			public const int Base_Widget_AppCompat_SeekBar = 2131361915;
 			
-			// aapt resource value: 0x7f0a00c6
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131361990;
+			// aapt resource value: 0x7f0a00ce
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131361998;
 			
 			// aapt resource value: 0x7f0a007c
 			public const int Base_Widget_AppCompat_Spinner = 2131361916;
@@ -3781,17 +5143,17 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a007d
 			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131361917;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int Base_Widget_AppCompat_Toolbar = 2131361940;
+			// aapt resource value: 0x7f0a009c
+			public const int Base_Widget_AppCompat_Toolbar = 2131361948;
 			
 			// aapt resource value: 0x7f0a007e
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131361918;
 			
-			// aapt resource value: 0x7f0a015d
-			public const int Base_Widget_Design_AppBarLayout = 2131362141;
+			// aapt resource value: 0x7f0a0167
+			public const int Base_Widget_Design_AppBarLayout = 2131362151;
 			
-			// aapt resource value: 0x7f0a0161
-			public const int Base_Widget_Design_TabLayout = 2131362145;
+			// aapt resource value: 0x7f0a016b
+			public const int Base_Widget_Design_TabLayout = 2131362155;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int Platform_AppCompat = 2131361822;
@@ -3826,11 +5188,11 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0083
 			public const int Platform_V21_AppCompat_Light = 2131361923;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int Platform_V25_AppCompat = 2131361935;
+			// aapt resource value: 0x7f0a0097
+			public const int Platform_V25_AppCompat = 2131361943;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int Platform_V25_AppCompat_Light = 2131361936;
+			// aapt resource value: 0x7f0a0098
+			public const int Platform_V25_AppCompat_Light = 2131361944;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int Platform_Widget_AppCompat_Spinner = 2131361826;
@@ -3877,215 +5239,245 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a0038
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131361848;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int TextAppearance_AppCompat = 2131361991;
-			
-			// aapt resource value: 0x7f0a00c8
-			public const int TextAppearance_AppCompat_Body1 = 2131361992;
-			
-			// aapt resource value: 0x7f0a00c9
-			public const int TextAppearance_AppCompat_Body2 = 2131361993;
-			
-			// aapt resource value: 0x7f0a00ca
-			public const int TextAppearance_AppCompat_Button = 2131361994;
-			
-			// aapt resource value: 0x7f0a00cb
-			public const int TextAppearance_AppCompat_Caption = 2131361995;
-			
-			// aapt resource value: 0x7f0a00cc
-			public const int TextAppearance_AppCompat_Display1 = 2131361996;
-			
-			// aapt resource value: 0x7f0a00cd
-			public const int TextAppearance_AppCompat_Display2 = 2131361997;
-			
-			// aapt resource value: 0x7f0a00ce
-			public const int TextAppearance_AppCompat_Display3 = 2131361998;
-			
 			// aapt resource value: 0x7f0a00cf
-			public const int TextAppearance_AppCompat_Display4 = 2131361999;
+			public const int TextAppearance_AppCompat = 2131361999;
 			
 			// aapt resource value: 0x7f0a00d0
-			public const int TextAppearance_AppCompat_Headline = 2131362000;
+			public const int TextAppearance_AppCompat_Body1 = 2131362000;
 			
 			// aapt resource value: 0x7f0a00d1
-			public const int TextAppearance_AppCompat_Inverse = 2131362001;
+			public const int TextAppearance_AppCompat_Body2 = 2131362001;
 			
 			// aapt resource value: 0x7f0a00d2
-			public const int TextAppearance_AppCompat_Large = 2131362002;
+			public const int TextAppearance_AppCompat_Button = 2131362002;
 			
 			// aapt resource value: 0x7f0a00d3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131362003;
+			public const int TextAppearance_AppCompat_Caption = 2131362003;
 			
 			// aapt resource value: 0x7f0a00d4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131362004;
+			public const int TextAppearance_AppCompat_Display1 = 2131362004;
 			
 			// aapt resource value: 0x7f0a00d5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131362005;
+			public const int TextAppearance_AppCompat_Display2 = 2131362005;
 			
 			// aapt resource value: 0x7f0a00d6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131362006;
+			public const int TextAppearance_AppCompat_Display3 = 2131362006;
 			
 			// aapt resource value: 0x7f0a00d7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131362007;
+			public const int TextAppearance_AppCompat_Display4 = 2131362007;
 			
 			// aapt resource value: 0x7f0a00d8
-			public const int TextAppearance_AppCompat_Medium = 2131362008;
+			public const int TextAppearance_AppCompat_Headline = 2131362008;
 			
 			// aapt resource value: 0x7f0a00d9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131362009;
+			public const int TextAppearance_AppCompat_Inverse = 2131362009;
 			
 			// aapt resource value: 0x7f0a00da
-			public const int TextAppearance_AppCompat_Menu = 2131362010;
+			public const int TextAppearance_AppCompat_Large = 2131362010;
 			
 			// aapt resource value: 0x7f0a00db
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131362011;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131362011;
 			
 			// aapt resource value: 0x7f0a00dc
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131362012;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131362012;
 			
 			// aapt resource value: 0x7f0a00dd
-			public const int TextAppearance_AppCompat_Small = 2131362013;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131362013;
 			
 			// aapt resource value: 0x7f0a00de
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131362014;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131362014;
 			
 			// aapt resource value: 0x7f0a00df
-			public const int TextAppearance_AppCompat_Subhead = 2131362015;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131362015;
 			
 			// aapt resource value: 0x7f0a00e0
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131362016;
+			public const int TextAppearance_AppCompat_Medium = 2131362016;
 			
 			// aapt resource value: 0x7f0a00e1
-			public const int TextAppearance_AppCompat_Title = 2131362017;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131362017;
 			
 			// aapt resource value: 0x7f0a00e2
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131362018;
+			public const int TextAppearance_AppCompat_Menu = 2131362018;
+			
+			// aapt resource value: 0x7f0a0084
+			public const int TextAppearance_AppCompat_Notification = 2131361924;
+			
+			// aapt resource value: 0x7f0a0085
+			public const int TextAppearance_AppCompat_Notification_Info = 2131361925;
+			
+			// aapt resource value: 0x7f0a0086
+			public const int TextAppearance_AppCompat_Notification_Info_Media = 2131361926;
+			
+			// aapt resource value: 0x7f0a00e3
+			public const int TextAppearance_AppCompat_Notification_Line2 = 2131362019;
+			
+			// aapt resource value: 0x7f0a00e4
+			public const int TextAppearance_AppCompat_Notification_Line2_Media = 2131362020;
+			
+			// aapt resource value: 0x7f0a0087
+			public const int TextAppearance_AppCompat_Notification_Media = 2131361927;
+			
+			// aapt resource value: 0x7f0a0088
+			public const int TextAppearance_AppCompat_Notification_Time = 2131361928;
+			
+			// aapt resource value: 0x7f0a0089
+			public const int TextAppearance_AppCompat_Notification_Time_Media = 2131361929;
+			
+			// aapt resource value: 0x7f0a008a
+			public const int TextAppearance_AppCompat_Notification_Title = 2131361930;
+			
+			// aapt resource value: 0x7f0a008b
+			public const int TextAppearance_AppCompat_Notification_Title_Media = 2131361931;
+			
+			// aapt resource value: 0x7f0a00e5
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131362021;
+			
+			// aapt resource value: 0x7f0a00e6
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131362022;
+			
+			// aapt resource value: 0x7f0a00e7
+			public const int TextAppearance_AppCompat_Small = 2131362023;
+			
+			// aapt resource value: 0x7f0a00e8
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131362024;
+			
+			// aapt resource value: 0x7f0a00e9
+			public const int TextAppearance_AppCompat_Subhead = 2131362025;
+			
+			// aapt resource value: 0x7f0a00ea
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131362026;
+			
+			// aapt resource value: 0x7f0a00eb
+			public const int TextAppearance_AppCompat_Title = 2131362027;
+			
+			// aapt resource value: 0x7f0a00ec
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131362028;
 			
 			// aapt resource value: 0x7f0a002a
 			public const int TextAppearance_AppCompat_Tooltip = 2131361834;
 			
-			// aapt resource value: 0x7f0a00e3
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131362019;
-			
-			// aapt resource value: 0x7f0a00e4
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131362020;
-			
-			// aapt resource value: 0x7f0a00e5
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131362021;
-			
-			// aapt resource value: 0x7f0a00e6
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131362022;
-			
-			// aapt resource value: 0x7f0a00e7
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131362023;
-			
-			// aapt resource value: 0x7f0a00e8
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131362024;
-			
-			// aapt resource value: 0x7f0a00e9
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131362025;
-			
-			// aapt resource value: 0x7f0a00ea
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131362026;
-			
-			// aapt resource value: 0x7f0a00eb
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131362027;
-			
-			// aapt resource value: 0x7f0a00ec
-			public const int TextAppearance_AppCompat_Widget_Button = 2131362028;
-			
 			// aapt resource value: 0x7f0a00ed
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131362029;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131362029;
 			
 			// aapt resource value: 0x7f0a00ee
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131362030;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131362030;
 			
 			// aapt resource value: 0x7f0a00ef
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131362031;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131362031;
 			
 			// aapt resource value: 0x7f0a00f0
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131362032;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131362032;
 			
 			// aapt resource value: 0x7f0a00f1
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131362033;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131362033;
 			
 			// aapt resource value: 0x7f0a00f2
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131362034;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131362034;
 			
 			// aapt resource value: 0x7f0a00f3
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131362035;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131362035;
 			
 			// aapt resource value: 0x7f0a00f4
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131362036;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131362036;
 			
 			// aapt resource value: 0x7f0a00f5
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131362037;
-			
-			// aapt resource value: 0x7f0a0179
-			public const int TextAppearance_Compat_Notification = 2131362169;
-			
-			// aapt resource value: 0x7f0a017a
-			public const int TextAppearance_Compat_Notification_Info = 2131362170;
-			
-			// aapt resource value: 0x7f0a0156
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131362134;
-			
-			// aapt resource value: 0x7f0a017f
-			public const int TextAppearance_Compat_Notification_Line2 = 2131362175;
-			
-			// aapt resource value: 0x7f0a015a
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131362138;
-			
-			// aapt resource value: 0x7f0a0157
-			public const int TextAppearance_Compat_Notification_Media = 2131362135;
-			
-			// aapt resource value: 0x7f0a017b
-			public const int TextAppearance_Compat_Notification_Time = 2131362171;
-			
-			// aapt resource value: 0x7f0a0158
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131362136;
-			
-			// aapt resource value: 0x7f0a017c
-			public const int TextAppearance_Compat_Notification_Title = 2131362172;
-			
-			// aapt resource value: 0x7f0a0159
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131362137;
-			
-			// aapt resource value: 0x7f0a0162
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131362146;
-			
-			// aapt resource value: 0x7f0a0163
-			public const int TextAppearance_Design_Counter = 2131362147;
-			
-			// aapt resource value: 0x7f0a0164
-			public const int TextAppearance_Design_Counter_Overflow = 2131362148;
-			
-			// aapt resource value: 0x7f0a0165
-			public const int TextAppearance_Design_Error = 2131362149;
-			
-			// aapt resource value: 0x7f0a0166
-			public const int TextAppearance_Design_Hint = 2131362150;
-			
-			// aapt resource value: 0x7f0a0167
-			public const int TextAppearance_Design_Snackbar_Message = 2131362151;
-			
-			// aapt resource value: 0x7f0a0168
-			public const int TextAppearance_Design_Tab = 2131362152;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131362037;
 			
 			// aapt resource value: 0x7f0a00f6
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131362038;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131362038;
 			
 			// aapt resource value: 0x7f0a00f7
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131362039;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131362039;
 			
 			// aapt resource value: 0x7f0a00f8
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131362040;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131362040;
 			
 			// aapt resource value: 0x7f0a00f9
-			public const int Theme_AppCompat = 2131362041;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131362041;
 			
 			// aapt resource value: 0x7f0a00fa
-			public const int Theme_AppCompat_CompactMenu = 2131362042;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131362042;
+			
+			// aapt resource value: 0x7f0a00fb
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131362043;
+			
+			// aapt resource value: 0x7f0a00fc
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131362044;
+			
+			// aapt resource value: 0x7f0a00fd
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131362045;
+			
+			// aapt resource value: 0x7f0a00fe
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131362046;
+			
+			// aapt resource value: 0x7f0a00ff
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131362047;
+			
+			// aapt resource value: 0x7f0a0183
+			public const int TextAppearance_Compat_Notification = 2131362179;
+			
+			// aapt resource value: 0x7f0a0184
+			public const int TextAppearance_Compat_Notification_Info = 2131362180;
+			
+			// aapt resource value: 0x7f0a0160
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131362144;
+			
+			// aapt resource value: 0x7f0a0189
+			public const int TextAppearance_Compat_Notification_Line2 = 2131362185;
+			
+			// aapt resource value: 0x7f0a0164
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131362148;
+			
+			// aapt resource value: 0x7f0a0161
+			public const int TextAppearance_Compat_Notification_Media = 2131362145;
+			
+			// aapt resource value: 0x7f0a0185
+			public const int TextAppearance_Compat_Notification_Time = 2131362181;
+			
+			// aapt resource value: 0x7f0a0162
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131362146;
+			
+			// aapt resource value: 0x7f0a0186
+			public const int TextAppearance_Compat_Notification_Title = 2131362182;
+			
+			// aapt resource value: 0x7f0a0163
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131362147;
+			
+			// aapt resource value: 0x7f0a016c
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131362156;
+			
+			// aapt resource value: 0x7f0a016d
+			public const int TextAppearance_Design_Counter = 2131362157;
+			
+			// aapt resource value: 0x7f0a016e
+			public const int TextAppearance_Design_Counter_Overflow = 2131362158;
+			
+			// aapt resource value: 0x7f0a016f
+			public const int TextAppearance_Design_Error = 2131362159;
+			
+			// aapt resource value: 0x7f0a0170
+			public const int TextAppearance_Design_Hint = 2131362160;
+			
+			// aapt resource value: 0x7f0a0171
+			public const int TextAppearance_Design_Snackbar_Message = 2131362161;
+			
+			// aapt resource value: 0x7f0a0172
+			public const int TextAppearance_Design_Tab = 2131362162;
+			
+			// aapt resource value: 0x7f0a0100
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131362048;
+			
+			// aapt resource value: 0x7f0a0101
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131362049;
+			
+			// aapt resource value: 0x7f0a0102
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131362050;
+			
+			// aapt resource value: 0x7f0a0103
+			public const int Theme_AppCompat = 2131362051;
+			
+			// aapt resource value: 0x7f0a0104
+			public const int Theme_AppCompat_CompactMenu = 2131362052;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int Theme_AppCompat_DayNight = 2131361796;
@@ -4108,335 +5500,335 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f0a000a
 			public const int Theme_AppCompat_DayNight_NoActionBar = 2131361802;
 			
-			// aapt resource value: 0x7f0a00fb
-			public const int Theme_AppCompat_Dialog = 2131362043;
-			
-			// aapt resource value: 0x7f0a00fc
-			public const int Theme_AppCompat_Dialog_Alert = 2131362044;
-			
-			// aapt resource value: 0x7f0a00fd
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131362045;
-			
-			// aapt resource value: 0x7f0a00fe
-			public const int Theme_AppCompat_DialogWhenLarge = 2131362046;
-			
-			// aapt resource value: 0x7f0a00ff
-			public const int Theme_AppCompat_Light = 2131362047;
-			
-			// aapt resource value: 0x7f0a0100
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131362048;
-			
-			// aapt resource value: 0x7f0a0101
-			public const int Theme_AppCompat_Light_Dialog = 2131362049;
-			
-			// aapt resource value: 0x7f0a0102
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131362050;
-			
-			// aapt resource value: 0x7f0a0103
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131362051;
-			
-			// aapt resource value: 0x7f0a0104
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131362052;
-			
 			// aapt resource value: 0x7f0a0105
-			public const int Theme_AppCompat_Light_NoActionBar = 2131362053;
+			public const int Theme_AppCompat_Dialog = 2131362053;
 			
 			// aapt resource value: 0x7f0a0106
-			public const int Theme_AppCompat_NoActionBar = 2131362054;
-			
-			// aapt resource value: 0x7f0a0169
-			public const int Theme_Design = 2131362153;
-			
-			// aapt resource value: 0x7f0a016a
-			public const int Theme_Design_BottomSheetDialog = 2131362154;
-			
-			// aapt resource value: 0x7f0a016b
-			public const int Theme_Design_Light = 2131362155;
-			
-			// aapt resource value: 0x7f0a016c
-			public const int Theme_Design_Light_BottomSheetDialog = 2131362156;
-			
-			// aapt resource value: 0x7f0a016d
-			public const int Theme_Design_Light_NoActionBar = 2131362157;
-			
-			// aapt resource value: 0x7f0a016e
-			public const int Theme_Design_NoActionBar = 2131362158;
+			public const int Theme_AppCompat_Dialog_Alert = 2131362054;
 			
 			// aapt resource value: 0x7f0a0107
-			public const int ThemeOverlay_AppCompat = 2131362055;
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131362055;
 			
 			// aapt resource value: 0x7f0a0108
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131362056;
+			public const int Theme_AppCompat_DialogWhenLarge = 2131362056;
 			
 			// aapt resource value: 0x7f0a0109
-			public const int ThemeOverlay_AppCompat_Dark = 2131362057;
+			public const int Theme_AppCompat_Light = 2131362057;
 			
 			// aapt resource value: 0x7f0a010a
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131362058;
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131362058;
 			
 			// aapt resource value: 0x7f0a010b
-			public const int ThemeOverlay_AppCompat_Dialog = 2131362059;
+			public const int Theme_AppCompat_Light_Dialog = 2131362059;
 			
 			// aapt resource value: 0x7f0a010c
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131362060;
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131362060;
 			
 			// aapt resource value: 0x7f0a010d
-			public const int ThemeOverlay_AppCompat_Light = 2131362061;
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131362061;
 			
 			// aapt resource value: 0x7f0a010e
-			public const int Widget_AppCompat_ActionBar = 2131362062;
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131362062;
 			
 			// aapt resource value: 0x7f0a010f
-			public const int Widget_AppCompat_ActionBar_Solid = 2131362063;
+			public const int Theme_AppCompat_Light_NoActionBar = 2131362063;
 			
 			// aapt resource value: 0x7f0a0110
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131362064;
-			
-			// aapt resource value: 0x7f0a0111
-			public const int Widget_AppCompat_ActionBar_TabText = 2131362065;
-			
-			// aapt resource value: 0x7f0a0112
-			public const int Widget_AppCompat_ActionBar_TabView = 2131362066;
-			
-			// aapt resource value: 0x7f0a0113
-			public const int Widget_AppCompat_ActionButton = 2131362067;
-			
-			// aapt resource value: 0x7f0a0114
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131362068;
-			
-			// aapt resource value: 0x7f0a0115
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131362069;
-			
-			// aapt resource value: 0x7f0a0116
-			public const int Widget_AppCompat_ActionMode = 2131362070;
-			
-			// aapt resource value: 0x7f0a0117
-			public const int Widget_AppCompat_ActivityChooserView = 2131362071;
-			
-			// aapt resource value: 0x7f0a0118
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131362072;
-			
-			// aapt resource value: 0x7f0a0119
-			public const int Widget_AppCompat_Button = 2131362073;
-			
-			// aapt resource value: 0x7f0a011a
-			public const int Widget_AppCompat_Button_Borderless = 2131362074;
-			
-			// aapt resource value: 0x7f0a011b
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131362075;
-			
-			// aapt resource value: 0x7f0a011c
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362076;
-			
-			// aapt resource value: 0x7f0a011d
-			public const int Widget_AppCompat_Button_Colored = 2131362077;
-			
-			// aapt resource value: 0x7f0a011e
-			public const int Widget_AppCompat_Button_Small = 2131362078;
-			
-			// aapt resource value: 0x7f0a011f
-			public const int Widget_AppCompat_ButtonBar = 2131362079;
-			
-			// aapt resource value: 0x7f0a0120
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131362080;
-			
-			// aapt resource value: 0x7f0a0121
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131362081;
-			
-			// aapt resource value: 0x7f0a0122
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131362082;
-			
-			// aapt resource value: 0x7f0a0123
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131362083;
-			
-			// aapt resource value: 0x7f0a0124
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131362084;
-			
-			// aapt resource value: 0x7f0a0125
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131362085;
-			
-			// aapt resource value: 0x7f0a0126
-			public const int Widget_AppCompat_EditText = 2131362086;
-			
-			// aapt resource value: 0x7f0a0127
-			public const int Widget_AppCompat_ImageButton = 2131362087;
-			
-			// aapt resource value: 0x7f0a0128
-			public const int Widget_AppCompat_Light_ActionBar = 2131362088;
-			
-			// aapt resource value: 0x7f0a0129
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131362089;
-			
-			// aapt resource value: 0x7f0a012a
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131362090;
-			
-			// aapt resource value: 0x7f0a012b
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131362091;
-			
-			// aapt resource value: 0x7f0a012c
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131362092;
-			
-			// aapt resource value: 0x7f0a012d
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131362093;
-			
-			// aapt resource value: 0x7f0a012e
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131362094;
-			
-			// aapt resource value: 0x7f0a012f
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131362095;
-			
-			// aapt resource value: 0x7f0a0130
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131362096;
-			
-			// aapt resource value: 0x7f0a0131
-			public const int Widget_AppCompat_Light_ActionButton = 2131362097;
-			
-			// aapt resource value: 0x7f0a0132
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131362098;
-			
-			// aapt resource value: 0x7f0a0133
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131362099;
-			
-			// aapt resource value: 0x7f0a0134
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131362100;
-			
-			// aapt resource value: 0x7f0a0135
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131362101;
-			
-			// aapt resource value: 0x7f0a0136
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131362102;
-			
-			// aapt resource value: 0x7f0a0137
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131362103;
-			
-			// aapt resource value: 0x7f0a0138
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131362104;
-			
-			// aapt resource value: 0x7f0a0139
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131362105;
-			
-			// aapt resource value: 0x7f0a013a
-			public const int Widget_AppCompat_Light_PopupMenu = 2131362106;
-			
-			// aapt resource value: 0x7f0a013b
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131362107;
-			
-			// aapt resource value: 0x7f0a013c
-			public const int Widget_AppCompat_Light_SearchView = 2131362108;
-			
-			// aapt resource value: 0x7f0a013d
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131362109;
-			
-			// aapt resource value: 0x7f0a013e
-			public const int Widget_AppCompat_ListMenuView = 2131362110;
-			
-			// aapt resource value: 0x7f0a013f
-			public const int Widget_AppCompat_ListPopupWindow = 2131362111;
-			
-			// aapt resource value: 0x7f0a0140
-			public const int Widget_AppCompat_ListView = 2131362112;
-			
-			// aapt resource value: 0x7f0a0141
-			public const int Widget_AppCompat_ListView_DropDown = 2131362113;
-			
-			// aapt resource value: 0x7f0a0142
-			public const int Widget_AppCompat_ListView_Menu = 2131362114;
-			
-			// aapt resource value: 0x7f0a0143
-			public const int Widget_AppCompat_PopupMenu = 2131362115;
-			
-			// aapt resource value: 0x7f0a0144
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131362116;
-			
-			// aapt resource value: 0x7f0a0145
-			public const int Widget_AppCompat_PopupWindow = 2131362117;
-			
-			// aapt resource value: 0x7f0a0146
-			public const int Widget_AppCompat_ProgressBar = 2131362118;
-			
-			// aapt resource value: 0x7f0a0147
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131362119;
-			
-			// aapt resource value: 0x7f0a0148
-			public const int Widget_AppCompat_RatingBar = 2131362120;
-			
-			// aapt resource value: 0x7f0a0149
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131362121;
-			
-			// aapt resource value: 0x7f0a014a
-			public const int Widget_AppCompat_RatingBar_Small = 2131362122;
-			
-			// aapt resource value: 0x7f0a014b
-			public const int Widget_AppCompat_SearchView = 2131362123;
-			
-			// aapt resource value: 0x7f0a014c
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131362124;
-			
-			// aapt resource value: 0x7f0a014d
-			public const int Widget_AppCompat_SeekBar = 2131362125;
-			
-			// aapt resource value: 0x7f0a014e
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131362126;
-			
-			// aapt resource value: 0x7f0a014f
-			public const int Widget_AppCompat_Spinner = 2131362127;
-			
-			// aapt resource value: 0x7f0a0150
-			public const int Widget_AppCompat_Spinner_DropDown = 2131362128;
-			
-			// aapt resource value: 0x7f0a0151
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131362129;
-			
-			// aapt resource value: 0x7f0a0152
-			public const int Widget_AppCompat_Spinner_Underlined = 2131362130;
-			
-			// aapt resource value: 0x7f0a0153
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131362131;
-			
-			// aapt resource value: 0x7f0a0154
-			public const int Widget_AppCompat_Toolbar = 2131362132;
-			
-			// aapt resource value: 0x7f0a0155
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131362133;
-			
-			// aapt resource value: 0x7f0a017d
-			public const int Widget_Compat_NotificationActionContainer = 2131362173;
-			
-			// aapt resource value: 0x7f0a017e
-			public const int Widget_Compat_NotificationActionText = 2131362174;
-			
-			// aapt resource value: 0x7f0a016f
-			public const int Widget_Design_AppBarLayout = 2131362159;
-			
-			// aapt resource value: 0x7f0a0170
-			public const int Widget_Design_BottomNavigationView = 2131362160;
-			
-			// aapt resource value: 0x7f0a0171
-			public const int Widget_Design_BottomSheet_Modal = 2131362161;
-			
-			// aapt resource value: 0x7f0a0172
-			public const int Widget_Design_CollapsingToolbar = 2131362162;
+			public const int Theme_AppCompat_NoActionBar = 2131362064;
 			
 			// aapt resource value: 0x7f0a0173
-			public const int Widget_Design_CoordinatorLayout = 2131362163;
+			public const int Theme_Design = 2131362163;
 			
 			// aapt resource value: 0x7f0a0174
-			public const int Widget_Design_FloatingActionButton = 2131362164;
+			public const int Theme_Design_BottomSheetDialog = 2131362164;
 			
 			// aapt resource value: 0x7f0a0175
-			public const int Widget_Design_NavigationView = 2131362165;
+			public const int Theme_Design_Light = 2131362165;
 			
 			// aapt resource value: 0x7f0a0176
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131362166;
+			public const int Theme_Design_Light_BottomSheetDialog = 2131362166;
 			
 			// aapt resource value: 0x7f0a0177
-			public const int Widget_Design_Snackbar = 2131362167;
-			
-			// aapt resource value: 0x7f0a015b
-			public const int Widget_Design_TabLayout = 2131362139;
+			public const int Theme_Design_Light_NoActionBar = 2131362167;
 			
 			// aapt resource value: 0x7f0a0178
-			public const int Widget_Design_TextInputLayout = 2131362168;
+			public const int Theme_Design_NoActionBar = 2131362168;
+			
+			// aapt resource value: 0x7f0a0111
+			public const int ThemeOverlay_AppCompat = 2131362065;
+			
+			// aapt resource value: 0x7f0a0112
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131362066;
+			
+			// aapt resource value: 0x7f0a0113
+			public const int ThemeOverlay_AppCompat_Dark = 2131362067;
+			
+			// aapt resource value: 0x7f0a0114
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131362068;
+			
+			// aapt resource value: 0x7f0a0115
+			public const int ThemeOverlay_AppCompat_Dialog = 2131362069;
+			
+			// aapt resource value: 0x7f0a0116
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131362070;
+			
+			// aapt resource value: 0x7f0a0117
+			public const int ThemeOverlay_AppCompat_Light = 2131362071;
+			
+			// aapt resource value: 0x7f0a0118
+			public const int Widget_AppCompat_ActionBar = 2131362072;
+			
+			// aapt resource value: 0x7f0a0119
+			public const int Widget_AppCompat_ActionBar_Solid = 2131362073;
+			
+			// aapt resource value: 0x7f0a011a
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131362074;
+			
+			// aapt resource value: 0x7f0a011b
+			public const int Widget_AppCompat_ActionBar_TabText = 2131362075;
+			
+			// aapt resource value: 0x7f0a011c
+			public const int Widget_AppCompat_ActionBar_TabView = 2131362076;
+			
+			// aapt resource value: 0x7f0a011d
+			public const int Widget_AppCompat_ActionButton = 2131362077;
+			
+			// aapt resource value: 0x7f0a011e
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131362078;
+			
+			// aapt resource value: 0x7f0a011f
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131362079;
+			
+			// aapt resource value: 0x7f0a0120
+			public const int Widget_AppCompat_ActionMode = 2131362080;
+			
+			// aapt resource value: 0x7f0a0121
+			public const int Widget_AppCompat_ActivityChooserView = 2131362081;
+			
+			// aapt resource value: 0x7f0a0122
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131362082;
+			
+			// aapt resource value: 0x7f0a0123
+			public const int Widget_AppCompat_Button = 2131362083;
+			
+			// aapt resource value: 0x7f0a0124
+			public const int Widget_AppCompat_Button_Borderless = 2131362084;
+			
+			// aapt resource value: 0x7f0a0125
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131362085;
+			
+			// aapt resource value: 0x7f0a0126
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362086;
+			
+			// aapt resource value: 0x7f0a0127
+			public const int Widget_AppCompat_Button_Colored = 2131362087;
+			
+			// aapt resource value: 0x7f0a0128
+			public const int Widget_AppCompat_Button_Small = 2131362088;
+			
+			// aapt resource value: 0x7f0a0129
+			public const int Widget_AppCompat_ButtonBar = 2131362089;
+			
+			// aapt resource value: 0x7f0a012a
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131362090;
+			
+			// aapt resource value: 0x7f0a012b
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131362091;
+			
+			// aapt resource value: 0x7f0a012c
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131362092;
+			
+			// aapt resource value: 0x7f0a012d
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131362093;
+			
+			// aapt resource value: 0x7f0a012e
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131362094;
+			
+			// aapt resource value: 0x7f0a012f
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131362095;
+			
+			// aapt resource value: 0x7f0a0130
+			public const int Widget_AppCompat_EditText = 2131362096;
+			
+			// aapt resource value: 0x7f0a0131
+			public const int Widget_AppCompat_ImageButton = 2131362097;
+			
+			// aapt resource value: 0x7f0a0132
+			public const int Widget_AppCompat_Light_ActionBar = 2131362098;
+			
+			// aapt resource value: 0x7f0a0133
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131362099;
+			
+			// aapt resource value: 0x7f0a0134
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131362100;
+			
+			// aapt resource value: 0x7f0a0135
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131362101;
+			
+			// aapt resource value: 0x7f0a0136
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131362102;
+			
+			// aapt resource value: 0x7f0a0137
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131362103;
+			
+			// aapt resource value: 0x7f0a0138
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131362104;
+			
+			// aapt resource value: 0x7f0a0139
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131362105;
+			
+			// aapt resource value: 0x7f0a013a
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131362106;
+			
+			// aapt resource value: 0x7f0a013b
+			public const int Widget_AppCompat_Light_ActionButton = 2131362107;
+			
+			// aapt resource value: 0x7f0a013c
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131362108;
+			
+			// aapt resource value: 0x7f0a013d
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131362109;
+			
+			// aapt resource value: 0x7f0a013e
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131362110;
+			
+			// aapt resource value: 0x7f0a013f
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131362111;
+			
+			// aapt resource value: 0x7f0a0140
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131362112;
+			
+			// aapt resource value: 0x7f0a0141
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131362113;
+			
+			// aapt resource value: 0x7f0a0142
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131362114;
+			
+			// aapt resource value: 0x7f0a0143
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131362115;
+			
+			// aapt resource value: 0x7f0a0144
+			public const int Widget_AppCompat_Light_PopupMenu = 2131362116;
+			
+			// aapt resource value: 0x7f0a0145
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131362117;
+			
+			// aapt resource value: 0x7f0a0146
+			public const int Widget_AppCompat_Light_SearchView = 2131362118;
+			
+			// aapt resource value: 0x7f0a0147
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131362119;
+			
+			// aapt resource value: 0x7f0a0148
+			public const int Widget_AppCompat_ListMenuView = 2131362120;
+			
+			// aapt resource value: 0x7f0a0149
+			public const int Widget_AppCompat_ListPopupWindow = 2131362121;
+			
+			// aapt resource value: 0x7f0a014a
+			public const int Widget_AppCompat_ListView = 2131362122;
+			
+			// aapt resource value: 0x7f0a014b
+			public const int Widget_AppCompat_ListView_DropDown = 2131362123;
+			
+			// aapt resource value: 0x7f0a014c
+			public const int Widget_AppCompat_ListView_Menu = 2131362124;
+			
+			// aapt resource value: 0x7f0a014d
+			public const int Widget_AppCompat_PopupMenu = 2131362125;
+			
+			// aapt resource value: 0x7f0a014e
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131362126;
+			
+			// aapt resource value: 0x7f0a014f
+			public const int Widget_AppCompat_PopupWindow = 2131362127;
+			
+			// aapt resource value: 0x7f0a0150
+			public const int Widget_AppCompat_ProgressBar = 2131362128;
+			
+			// aapt resource value: 0x7f0a0151
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131362129;
+			
+			// aapt resource value: 0x7f0a0152
+			public const int Widget_AppCompat_RatingBar = 2131362130;
+			
+			// aapt resource value: 0x7f0a0153
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131362131;
+			
+			// aapt resource value: 0x7f0a0154
+			public const int Widget_AppCompat_RatingBar_Small = 2131362132;
+			
+			// aapt resource value: 0x7f0a0155
+			public const int Widget_AppCompat_SearchView = 2131362133;
+			
+			// aapt resource value: 0x7f0a0156
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131362134;
+			
+			// aapt resource value: 0x7f0a0157
+			public const int Widget_AppCompat_SeekBar = 2131362135;
+			
+			// aapt resource value: 0x7f0a0158
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131362136;
+			
+			// aapt resource value: 0x7f0a0159
+			public const int Widget_AppCompat_Spinner = 2131362137;
+			
+			// aapt resource value: 0x7f0a015a
+			public const int Widget_AppCompat_Spinner_DropDown = 2131362138;
+			
+			// aapt resource value: 0x7f0a015b
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131362139;
+			
+			// aapt resource value: 0x7f0a015c
+			public const int Widget_AppCompat_Spinner_Underlined = 2131362140;
+			
+			// aapt resource value: 0x7f0a015d
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131362141;
+			
+			// aapt resource value: 0x7f0a015e
+			public const int Widget_AppCompat_Toolbar = 2131362142;
+			
+			// aapt resource value: 0x7f0a015f
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131362143;
+			
+			// aapt resource value: 0x7f0a0187
+			public const int Widget_Compat_NotificationActionContainer = 2131362183;
+			
+			// aapt resource value: 0x7f0a0188
+			public const int Widget_Compat_NotificationActionText = 2131362184;
+			
+			// aapt resource value: 0x7f0a0179
+			public const int Widget_Design_AppBarLayout = 2131362169;
+			
+			// aapt resource value: 0x7f0a017a
+			public const int Widget_Design_BottomNavigationView = 2131362170;
+			
+			// aapt resource value: 0x7f0a017b
+			public const int Widget_Design_BottomSheet_Modal = 2131362171;
+			
+			// aapt resource value: 0x7f0a017c
+			public const int Widget_Design_CollapsingToolbar = 2131362172;
+			
+			// aapt resource value: 0x7f0a017d
+			public const int Widget_Design_CoordinatorLayout = 2131362173;
+			
+			// aapt resource value: 0x7f0a017e
+			public const int Widget_Design_FloatingActionButton = 2131362174;
+			
+			// aapt resource value: 0x7f0a017f
+			public const int Widget_Design_NavigationView = 2131362175;
+			
+			// aapt resource value: 0x7f0a0180
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131362176;
+			
+			// aapt resource value: 0x7f0a0181
+			public const int Widget_Design_Snackbar = 2131362177;
+			
+			// aapt resource value: 0x7f0a0165
+			public const int Widget_Design_TabLayout = 2131362149;
+			
+			// aapt resource value: 0x7f0a0182
+			public const int Widget_Design_TextInputLayout = 2131362178;
 			
 			static Style()
 			{
@@ -5570,30 +6962,18 @@ namespace SmartPriceTest
 			public const int FontFamily_fontProviderQuery = 2;
 			
 			public static int[] FontFamilyFont = new int[] {
-					16844082,
-					16844083,
-					16844095,
 					2130772311,
 					2130772312,
 					2130772313};
 			
+			// aapt resource value: 1
+			public const int FontFamilyFont_font = 1;
+			
 			// aapt resource value: 0
-			public const int FontFamilyFont_android_font = 0;
+			public const int FontFamilyFont_fontStyle = 0;
 			
 			// aapt resource value: 2
-			public const int FontFamilyFont_android_fontStyle = 2;
-			
-			// aapt resource value: 1
-			public const int FontFamilyFont_android_fontWeight = 1;
-			
-			// aapt resource value: 4
-			public const int FontFamilyFont_font = 4;
-			
-			// aapt resource value: 3
-			public const int FontFamilyFont_fontStyle = 3;
-			
-			// aapt resource value: 5
-			public const int FontFamilyFont_fontWeight = 5;
+			public const int FontFamilyFont_fontWeight = 2;
 			
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
@@ -5874,6 +7254,76 @@ namespace SmartPriceTest
 			
 			// aapt resource value: 4
 			public const int NavigationView_menu = 4;
+			
+			public static int[] PagerSlidingTabStrip = new int[] {
+					2130772314,
+					2130772315,
+					2130772316,
+					2130772317,
+					2130772318,
+					2130772319,
+					2130772320,
+					2130772321,
+					2130772322,
+					2130772323,
+					2130772324,
+					2130772325,
+					2130772326,
+					2130772327,
+					2130772328,
+					2130772329,
+					2130772330};
+			
+			// aapt resource value: 2
+			public const int PagerSlidingTabStrip_pstsDividerColor = 2;
+			
+			// aapt resource value: 6
+			public const int PagerSlidingTabStrip_pstsDividerPadding = 6;
+			
+			// aapt resource value: 3
+			public const int PagerSlidingTabStrip_pstsDividerWidth = 3;
+			
+			// aapt resource value: 0
+			public const int PagerSlidingTabStrip_pstsIndicatorColor = 0;
+			
+			// aapt resource value: 4
+			public const int PagerSlidingTabStrip_pstsIndicatorHeight = 4;
+			
+			// aapt resource value: 12
+			public const int PagerSlidingTabStrip_pstsPaddingMiddle = 12;
+			
+			// aapt resource value: 8
+			public const int PagerSlidingTabStrip_pstsScrollOffset = 8;
+			
+			// aapt resource value: 10
+			public const int PagerSlidingTabStrip_pstsShouldExpand = 10;
+			
+			// aapt resource value: 9
+			public const int PagerSlidingTabStrip_pstsTabBackground = 9;
+			
+			// aapt resource value: 7
+			public const int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 7;
+			
+			// aapt resource value: 11
+			public const int PagerSlidingTabStrip_pstsTextAllCaps = 11;
+			
+			// aapt resource value: 14
+			public const int PagerSlidingTabStrip_pstsTextAlpha = 14;
+			
+			// aapt resource value: 13
+			public const int PagerSlidingTabStrip_pstsTextColorSelected = 13;
+			
+			// aapt resource value: 16
+			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 16;
+			
+			// aapt resource value: 15
+			public const int PagerSlidingTabStrip_pstsTextStyle = 15;
+			
+			// aapt resource value: 1
+			public const int PagerSlidingTabStrip_pstsUnderlineColor = 1;
+			
+			// aapt resource value: 5
+			public const int PagerSlidingTabStrip_pstsUnderlineHeight = 5;
 			
 			public static int[] PopupWindow = new int[] {
 					16843126,
