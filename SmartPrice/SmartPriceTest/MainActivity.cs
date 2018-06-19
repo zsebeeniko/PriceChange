@@ -13,9 +13,6 @@ namespace SmartPriceTest
     [Activity(Label = "@string/app_name", Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        private ListView lv;
-        private ProductAdapter adapter;
-        private JavaList<Product> products;
         MyAdapter myAdapter;
         PagerSlidingTabStrip tabs;
         ViewPager pager;
@@ -34,13 +31,6 @@ namespace SmartPriceTest
             pager.Adapter = myAdapter;
             tabs.SetViewPager(pager);
             tabs.SetBackgroundColor(Android.Graphics.Color.Aqua);
-
-
-            //lv = FindViewById<ListView>(Resource.Id.productsList);
-            //adapter = new ProductAdapter(this, GetProducts());
-
-            //lv.Adapter = adapter;
-            //lv.ItemClick += Lv_ItemClick;
 
         }
 
@@ -76,31 +66,6 @@ namespace SmartPriceTest
             {
                 return ContentFragment.NewInstance(position);
             }
-        }
-
-        private void Lv_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
-        {
-            Toast.MakeText(this, products[e.Position].Name, ToastLength.Short).Show();
-        }
-
-        private JavaList<Product> GetProducts()
-        {
-            products = new JavaList<Product>();
-            Product p;
-
-            p = new Product("Picture 1", Resource.Drawable.pic1);
-            products.Add(p);
-
-            p = new Product("Picture 2", Resource.Drawable.pic2);
-            products.Add(p);
-
-            p = new Product("Picture 3", Resource.Drawable.pic3);
-            products.Add(p);
-
-            p = new Product("Picture 4", Resource.Drawable.pic4);
-            products.Add(p);
-
-            return products;
         }
     }
 }

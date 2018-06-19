@@ -16,6 +16,10 @@ namespace SmartPriceTest
     public class ContentFragment : Fragment
     {
         private int position;
+        private ListView lv;
+        private ProductAdapter adapter;
+        private JavaList<Product> products;
+        Context context;
 
         public static ContentFragment NewInstance(int position)
         {
@@ -34,16 +38,55 @@ namespace SmartPriceTest
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            var root = inflater.Inflate(Resource.Layout.CameraFragment, container, false);
-            var text = root.FindViewById<TextView>(Resource.Id.textView);
+            View root;
+            TextView text;
 
             if (position == 0)
+            {
+                root = inflater.Inflate(Resource.Layout.CameraFragment, container, false);
+                text = root.FindViewById<TextView>(Resource.Id.textView);
                 text.Text = "Camera Page";
+            }
             else
+            {
+                root = inflater.Inflate(Resource.Layout.ProductList, container, false);
+                text = root.FindViewById<TextView>(Resource.Id.textView);
                 text.Text = "Product Lists";
+                lv = root.FindViewById<ListView>(Resource.Id.productsList);
+                context = root.Context;
+                adapter = new ProductAdapter(context, GetProducts());
+
+                lv.Adapter = adapter;
+                lv.ItemClick += Lv_ItemClick;
+            }
 
             ViewCompat.SetElevation(root, 50);
             return root;
+        }
+
+        private void Lv_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            Toast.MakeText(context, products[e.Position].Name, ToastLength.Short).Show();
+        }
+
+        private JavaList<Product> GetProducts()
+        {
+            products = new JavaList<Product>();
+            Product p;
+
+            p = new Product("Picture 1", Resource.Drawable.pic1);
+            products.Add(p);
+
+            p = new Product("Picture 2", Resource.Drawable.pic2);
+            products.Add(p);
+
+            p = new Product("Picture 3", Resource.Drawable.pic3);
+            products.Add(p);
+
+            p = new Product("Picture 4", Resource.Drawable.pic4);
+            products.Add(p);
+
+            return products;
         }
     }
 }
