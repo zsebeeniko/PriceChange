@@ -47,7 +47,7 @@ namespace SmartPriceTest
 
             ProductAdapterViewHolder holder = new ProductAdapterViewHolder(convertView)
             {
-                NameTxt = { Text = products[position].Name }
+                ShopTxt = { Text = products[position].Shop }
             };
 
             holder.Image.SetImageResource(products[position].Image);
@@ -58,12 +58,14 @@ namespace SmartPriceTest
 
     class ProductAdapterViewHolder : Object
     {
-        public TextView NameTxt;
+        public TextView ShopTxt;
+        public TextView DesciptionTxt;
         public ImageView Image;
 
         public ProductAdapterViewHolder(View itemView)
         {
-            NameTxt = itemView.FindViewById<TextView>(Resource.Id.nameTxt);
+            ShopTxt = itemView.FindViewById<TextView>(Resource.Id.shopTxt);
+            DesciptionTxt = itemView.FindViewById<TextView>(Resource.Id.descriptionTxt);
             Image = itemView.FindViewById<ImageView>(Resource.Id.productImg);
         }
     }

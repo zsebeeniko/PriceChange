@@ -3824,6 +3824,9 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080060
 			public const int default_activity_button = 2131230816;
 			
+			// aapt resource value: 0x7f0800b6
+			public const int descriptionTxt = 2131230902;
+			
 			// aapt resource value: 0x7f080095
 			public const int design_bottom_sheet = 2131230869;
 			
@@ -3932,14 +3935,14 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int masked = 2131230905;
+			// aapt resource value: 0x7f0800ba
+			public const int masked = 2131230906;
 			
 			// aapt resource value: 0x7f0800a6
 			public const int media_actions = 2131230886;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int message = 2131230903;
+			// aapt resource value: 0x7f0800b8
+			public const int message = 2131230904;
 			
 			// aapt resource value: 0x7f080030
 			public const int middle = 2131230768;
@@ -3949,9 +3952,6 @@ namespace SmartPriceTest
 			
 			// aapt resource value: 0x7f080026
 			public const int multiply = 2131230758;
-			
-			// aapt resource value: 0x7f0800b5
-			public const int nameTxt = 2131230901;
 			
 			// aapt resource value: 0x7f080098
 			public const int navigation_header_container = 2131230872;
@@ -4001,8 +4001,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int psts_tab_title = 2131230902;
+			// aapt resource value: 0x7f0800b7
+			public const int psts_tab_title = 2131230903;
 			
 			// aapt resource value: 0x7f080075
 			public const int radio = 2131230837;
@@ -4075,6 +4075,9 @@ namespace SmartPriceTest
 			
 			// aapt resource value: 0x7f08008a
 			public const int select_dialog_listview = 2131230858;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int shopTxt = 2131230901;
 			
 			// aapt resource value: 0x7f080074
 			public const int shortcut = 2131230836;
@@ -4205,8 +4208,8 @@ namespace SmartPriceTest
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int visible = 2131230904;
+			// aapt resource value: 0x7f0800b9
+			public const int visible = 2131230905;
 			
 			// aapt resource value: 0x7f08003b
 			public const int withText = 2131230779;

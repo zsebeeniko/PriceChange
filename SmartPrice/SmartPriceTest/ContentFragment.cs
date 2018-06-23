@@ -107,7 +107,7 @@ namespace SmartPriceTest
 
         private void Lv_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            Toast.MakeText(context, products[e.Position].Name, ToastLength.Short).Show();
+            Toast.MakeText(context, products[e.Position].Shop, ToastLength.Short).Show();
         }
 
         private JavaList<Product> GetProducts()
@@ -115,16 +115,16 @@ namespace SmartPriceTest
             products = new JavaList<Product>();
             Product p;
 
-            p = new Product("Picture 1", Resource.Drawable.pic1);
+            p = new Product("Picture 1","Description 1", Resource.Drawable.pic1);
             products.Add(p);
 
-            p = new Product("Picture 2", Resource.Drawable.pic2);
+            p = new Product("Picture 2", "Description 2", Resource.Drawable.pic2);
             products.Add(p);
 
-            p = new Product("Picture 3", Resource.Drawable.pic3);
+            p = new Product("Picture 3", "Description 3", Resource.Drawable.pic3);
             products.Add(p);
 
-            p = new Product("Picture 4", Resource.Drawable.pic4);
+            p = new Product("Picture 4", "Description 4", Resource.Drawable.pic4);
             products.Add(p);
 
             return products;

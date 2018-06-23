@@ -22,10 +22,19 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Name"
-                android:id="@+id/nameTxt"
+                android:id="@+id/shopTxt"
                 android:padding="10dp"
                 android:textColor="#f38630"
                 android:textStyle="bold"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Description"
+                android:id="@+id/descriptionTxt"
+                android:padding="10dp"
+                android:textColor="#f38630"
                 android:layout_alignParentLeft="true" />
         </LinearLayout>
     </LinearLayout>

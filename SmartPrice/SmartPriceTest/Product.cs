@@ -15,17 +15,24 @@ namespace SmartPriceTest
     class Product
     {
         private int image;
-        private String name;
+        private String shop;
+        private String description;
 
-        public Product(String name, int image)
+        public Product(String shop, String description, int image)
         {
-            this.name = name;
+            this.shop = shop;
+            this.description = description;
             this.image = image;
         }
 
-        public String Name
+        public String Shop
         {
-            get { return name; }
+            get { return shop; }
+        }
+
+        public String Description
+        {
+            get { return description; }
         }
 
         public int Image
