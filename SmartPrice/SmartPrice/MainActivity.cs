@@ -36,7 +36,7 @@ namespace SmartPrice
 
         public class MyAdapter : FragmentPagerAdapter
         {
-            int tabCount = 2;
+            int tabCount = 3;
             public MyAdapter(Android.Support.V4.App.FragmentManager fm) : base(fm)
             {
 
@@ -54,9 +54,13 @@ namespace SmartPrice
                 ICharSequence cs;
                 if (position == 0)
                     cs = new Java.Lang.String("Camera");
-                else
+                else if (position == 1)
                 {
                     cs = new Java.Lang.String("ProductList");
+                }
+                else
+                {
+                    cs = new Java.Lang.String("Rest Test");
                 }
 
                 return cs;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 
 using Android.Content;
@@ -13,6 +14,7 @@ using Android.Support.V4.App;
 using Android.Support.V4.View;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
 using SmartPrice.Models;
 
 namespace SmartPrice
@@ -25,6 +27,10 @@ namespace SmartPrice
         private JavaList<Product> products;
         ImageView imageView;
         Context context;
+        Button readJson;
+        Button sendData;
+        TextView resultView;
+
 
         public static ContentFragment NewInstance(int position)
         {
@@ -44,7 +50,6 @@ namespace SmartPrice
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             View root;
-            TextView text;
 
             if (position == 0)
             {
@@ -54,7 +59,7 @@ namespace SmartPrice
                 Intent intent = new Intent(MediaStore.ActionImageCapture);
                 StartActivityForResult(intent, 0);
             }
-            else
+            else if (position == 1)
             {
                 root = inflater.Inflate(Resource.Layout.ProductList, container, false);
                 lv = root.FindViewById<ListView>(Resource.Id.productsList);
@@ -63,6 +68,63 @@ namespace SmartPrice
 
                 lv.Adapter = adapter;
                 lv.ItemClick += Lv_ItemClick;
+            }
+            else
+            {
+                root = inflater.Inflate(Resource.Layout.RestTest, container, false);
+                readJson = root.FindViewById<Button>(Resource.Id.readJson);
+                sendData = root.FindViewById<Button>(Resource.Id.sendData);
+                resultView = root.FindViewById<TextView>(Resource.Id.resultView);
+
+                readJson.Click += async delegate
+                {
+                    using (var client = new HttpClient())
+                    {
+                        // send a GET request  
+                        var uri = "http://jsonplaceholder.typicode.com/posts";
+                        var result = await client.GetStringAsync(uri);
+
+                        //handling the answer  
+                        var posts = JsonConvert.DeserializeObject<List<Post>>(result);
+
+                        // generate the output  
+                        var post = posts.First();
+                        resultView.Text = "First post:\n\n" + post;
+                    }
+                };
+
+                sendData.Click += async delegate
+                {
+                    using (var client = new HttpClient())
+                    {
+                        // Create a new post  
+                        var novoPost = new Post
+                        {
+                            UserId = 12,
+                            Title = "My First Post",
+                            Content = "Macoratti .net - Quase tudo para .NET!"
+                        };
+
+                        // create the request content and define Json  
+                        var json = JsonConvert.SerializeObject(novoPost);
+                        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                        //  send a POST request  
+                        var uri = "http://jsonplaceholder.typicode.com/posts";
+                        var result = await client.PostAsync(uri, content);
+
+                        // on error throw a exception  
+                        result.EnsureSuccessStatusCode();
+
+                        // handling the answer  
+                        var resultString = await result.Content.ReadAsStringAsync();
+                        var post = JsonConvert.DeserializeObject<Post>(resultString);
+
+                        // display the output in TextView  
+                        resultView.Text = post.ToString();
+                    }
+                };
+
             }
 
             ViewCompat.SetElevation(root, 50);
@@ -112,16 +174,16 @@ namespace SmartPrice
             products = new JavaList<Product>();
             Product p;
 
-            p = new Product("Picture 1", "Description 1", Resource.Drawable.pic1);
+            p = new Product("Picture 1", "Description1", Resource.Drawable.pic1);
             products.Add(p);
 
-            p = new Product("Picture 2", "Description 2", Resource.Drawable.pic2);
+            p = new Product("Picture 2", "Description2", Resource.Drawable.pic2);
             products.Add(p);
 
-            p = new Product("Picture 3", "Description 3", Resource.Drawable.pic3);
+            p = new Product("Picture 3", "Description3", Resource.Drawable.pic3);
             products.Add(p);
 
-            p = new Product("Picture 4", "Description 4", Resource.Drawable.pic4);
+            p = new Product("Picture 4", "Description4", Resource.Drawable.pic4);
             products.Add(p);
 
             return products;

@@ -3340,8 +3340,8 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0072
 			public const int media_actions = 2131361906;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int message = 2131361924;
+			// aapt resource value: 0x7f0a0087
+			public const int message = 2131361927;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int middle = 2131361826;
@@ -3390,6 +3390,12 @@ namespace SmartPrice
 			
 			// aapt resource value: 0x7f0a0050
 			public const int radio = 2131361872;
+			
+			// aapt resource value: 0x7f0a0085
+			public const int readJson = 2131361925;
+			
+			// aapt resource value: 0x7f0a0086
+			public const int resultView = 2131361926;
 			
 			// aapt resource value: 0x7f0a007a
 			public const int right_icon = 2131361914;
@@ -3441,6 +3447,9 @@ namespace SmartPrice
 			
 			// aapt resource value: 0x7f0a0065
 			public const int select_dialog_listview = 2131361893;
+			
+			// aapt resource value: 0x7f0a0084
+			public const int sendData = 2131361924;
 			
 			// aapt resource value: 0x7f0a0081
 			public const int shopTxt = 2131361921;
@@ -3718,19 +3727,22 @@ namespace SmartPrice
 			public const int psts_tab = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int select_dialog_item_material = 2130903088;
+			public const int RestTest = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int select_dialog_multichoice_material = 2130903089;
+			public const int select_dialog_item_material = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int select_dialog_singlechoice_material = 2130903090;
+			public const int select_dialog_multichoice_material = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int support_simple_spinner_dropdown_item = 2130903091;
+			public const int select_dialog_singlechoice_material = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int tooltip = 2130903092;
+			public const int support_simple_spinner_dropdown_item = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public const int tooltip = 2130903093;
 			
 			static Layout()
 			{
@@ -3841,8 +3853,14 @@ namespace SmartPrice
 			// aapt resource value: 0x7f050021
 			public const int app_name = 2131034145;
 			
+			// aapt resource value: 0x7f050023
+			public const int readJson = 2131034147;
+			
 			// aapt resource value: 0x7f050013
 			public const int search_menu_title = 2131034131;
+			
+			// aapt resource value: 0x7f050022
+			public const int sendData = 2131034146;
 			
 			// aapt resource value: 0x7f050014
 			public const int status_bar_notification_info_overflow = 2131034132;

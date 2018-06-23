@@ -18,8 +18,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
-                android:layout_width="219.5dp"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Name"
                 android:id="@+id/shopTxt"
@@ -28,12 +28,13 @@
                 android:textStyle="bold"
                 android:layout_alignParentLeft="true" />
             <TextView
-                android:layout_width="222.5dp"
+                android:layout_width="234.5dp"
                 android:layout_height="92.5dp"
                 android:text="Description"
                 android:id="@+id/descriptionTxt"
                 android:padding="10dp"
-                android:textColor="#f38630" />
+                android:textColor="#f38630"
+                android:layout_marginRight="0.0dp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
