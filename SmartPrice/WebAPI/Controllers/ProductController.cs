@@ -25,11 +25,11 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost]
-        public IHttpActionResult Submit(ProductDTO product, [FromBody] byte[] picture)
+        public IHttpActionResult Submit(ProductDTO product, [FromBody] byte[] Content)
         {
             try
             {
-                product.Picture = picture;
+                product.Picture = Content;
                 _uow.ProductOperations.Create(product);
                 _uow.SaveChanges();
             }
