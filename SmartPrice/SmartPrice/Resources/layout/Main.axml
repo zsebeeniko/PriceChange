@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="10">
+    android:layout_height="match_parent">
     <com.refractored.PagerSlidingTabStrip
         android:id="@+id/tabs"
         android:textColorPrimary="#FFFFFF"

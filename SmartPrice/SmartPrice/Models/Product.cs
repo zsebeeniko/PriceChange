@@ -14,31 +14,30 @@ namespace SmartPrice.Models
 {
     class Product
     {
+        private int image;
         private String shop;
         private String description;
-        private int picture;
 
-        public Product(string shop, string desc, int image)
+        public Product(String shop, String description, int image)
         {
             this.shop = shop;
-            this.description = desc;
-            this.picture = image;
+            this.description = description;
+            this.image = image;
         }
 
-        public string Shop
+        public String Shop
         {
             get { return shop; }
         }
 
-        public string Description
+        public String Description
         {
             get { return description; }
         }
 
-        public int Picture
+        public int Image
         {
-            get { return picture; }
+            get { return image; }
         }
     }
-
 }
