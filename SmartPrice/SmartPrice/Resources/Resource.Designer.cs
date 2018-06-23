@@ -3274,6 +3274,9 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a003b
 			public const int default_activity_button = 2131361851;
 			
+			// aapt resource value: 0x7f0a0083
+			public const int descriptionTxt = 2131361923;
+			
 			// aapt resource value: 0x7f0a0011
 			public const int disableHome = 2131361809;
 			
@@ -3370,14 +3373,8 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0040
 			public const int parentPanel = 2131361856;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int productDescription = 2131361923;
-			
 			// aapt resource value: 0x7f0a0081
-			public const int productImage = 2131361921;
-			
-			// aapt resource value: 0x7f0a0082
-			public const int productShop = 2131361922;
+			public const int productImg = 2131361921;
 			
 			// aapt resource value: 0x7f0a0080
 			public const int productsListView = 2131361920;
@@ -3444,6 +3441,9 @@ namespace SmartPrice
 			
 			// aapt resource value: 0x7f0a0065
 			public const int select_dialog_listview = 2131361893;
+			
+			// aapt resource value: 0x7f0a0082
+			public const int shopTxt = 2131361922;
 			
 			// aapt resource value: 0x7f0a004f
 			public const int shortcut = 2131361871;

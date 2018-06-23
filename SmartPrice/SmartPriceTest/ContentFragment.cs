@@ -48,8 +48,6 @@ namespace SmartPriceTest
             if (position == 0)
             {
                 root = inflater.Inflate(Resource.Layout.CameraFragment, container, false);
-                text = root.FindViewById<TextView>(Resource.Id.textView);
-                text.Text = "Camera Page";
                 context = root.Context;
                 imageView = root.FindViewById<ImageView>(Resource.Id.imageView);
                 Intent intent = new Intent(MediaStore.ActionImageCapture);
@@ -58,8 +56,6 @@ namespace SmartPriceTest
             else
             {
                 root = inflater.Inflate(Resource.Layout.ProductList, container, false);
-                text = root.FindViewById<TextView>(Resource.Id.textView);
-                text.Text = "Product Lists";
                 lv = root.FindViewById<ListView>(Resource.Id.productsList);
                 context = root.Context;
                 adapter = new ProductAdapter(context, GetProducts());

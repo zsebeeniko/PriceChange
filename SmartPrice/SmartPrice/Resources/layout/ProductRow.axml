@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
-            android:id="@+id/productImage"
+            android:id="@+id/productImg"
             android:src="@drawable/pic1"
             android:layout_width="150dp"
             android:layout_height="wrap_content" />
@@ -21,8 +21,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Shop"
-                android:id="@+id/productShop"
+                android:text="Name"
+                android:id="@+id/shopTxt"
                 android:padding="10dp"
                 android:textColor="#f38630"
                 android:textStyle="bold"
@@ -31,8 +31,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Description"
-                android:id="@+id/productDescription"
+                android:id="@+id/descriptionTxt"
                 android:padding="10dp"
+                android:textColor="#f38630"
                 android:layout_alignParentLeft="true" />
         </LinearLayout>
     </LinearLayout>
