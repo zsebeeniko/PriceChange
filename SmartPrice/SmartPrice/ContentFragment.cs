@@ -30,8 +30,6 @@ namespace SmartPrice
         Button readJson;
         Button sendData;
         TextView resultView;
-        byte[] picData;
-
 
         public static ContentFragment NewInstance(int position)
         {
@@ -93,40 +91,6 @@ namespace SmartPrice
                         resultView.Text = "First post:\n\n" + post;
                     }
                 };
-
-                sendData.Click += async delegate
-                {
-                    using (var client = new HttpClient())
-                    {
-                        // Create a new post  
-                        var novoPost = new Post
-                        {
-                            product_Id = 12,
-                            shop = "My First Post",
-                            description = "Macoratti .net - Quase tudo para .NET!",
-                            Content = picData
-                        };
-
-                        // create the request content and define Json  
-                        var json = JsonConvert.SerializeObject(novoPost);
-                        var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-                        //  send a POST request  
-                        var uri = "http://192.168.1.7/SmartPrice/api/Product/Submit";
-                        var result = await client.PostAsync(uri, content);
-
-                        // on error throw a exception  
-                        result.EnsureSuccessStatusCode();
-
-                        // handling the answer  
-                        var resultString = await result.Content.ReadAsStringAsync();
-                        var post = JsonConvert.DeserializeObject<Post>(resultString);
-
-                        // display the output in TextView  
-                        resultView.Text = post.ToString();
-                    }
-                };
-
             }
 
             ViewCompat.SetElevation(root, 50);
@@ -147,7 +111,7 @@ namespace SmartPrice
 
             MemoryStream memstream = new MemoryStream();
             bitmap.Compress(Bitmap.CompressFormat.Webp, 100, memstream);
-            picData = memstream.ToArray();
+            byte[] picData = memstream.ToArray();
 
 
             var shopField = mView.FindViewById<EditText>(Resource.Id.ShopTextField);
@@ -161,9 +125,9 @@ namespace SmartPrice
                     // Create a new post  
                     var novoPost = new Post
                     {
-                        product_Id = 12,
-                        shop = "My First Post",
-                        description = "Macoratti .net - Quase tudo para .NET!",
+                        product_Id = 1,
+                        shop = shopField.Text,
+                        description = descriptionField.Text,
                         Content = picData
                     };
 
@@ -184,8 +148,8 @@ namespace SmartPrice
 
                     // display the output in TextView  
                     resultView.Text = post.ToString();
+                    Toast.MakeText(context, "Sent successfully! ", ToastLength.Short).Show();
                 }
-                Toast.MakeText(context, "Sent successfully! ", ToastLength.Short).Show();
             })
              .SetNegativeButton("Cancel", delegate
              {

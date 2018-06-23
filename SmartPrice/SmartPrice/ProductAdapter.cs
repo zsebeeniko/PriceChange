@@ -52,7 +52,7 @@ namespace SmartPrice
             };
 
             holder.Image.SetImageResource(products[position].Image);
-
+            
             return convertView;
         }
     }
