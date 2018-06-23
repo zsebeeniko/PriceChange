@@ -30,6 +30,7 @@ namespace SmartPrice
         Button readJson;
         Button sendData;
         TextView resultView;
+        byte[] picData;
 
 
         public static ContentFragment NewInstance(int position)
@@ -81,7 +82,7 @@ namespace SmartPrice
                     using (var client = new HttpClient())
                     {
                         // send a GET request  
-                        var uri = "http://jsonplaceholder.typicode.com/posts";
+                        var uri = "http://192.168.1.3/SmartPrice/api/Product/GetProducts";
                         var result = await client.GetStringAsync(uri);
 
                         //handling the answer  
@@ -100,9 +101,10 @@ namespace SmartPrice
                         // Create a new post  
                         var novoPost = new Post
                         {
-                            UserId = 12,
-                            Title = "My First Post",
-                            Content = "Macoratti .net - Quase tudo para .NET!"
+                            product_Id = 12,
+                            shop = "My First Post",
+                            description = "Macoratti .net - Quase tudo para .NET!",
+                            Content = picData
                         };
 
                         // create the request content and define Json  
@@ -110,7 +112,7 @@ namespace SmartPrice
                         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
                         //  send a POST request  
-                        var uri = "http://jsonplaceholder.typicode.com/posts";
+                        var uri = "http://192.168.1.3/SmartPrice/api/Product/Submit";
                         var result = await client.PostAsync(uri, content);
 
                         // on error throw a exception  
@@ -145,7 +147,7 @@ namespace SmartPrice
 
             MemoryStream memstream = new MemoryStream();
             bitmap.Compress(Bitmap.CompressFormat.Webp, 100, memstream);
-            byte[] picData = memstream.ToArray();
+            picData = memstream.ToArray();
 
 
             var shopField = mView.FindViewById<EditText>(Resource.Id.ShopTextField);

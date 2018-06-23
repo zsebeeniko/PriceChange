@@ -4,18 +4,19 @@ namespace SmartPrice
 {
     public class Post
     {
-        public int Id { get; set; }
-        public int UserId { get; set; }
-        public string Title { get; set; }
+        public int product_Id { get; set; }
+        public string shop { get; set; }
+        public string description { get; set; }
+        public byte[] picture { get; set; }
 
         [JsonProperty("body")]
-        public string Content { get; set; }
+        public byte[] Content { get; set; }
 
         public override string ToString()
         {
             return string.Format(
                 "Post Id: {0}\nTitle: {1}\nBody: {2}",
-                Id, Title, Content);
+                product_Id, shop, Content);
         }
     }
 }
