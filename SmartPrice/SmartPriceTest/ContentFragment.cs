@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -13,6 +12,11 @@ using Android.Support.V4.App;
 using Android.Support.V4.View;
 using Android.Views;
 using Android.Widget;
+using Android.Net;
+using Java.IO;
+
+using Environment = Android.OS.Environment;
+using Uri = Android.Net.Uri;
 
 namespace SmartPriceTest
 {
@@ -22,8 +26,10 @@ namespace SmartPriceTest
         private ListView lv;
         private ProductAdapter adapter;
         private JavaList<Product> products;
-        ImageView imageView;
+
+        public ImageView imageView;
         Context context;
+        Android.Net.Uri selectedImage;
 
         public static ContentFragment NewInstance(int position)
         {
@@ -47,11 +53,21 @@ namespace SmartPriceTest
 
             if (position == 0)
             {
+
                 root = inflater.Inflate(Resource.Layout.CameraFragment, container, false);
                 context = root.Context;
                 imageView = root.FindViewById<ImageView>(Resource.Id.imageView);
                 Intent intent = new Intent(MediaStore.ActionImageCapture);
-                StartActivityForResult(intent, 0);
+
+             
+
+                App._file = new File(App._dir, String.Format("myPhoto_{0}.jpg", Guid.NewGuid()));
+                intent.PutExtra(MediaStore.ExtraOutput, Android.Net.Uri.FromFile(App._file));
+
+                MainActivity main = new MainActivity();
+                main.TakePhoto(intent, imageView);
+
+                //StartActivityForResult(intent, 0);
             }
             else
             {
@@ -80,7 +96,7 @@ namespace SmartPriceTest
             alertdialogbuilder.SetView(mView);
 
 
-            MemoryStream memstream = new MemoryStream();
+            System.IO.MemoryStream memstream = new System.IO.MemoryStream();
             bitmap.Compress(Bitmap.CompressFormat.Webp, 100, memstream);
             byte[] picData = memstream.ToArray();
 
