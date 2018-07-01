@@ -3,4 +3,47 @@
   <string name="app_name">SmartPrice</string>
   <string name="sendData">Send JSON</string>
   <string name="readJson">Read JSON Remote</string>
+  <string name="car_prompt">Choose a Car</string>
+  <string-array name="car_array">
+    <item>Scorpio</item>
+    <item>xylo</item>
+    <item>Innovo</item>
+    <item>Benz</item>
+    <item>BMW</item>
+    <item>Audi</item>
+    <item>Jaguar</item>
+    <item>ferrari</item>
+    <item>Scorpio</item>
+    <item>xylo</item>
+    <item>Innovo</item>
+    <item>Benz</item>
+    <item>BMW</item>
+    <item>Audi</item>
+    <item>Jaguar</item>
+    <item>ferrari</item>
+    <item>Scorpio</item>
+    <item>xylo</item>
+    <item>Innovo</item>
+    <item>Benz</item>
+    <item>BMW</item>
+    <item>Audi</item>
+    <item>Jaguar</item>
+    <item>ferrari</item>
+    <item>Scorpio</item>
+    <item>xylo</item>
+    <item>Innovo</item>
+    <item>Benz</item>
+    <item>BMW</item>
+    <item>Audi</item>
+    <item>Jaguar</item>
+    <item>ferrari</item>
+    <item>Scorpio</item>
+    <item>xylo</item>
+    <item>Innovo</item>
+    <item>Benz</item>
+    <item>BMW</item>
+    <item>Audi</item>
+    <item>Jaguar</item>
+    <item>ferrari</item>
+  </string-array>
 </resources>

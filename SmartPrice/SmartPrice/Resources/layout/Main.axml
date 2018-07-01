@@ -5,6 +5,16 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:text="@string/car_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteTextView" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:prompt="@string/car_prompt" />
     <com.refractored.PagerSlidingTabStrip
         android:id="@+id/tabs"
         android:textColorPrimary="#FFFFFF"

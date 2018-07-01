@@ -15,6 +15,7 @@ using Android.Support.V4.View;
 using Android.Views;
 using Android.Widget;
 using Newtonsoft.Json;
+using SmartPrice.BL.BusinessLayerContracts.DTOs;
 using SmartPrice.Models;
 
 namespace SmartPrice
@@ -63,10 +64,10 @@ namespace SmartPrice
                 root = inflater.Inflate(Resource.Layout.ProductList, container, false);
                 lv = root.FindViewById<ListView>(Resource.Id.productsList);
                 context = root.Context;
-                adapter = new ProductAdapter(context, GetProducts());
+                ProductsViewModel pvm = new ProductsViewModel();
+                adapter = new ProductAdapter(context, pvm.Products);
 
                 lv.Adapter = adapter;
-                lv.ItemClick += Lv_ItemClick;
             }
             else
             {
@@ -80,15 +81,21 @@ namespace SmartPrice
                     using (var client = new HttpClient())
                     {
                         // send a GET request  
-                        var uri = "http://192.168.1.7/SmartPrice/api/Product/GetProducts";
-                        var result = await client.GetStringAsync(uri);
+                        var uri = "http://192.168.0.110/SmartPrice/api/Product/GetProducts";
+                        //var result = await client.GetAsync(uri);
+
+                        var response = await client.GetAsync(uri).ConfigureAwait(false);
+                        response.EnsureSuccessStatusCode();
+                        var responseContent = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+                        var products = JsonConvert.DeserializeObject<List<Product>>(responseContent);
+
 
                         //handling the answer  
-                        var posts = JsonConvert.DeserializeObject<List<Post>>(result);
+                        //var posts = JsonConvert.DeserializeObject<List<Product>>(result.ToString());
 
-                        // generate the output  
-                        var post = posts.First();
-                        resultView.Text = "First post:\n\n" + post;
+                        ////// generate the output  
+                        //var post = products.First();
+                        //resultView.Text = "First post:\n\n" + post.ToString();
                     }
                 };
             }
@@ -100,19 +107,18 @@ namespace SmartPrice
         public override void OnActivityResult(int requestCode, int resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
-
-            Android.Graphics.Bitmap bitmap = (Android.Graphics.Bitmap)data.Extras.Get("data");
+            
+            Bitmap bitmap = (Bitmap)data.Extras.Get("data");
             imageView.SetImageBitmap(bitmap);
+
             LayoutInflater layoutInflaterAndroid = LayoutInflater.From(context);
             View mView = layoutInflaterAndroid.Inflate(Resource.Layout.AdditionalProps, null);
             Android.Support.V7.App.AlertDialog.Builder alertdialogbuilder = new Android.Support.V7.App.AlertDialog.Builder(context);
             alertdialogbuilder.SetView(mView);
 
-
             MemoryStream memstream = new MemoryStream();
-            bitmap.Compress(Bitmap.CompressFormat.Webp, 100, memstream);
+            bitmap.Compress(Bitmap.CompressFormat.Jpeg, 100, memstream);
             byte[] picData = memstream.ToArray();
-
 
             var shopField = mView.FindViewById<EditText>(Resource.Id.ShopTextField);
             var descriptionField = mView.FindViewById<EditText>(Resource.Id.DescriptionTextField);
@@ -122,33 +128,33 @@ namespace SmartPrice
             {
                 using (var client = new HttpClient())
                 {
-                    // Create a new post  
-                    var novoPost = new Post
+                    try
                     {
-                        product_Id = 1,
-                        shop = shopField.Text,
-                        description = descriptionField.Text,
-                        Content = picData
+                    // Create a new post  
+                    var product = new Product()
+                    {
+                        Product_Id = 1,
+                        Shop = shopField.Text,
+                        Description = descriptionField.Text,
+                        Picture = picData
                     };
 
                     // create the request content and define Json  
-                    var json = JsonConvert.SerializeObject(novoPost);
-                    var content = new StringContent(json, Encoding.UTF8, "application/json");
-
+                    var json = JsonConvert.SerializeObject(product);
+                    var content = new MultipartFormDataContent();
+                    content.Add(new StringContent(json, Encoding.UTF8, "application/json"));
                     //  send a POST request  
-                    var uri = "http://192.168.1.7/SmartPrice/api/Product/Submit";
+                    var uri = "http://192.168.0.110/SmartPrice/api/Product/Submit";
                     var result = await client.PostAsync(uri, content);
-
-                    // on error throw a exception  
-                    result.EnsureSuccessStatusCode();
-
-                    // handling the answer  
-                    var resultString = await result.Content.ReadAsStringAsync();
-                    var post = JsonConvert.DeserializeObject<Post>(resultString);
-
-                    // display the output in TextView  
-                    resultView.Text = post.ToString();
+                        //var result = await client.GetAsync(uri);
+                    result.EnsureSuccessStatusCode(); 
+                        
                     Toast.MakeText(context, "Sent successfully! ", ToastLength.Short).Show();
+                    }catch
+                (Exception e)
+                    {
+                        Console.Write(e.ToString());
+                    }
                 }
             })
              .SetNegativeButton("Cancel", delegate
@@ -157,31 +163,6 @@ namespace SmartPrice
              });
             Android.Support.V7.App.AlertDialog alertDialogAndroid = alertdialogbuilder.Create();
             alertDialogAndroid.Show();
-        }
-
-        private void Lv_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
-        {
-            Toast.MakeText(context, products[e.Position].Shop, ToastLength.Short).Show();
-        }
-
-        private JavaList<Product> GetProducts()
-        {
-            products = new JavaList<Product>();
-            Product p;
-
-            p = new Product("Picture 1", "Description1", Resource.Drawable.pic1);
-            products.Add(p);
-
-            p = new Product("Picture 2", "Description2", Resource.Drawable.pic2);
-            products.Add(p);
-
-            p = new Product("Picture 3", "Description3", Resource.Drawable.pic3);
-            products.Add(p);
-
-            p = new Product("Picture 4", "Description4", Resource.Drawable.pic4);
-            products.Add(p);
-
-            return products;
         }
     }
 }

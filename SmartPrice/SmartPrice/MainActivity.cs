@@ -7,6 +7,7 @@ using Android.Support.V4.App;
 using Java.Lang;
 using com.refractored;
 using Android.Support.V4.View;
+using System;
 
 namespace SmartPrice
 {
@@ -32,6 +33,20 @@ namespace SmartPrice
             tabs.SetViewPager(pager);
             tabs.SetBackgroundColor(Android.Graphics.Color.Aqua);
 
+            Spinner spinner = FindViewById<Spinner>(Resource.Id.spinner);
+            spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
+            var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.car_array, Android.Resource.Layout.SimpleSpinnerItem);
+            adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            spinner.Adapter = adapter;
+
+        }
+
+        private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        {
+            Spinner spinner = (Spinner)sender;
+
+            string toast = string.Format("Selected car is {0}", spinner.GetItemAtPosition(e.Position));
+            Toast.MakeText(this, toast, ToastLength.Long).Show();
         }
 
         public class MyAdapter : FragmentPagerAdapter

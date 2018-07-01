@@ -14,30 +14,51 @@ namespace SmartPrice.Models
 {
     class Product
     {
-        private int image;
-        private String shop;
-        private String description;
+        //private int Product_Id;
+        //private String Shop;
+        //private String Description;
+        //private byte[] Picture;
 
-        public Product(String shop, String description, int image)
+
+        public int Product_Id { get; set; }
+        public string Shop { get; set; }
+        public string Description { get; set; }
+        public byte[] Picture { get; set; }
+
+        public override string ToString()
         {
-            this.shop = shop;
-            this.description = description;
-            this.image = image;
+            return string.Format(
+                "Post Id: {0}\nShop: {1}\nDescription: {1}\nPicture: {2}",
+                Product_Id, Shop, Description, Picture);
         }
 
-        public String Shop
-        {
-            get { return shop; }
-        }
+        //public Product(int product_id, String shop, String description, byte[] picture)
+        //{
+        //    this.Product_Id = product_id;
+        //    this.Shop = shop;
+        //    this.Description = description;
+        //    this.Picture = picture;
+        //}
 
-        public String Description
-        {
-            get { return description; }
-        }
+        //public int product_id
+        //{
+        //    get { return Product_Id; }
+        //}
 
-        public int Image
-        {
-            get { return image; }
-        }
+        //public String shop
+        //{
+        //    get { return Shop; }
+        //}
+
+        //public String description
+        //{
+        //    get { return Description; }
+        //}
+
+
+        //public byte[] picture
+        //{
+        //    get { return Picture; }
+        //}
     }
 }

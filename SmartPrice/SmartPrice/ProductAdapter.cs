@@ -51,7 +51,7 @@ namespace SmartPrice
                 ShopTxt = { Text = products[position].Shop }
             };
 
-            holder.Image.SetImageResource(products[position].Image);
+            //holder.Image.SetImageResource(products[position].Image);
             
             return convertView;
         }

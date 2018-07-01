@@ -18,9 +18,7 @@ namespace SmartPrice.DL.EFDataLayer.Models.Mapping
             this.Property(t => t.DESCRIPTION)
                 .HasMaxLength(50);
 
-            this.Property(t => t.PICTURE)
-                .IsFixedLength()
-                .HasMaxLength(50);
+            this.Property(t => t.PICTURE);
 
             // Table & Column Mappings
             this.ToTable("Products");

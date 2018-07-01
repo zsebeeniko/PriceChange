@@ -1,7 +1,10 @@
-﻿using SmartPrice.BL.BusinessLayerContracts;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using SmartPrice.BL.BusinessLayerContracts;
 using SmartPrice.BL.BusinessLayerContracts.DTOs;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Validation;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -18,27 +21,30 @@ namespace WebAPI.Controllers
             _uow = uow;
         }
         
+        [HttpGet]
         public IEnumerable<ProductDTO> GetProducts()
         {
             var list = _uow.ProductOperations.Get().ToList();
             return list;
         }
 
+
         [HttpPost]
-        public IHttpActionResult Submit(ProductDTO product, [FromBody] byte[] Content)
+        public HttpResponseMessage Submit(MultipartDataMediaFormatter.Infrastructure.FormData product)
         {
             try
             {
-                product.Picture = Content;
-                _uow.ProductOperations.Create(product);
+                ProductDTO productDto = new ProductDTO();
+                productDto = JsonConvert.DeserializeObject<ProductDTO>(product.Fields[0].Value);
+                _uow.ProductOperations.Create(productDto);
                 _uow.SaveChanges();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                return InternalServerError(ex);
+                return new HttpResponseMessage(HttpStatusCode.InternalServerError);
             }
 
-            return Ok();
+            return new HttpResponseMessage(HttpStatusCode.OK);
         }
 
         [HttpPost]
