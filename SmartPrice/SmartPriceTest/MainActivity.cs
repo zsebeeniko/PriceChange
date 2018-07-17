@@ -14,6 +14,9 @@ using Android.Provider;
 using Android.Content.PM;
 using System.Collections.Generic;
 using System;
+using Android.Support.Design.Widget;
+using Android.Views;
+using Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace SmartPriceTest
 {
@@ -21,58 +24,58 @@ namespace SmartPriceTest
     [Activity(Label = "@string/app_name", Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        MyAdapter myAdapter;
-        PagerSlidingTabStrip tabs;
-        ViewPager pager;
+        private Android.Support.V4.Widget.DrawerLayout drawerLayout;
+        private NavigationView navView;
 
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(savedInstanceState);
-
-            // Set our view from the "main" layout resource
+            base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
+            var toolBar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetSupportActionBar(toolBar);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetHomeButtonEnabled(true);
+            SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.menu4);
+            drawerLayout = FindViewById<Android.Support.V4.Widget.DrawerLayout>(Resource.Id.drawer_layout);
+            navView = FindViewById<NavigationView>(Resource.Id.nav_view);
+            Android.App.FragmentTransaction transaction = this.FragmentManager.BeginTransaction();
+            HomeFragment home = new HomeFragment();
+            transaction.Add(Resource.Id.framelayout, home).Commit();
 
-            myAdapter = new MyAdapter(SupportFragmentManager);
-            pager = FindViewById<ViewPager>(Resource.Id.pager);
-            tabs = FindViewById<PagerSlidingTabStrip>(Resource.Id.tabs);
-
-            pager.Adapter = myAdapter;
-            tabs.SetViewPager(pager);
-            tabs.SetBackgroundColor(Android.Graphics.Color.Aqua);
+            setupDrawerContent(navView);
         }
 
-        public class MyAdapter : FragmentPagerAdapter
+        void setupDrawerContent(NavigationView navigationView)
         {
-            int tabCount = 2;
-            public MyAdapter(Android.Support.V4.App.FragmentManager fm) : base(fm)
-            {
-
-            }
-            public override int Count
-            {
-                get
+            navigationView.NavigationItemSelected += (sender, e) => {
+                e.MenuItem.SetChecked(true);
+                Android.App.FragmentTransaction transaction1 = this.FragmentManager.BeginTransaction();
+                switch (e.MenuItem.ItemId)
                 {
-                    return tabCount;
+                    case Resource.Id.nav_main:
+                        HomeFragment home = new HomeFragment();
+                        transaction1.Replace(Resource.Id.framelayout, home).AddToBackStack(null).Commit();
+                        break;
+
+                    //case Android.Resource.Id.nav_list:
+                    //    VideoFragment video = new VideoFragment();
+                    //    transaction1.Replace(Resource.Id.framelayout, video).AddToBackStack(null).Commit();
+                    //    break;
                 }
-            }
+                drawerLayout.CloseDrawers();
+            };
+        }
 
-            public override ICharSequence GetPageTitleFormatted(int position)
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch(item.ItemId)
             {
-                ICharSequence cs;
-                if (position == 0)
-                    cs = new Java.Lang.String("Camera");
-                else
-                {
-                    cs = new Java.Lang.String("ProductList");
-                }
-
-                return cs;
+                case Android.Resource.Id.Home:
+                    drawerLayout.OpenDrawer(Android.Support.V4.View.GravityCompat.Start);
+                    return true;
             }
 
-            public override Android.Support.V4.App.Fragment GetItem(int position)
-            {
-                return ContentFragment.NewInstance(position);
-            }
+            return base.OnOptionsItemSelected(item);
         }
     }
 }
