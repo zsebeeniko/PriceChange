@@ -2,48 +2,20 @@
 <resources>
   <string name="app_name">SmartPrice</string>
   <string name="sendData">Send JSON</string>
+  <string name="GoogleKey">AIzaSyDF77-ng2FzfgmeIMlARkyWFUlQlfqEPV0</string>
   <string name="readJson">Read JSON Remote</string>
   <string name="car_prompt">Choose a Car</string>
   <string-array name="car_array">
-    <item>Scorpio</item>
-    <item>xylo</item>
-    <item>Innovo</item>
-    <item>Benz</item>
-    <item>BMW</item>
-    <item>Audi</item>
-    <item>Jaguar</item>
-    <item>ferrari</item>
-    <item>Scorpio</item>
-    <item>xylo</item>
-    <item>Innovo</item>
-    <item>Benz</item>
-    <item>BMW</item>
-    <item>Audi</item>
-    <item>Jaguar</item>
-    <item>ferrari</item>
-    <item>Scorpio</item>
-    <item>xylo</item>
-    <item>Innovo</item>
-    <item>Benz</item>
-    <item>BMW</item>
-    <item>Audi</item>
-    <item>Jaguar</item>
-    <item>ferrari</item>
-    <item>Scorpio</item>
-    <item>xylo</item>
-    <item>Innovo</item>
-    <item>Benz</item>
-    <item>BMW</item>
-    <item>Audi</item>
-    <item>Jaguar</item>
-    <item>ferrari</item>
-    <item>Scorpio</item>
-    <item>xylo</item>
-    <item>Innovo</item>
-    <item>Benz</item>
-    <item>BMW</item>
-    <item>Audi</item>
-    <item>Jaguar</item>
-    <item>ferrari</item>
+    <item>EUR   €</item>
+    <item>RON   -</item>
+    <item>USD   $</item>
+    <item>RUB   р.</item>
+    <item>AFN   ؋</item>
+    <item>ALL   L</item>
+    <item>GBP   £</item>
+    <item>DZD   د.ج</item>
+    <item>AOA   Kz</item>
+    <item>BGN   лв</item>
+    <item>XAF   Fr</item>
   </string-array>
 </resources>

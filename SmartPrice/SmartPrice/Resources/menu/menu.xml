@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/nav_main"
+    android:title="Home"
+    android:textColor="#E65100"></item>
+  <item
+    android:id="@+id/nav_list"
+    android:title="Products"
+    android:textColor="#FFFFFF"></item>
+  <item
+    android:id="@+id/nav_price"
+    android:title="Prices"
+    android:textColor="#FFFFFF"></item>
+  <item
+    android:id="@+id/nav_map"
+    android:title="Maps"
+    android:textColor="#FFFFFF"></item>
+</menu>
