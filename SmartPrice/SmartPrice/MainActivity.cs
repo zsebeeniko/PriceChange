@@ -2,78 +2,24 @@
 using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
-using Android.Runtime;
-using Android.Support.V4.App;
-using Java.Lang;
-using com.refractored;
-using Android.Support.V4.View;
 using System;
 using Android.Support.Design.Widget;
 using Android.Views;
 using Toolbar = Android.Support.V7.Widget.Toolbar;
 using SmartPrice.Fragments;
-using System.Drawing;
-using Android.Gms.Maps;
-using Com.Microsoft.Projectoxford.Vision;
-using Android.Graphics;
-using System.IO;
-using Com.Microsoft.Projectoxford.Vision.Contract;
-using GoogleGson;
-using SmartPrice.Models;
-using Newtonsoft.Json;
-using Android.Gms.Vision.Texts;
-using Android.Util;
-using Android.Gms.Vision;
 
 namespace SmartPrice
 {
-    [Activity( Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
+    [Activity(Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         private Android.Support.V4.Widget.DrawerLayout drawerLayout;
         private NavigationView navView;
 
-        public VisionServiceRestClient client = new VisionServiceRestClient("7c8cc25104974c66916417134c548c90");
-        private Bitmap bitmap;
-
-
-        private ImageView imageview;
-        private Button btnProcess;
-        private TextView txtView;
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            //// Set our view from the "main" layout resource  
             SetContentView(Resource.Layout.Main);
-            //imageview = FindViewById<ImageView>(Resource.Id.ocrimage);
-            //btnProcess = FindViewById<Button>(Resource.Id.processbtn);
-            //txtView = FindViewById<TextView>(Resource.Id.ocrtext);
-            //Bitmap bitmap = BitmapFactory.DecodeResource(ApplicationContext.Resources, Resource.Drawable.abc);
-            //imageview.SetImageBitmap(bitmap);
-            //btnProcess.Click += delegate
-            //{
-            //    TextRecognizer txtRecognizer = new TextRecognizer.Builder(ApplicationContext).Build();
-            //    if (!txtRecognizer.IsOperational)
-            //    {
-            //        Log.Error("Error", "Detector dependencies are not yet available");
-            //    }
-            //    else
-            //    {
-            //        Frame frame = new Frame.Builder().SetBitmap(bitmap).Build();
-            //        SparseArray items = txtRecognizer.Detect(frame);
-            //        StringBuilder strBuilder = new StringBuilder();
-            //        for (int i = 0; i < items.Size(); i++)
-            //        {
-            //            TextBlock item = (TextBlock)items.ValueAt(i);
-            //            strBuilder.Append(item.Value);
-            //            strBuilder.Append("/");
-            //        }
-            //        txtView.Text = strBuilder.ToString();
-            //    }
-            //};
-
-
 
             var toolBar = FindViewById<Toolbar>(Resource.Id.toolbar);
             toolBar.SetTitle(Resource.String.app_name);
@@ -94,7 +40,6 @@ namespace SmartPrice
             var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.car_array, Resource.Layout.SpinnerItem);
             adapter.SetDropDownViewResource(Resource.Layout.SpinnerDropdown);
             spinner.Adapter = adapter;
-
             setupDrawerContent(navView);
 
         }

@@ -4039,8 +4039,8 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a006b
 			public const int default_activity_button = 2131361899;
 			
-			// aapt resource value: 0x7f0a00d3
-			public const int descriptionTxt = 2131362003;
+			// aapt resource value: 0x7f0a00d6
+			public const int descriptionTxt = 2131362006;
 			
 			// aapt resource value: 0x7f0a00a0
 			public const int design_bottom_sheet = 2131361952;
@@ -4192,14 +4192,14 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a00b8
 			public const int map = 2131361976;
 			
-			// aapt resource value: 0x7f0a00db
-			public const int masked = 2131362011;
+			// aapt resource value: 0x7f0a00de
+			public const int masked = 2131362014;
 			
 			// aapt resource value: 0x7f0a00c0
 			public const int media_actions = 2131361984;
 			
-			// aapt resource value: 0x7f0a00d9
-			public const int message = 2131362009;
+			// aapt resource value: 0x7f0a00dc
+			public const int message = 2131362012;
 			
 			// aapt resource value: 0x7f0a003c
 			public const int middle = 2131361852;
@@ -4216,23 +4216,23 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a00b7
 			public const int nav_view = 2131361975;
 			
-			// aapt resource value: 0x7f0a00e0
-			public const int navcalendar = 2131362016;
+			// aapt resource value: 0x7f0a00e3
+			public const int navcalendar = 2131362019;
 			
 			// aapt resource value: 0x7f0a00a3
 			public const int navigation_header_container = 2131361955;
 			
-			// aapt resource value: 0x7f0a00dd
-			public const int navlist = 2131362013;
-			
-			// aapt resource value: 0x7f0a00dc
-			public const int navmain = 2131362012;
+			// aapt resource value: 0x7f0a00e0
+			public const int navlist = 2131362016;
 			
 			// aapt resource value: 0x7f0a00df
-			public const int navmap = 2131362015;
+			public const int navmain = 2131362015;
 			
-			// aapt resource value: 0x7f0a00de
-			public const int navprice = 2131362014;
+			// aapt resource value: 0x7f0a00e2
+			public const int navmap = 2131362018;
+			
+			// aapt resource value: 0x7f0a00e1
+			public const int navprice = 2131362017;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int never = 2131361862;
@@ -4255,12 +4255,6 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a00b9
 			public const int nr_places = 2131361977;
 			
-			// aapt resource value: 0x7f0a00cd
-			public const int ocrimage = 2131361997;
-			
-			// aapt resource value: 0x7f0a00cf
-			public const int ocrtext = 2131361999;
-			
 			// aapt resource value: 0x7f0a0056
 			public const int parallax = 2131361878;
 			
@@ -4273,14 +4267,11 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0057
 			public const int pin = 2131361879;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int processbtn = 2131361998;
+			// aapt resource value: 0x7f0a00d4
+			public const int productImg = 2131362004;
 			
-			// aapt resource value: 0x7f0a00d1
-			public const int productImg = 2131362001;
-			
-			// aapt resource value: 0x7f0a00d0
-			public const int productsList = 2131362000;
+			// aapt resource value: 0x7f0a00d3
+			public const int productsList = 2131362003;
 			
 			// aapt resource value: 0x7f0a0006
 			public const int progress_circular = 2131361798;
@@ -4288,17 +4279,17 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0007
 			public const int progress_horizontal = 2131361799;
 			
-			// aapt resource value: 0x7f0a00d4
-			public const int psts_tab_title = 2131362004;
+			// aapt resource value: 0x7f0a00d7
+			public const int psts_tab_title = 2131362007;
 			
 			// aapt resource value: 0x7f0a0080
 			public const int radio = 2131361920;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int readJson = 2131362006;
+			// aapt resource value: 0x7f0a00d9
+			public const int readJson = 2131362009;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int resultView = 2131362007;
+			// aapt resource value: 0x7f0a00da
+			public const int resultView = 2131362010;
 			
 			// aapt resource value: 0x7f0a0054
 			public const int right = 2131361876;
@@ -4372,11 +4363,11 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0095
 			public const int select_dialog_listview = 2131361941;
 			
-			// aapt resource value: 0x7f0a00d5
-			public const int sendData = 2131362005;
+			// aapt resource value: 0x7f0a00d8
+			public const int sendData = 2131362008;
 			
-			// aapt resource value: 0x7f0a00d2
-			public const int shopTxt = 2131362002;
+			// aapt resource value: 0x7f0a00d5
+			public const int shopTxt = 2131362005;
 			
 			// aapt resource value: 0x7f0a007f
 			public const int shortcut = 2131361919;
@@ -4408,8 +4399,8 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a00b4
 			public const int spinner = 2131361972;
 			
-			// aapt resource value: 0x7f0a00d8
-			public const int spinnerDropdown = 2131362008;
+			// aapt resource value: 0x7f0a00db
+			public const int spinnerDropdown = 2131362011;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
@@ -4459,6 +4450,15 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0074
 			public const int textSpacerNoTitle = 2131361908;
 			
+			// aapt resource value: 0x7f0a00ce
+			public const int textView1 = 2131361998;
+			
+			// aapt resource value: 0x7f0a00d0
+			public const int textView2 = 2131362000;
+			
+			// aapt resource value: 0x7f0a00d2
+			public const int textView3 = 2131362002;
+			
 			// aapt resource value: 0x7f0a00a8
 			public const int text_input_password_toggle = 2131361960;
 			
@@ -4507,6 +4507,15 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0013
 			public const int transition_transform = 2131361811;
 			
+			// aapt resource value: 0x7f0a00cf
+			public const int txtAddress = 2131361999;
+			
+			// aapt resource value: 0x7f0a00cd
+			public const int txtLocation = 2131361997;
+			
+			// aapt resource value: 0x7f0a00d1
+			public const int txtRemarks = 2131362001;
+			
 			// aapt resource value: 0x7f0a0038
 			public const int uniform = 2131361848;
 			
@@ -4519,8 +4528,8 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0016
 			public const int view_offset_helper = 2131361814;
 			
-			// aapt resource value: 0x7f0a00da
-			public const int visible = 2131362010;
+			// aapt resource value: 0x7f0a00dd
+			public const int visible = 2131362013;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int wide = 2131361830;

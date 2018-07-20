@@ -12,16 +12,17 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SmartPrice.VieModels;
 
 namespace SmartPrice.Fragments
 {
     public class MapsFragment : Fragment, IOnMapReadyCallback
     {
         MapView mapView;
-        private GoogleMap googleMap;
+        public GoogleMap googleMap;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-        {
+        { 
             var view = inflater.Inflate(Resource.Layout.MapFragment, container, false);
             mapView = view.FindViewById<MapView>(Resource.Id.map);
             mapView.OnCreate(savedInstanceState);
@@ -42,16 +43,21 @@ namespace SmartPrice.Fragments
 
         public void OnMapReady(GoogleMap mMap)
         {
-            googleMap = mMap;
-            MarkerOptions markerOptions = new MarkerOptions();
-            markerOptions.SetPosition(new LatLng(16.03, 108));
-            markerOptions.SetTitle("MyPosition");
-            googleMap.AddMarker(markerOptions);
+            googleMap = mMap;            
+            AddMarkers(googleMap, HomeFragment.instance.MarkersViewModelInstance().Markers);
 
             googleMap.UiSettings.ZoomControlsEnabled = true;
             googleMap.UiSettings.CompassEnabled = true;
             googleMap.MoveCamera(CameraUpdateFactory.ZoomIn());
 
+        }
+
+        private void AddMarkers(GoogleMap map, List<MarkerOptions> markers)
+        {
+            foreach (MarkerOptions marker in markers)
+            {
+                map.AddMarker(marker);
+            }
         }
 
         public override void OnResume()

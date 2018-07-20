@@ -156,14 +156,18 @@
     <Compile Include="Fragments\HomeFragment.cs" />
     <Compile Include="Fragments\MapsFragment.cs" />
     <Compile Include="Fragments\ProductFragment.cs" />
+    <Compile Include="GPSService.cs" />
+    <Compile Include="LatLong.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Models\OCRModel.cs" />
+    <Compile Include="Models\Marker.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="ProductAdapter.cs" />
     <Compile Include="ProductsViewModel.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="VieModels\MarkersViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
