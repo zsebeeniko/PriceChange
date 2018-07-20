@@ -14,20 +14,66 @@ using Toolbar = Android.Support.V7.Widget.Toolbar;
 using SmartPrice.Fragments;
 using System.Drawing;
 using Android.Gms.Maps;
+using Com.Microsoft.Projectoxford.Vision;
+using Android.Graphics;
+using System.IO;
+using Com.Microsoft.Projectoxford.Vision.Contract;
+using GoogleGson;
+using SmartPrice.Models;
+using Newtonsoft.Json;
+using Android.Gms.Vision.Texts;
+using Android.Util;
+using Android.Gms.Vision;
 
 namespace SmartPrice
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
+    [Activity( Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         private Android.Support.V4.Widget.DrawerLayout drawerLayout;
         private NavigationView navView;
 
+        public VisionServiceRestClient client = new VisionServiceRestClient("7c8cc25104974c66916417134c548c90");
+        private Bitmap bitmap;
+
+
+        private ImageView imageview;
+        private Button btnProcess;
+        private TextView txtView;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            // Set our view from the "main" layout resource
+            //// Set our view from the "main" layout resource  
             SetContentView(Resource.Layout.Main);
+            //imageview = FindViewById<ImageView>(Resource.Id.ocrimage);
+            //btnProcess = FindViewById<Button>(Resource.Id.processbtn);
+            //txtView = FindViewById<TextView>(Resource.Id.ocrtext);
+            //Bitmap bitmap = BitmapFactory.DecodeResource(ApplicationContext.Resources, Resource.Drawable.abc);
+            //imageview.SetImageBitmap(bitmap);
+            //btnProcess.Click += delegate
+            //{
+            //    TextRecognizer txtRecognizer = new TextRecognizer.Builder(ApplicationContext).Build();
+            //    if (!txtRecognizer.IsOperational)
+            //    {
+            //        Log.Error("Error", "Detector dependencies are not yet available");
+            //    }
+            //    else
+            //    {
+            //        Frame frame = new Frame.Builder().SetBitmap(bitmap).Build();
+            //        SparseArray items = txtRecognizer.Detect(frame);
+            //        StringBuilder strBuilder = new StringBuilder();
+            //        for (int i = 0; i < items.Size(); i++)
+            //        {
+            //            TextBlock item = (TextBlock)items.ValueAt(i);
+            //            strBuilder.Append(item.Value);
+            //            strBuilder.Append("/");
+            //        }
+            //        txtView.Text = strBuilder.ToString();
+            //    }
+            //};
+
+
 
             var toolBar = FindViewById<Toolbar>(Resource.Id.toolbar);
             toolBar.SetTitle(Resource.String.app_name);
@@ -61,22 +107,26 @@ namespace SmartPrice
                 Android.App.FragmentTransaction transaction1 = this.FragmentManager.BeginTransaction();
                 switch (e.MenuItem.ItemId)
                 {
-                    case Resource.Id.nav_main:
+                    case Resource.Id.navmain:
                         HomeFragment home = new HomeFragment();
                         transaction1.Replace(Resource.Id.framelayout, home).AddToBackStack(null).Commit();
                         break;
 
-                    case Resource.Id.nav_list:
+                    case Resource.Id.navlist:
                         ProductFragment products = new ProductFragment();
                         transaction1.Replace(Resource.Id.framelayout, products).AddToBackStack(null).Commit();
                         break;
-                    case Resource.Id.nav_map:
+                    case Resource.Id.navmap:
                         MapsFragment maps = new MapsFragment();
                         transaction1.Replace(Resource.Id.framelayout, maps).AddToBackStack(null).Commit();
                         break;
-                    case Resource.Id.nav_price:
+                    case Resource.Id.navprice:
                         ExchangeRateFragment exchange = new ExchangeRateFragment();
                         transaction1.Replace(Resource.Id.framelayout, exchange).AddToBackStack(null).Commit();
+                        break;
+                    case Resource.Id.navcalendar:
+                        CalendarFragment calendar = new CalendarFragment();
+                        transaction1.Replace(Resource.Id.framelayout, calendar).AddToBackStack(null).Commit();
                         break;
                 }
                 drawerLayout.CloseDrawers();

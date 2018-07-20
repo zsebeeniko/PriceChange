@@ -3,24 +3,24 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/rounded_cormer">
+    android:background="#795548">
     <TextView
         android:id="@+id/AdditionalProp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Additional Properties"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Shop"
         android:id="@+id/ShopTextField"
-        android:textColor="#E65100" />
+        android:textColor="#000000" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Description"
         android:id="@+id/DescriptionTextField"
-        android:textColor="#E65100" />
+        android:textColor="#000000" />
 </LinearLayout>

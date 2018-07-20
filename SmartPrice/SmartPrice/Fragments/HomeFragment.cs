@@ -6,10 +6,13 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Gms.Vision;
+using Android.Gms.Vision.Texts;
 using Android.Graphics;
 using Android.OS;
 using Android.Provider;
 using Android.Runtime;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
 
@@ -23,8 +26,6 @@ namespace SmartPrice.Fragments
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Create your fragment here
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -44,15 +45,39 @@ namespace SmartPrice.Fragments
             Bitmap bitmap = (Bitmap)data.Extras.Get("data");
             imageView.SetImageBitmap(bitmap);
 
+
             LayoutInflater layoutInflaterAndroid = LayoutInflater.From(context);
             View mView = layoutInflaterAndroid.Inflate(Resource.Layout.AdditionalProps, null);
             Android.Support.V7.App.AlertDialog.Builder alertdialogbuilder = new Android.Support.V7.App.AlertDialog.Builder(context);
             alertdialogbuilder.SetView(mView);
 
+
+            TextRecognizer textrec = new TextRecognizer.Builder(context).Build();
+            if(!textrec.IsOperational)
+            {
+                Log.Error("Error", "Detector dependencies are not yet available");
+            }
+            else
+            {
+                Frame frame = new Frame.Builder().SetBitmap(bitmap).Build();
+                SparseArray items = textrec.Detect(frame);
+                StringBuilder builder = new StringBuilder();
+                for(int i=0; i<items.Size(); ++i)
+                {
+                    TextBlock text = (TextBlock)items.ValueAt(i);
+                    builder.Append(text.Value);
+                    builder.Append("\n");
+                }
+
+                var textField = mView.FindViewById<TextView>(Resource.Id.AdditionalProp);
+                textField.Text = builder.ToString(); 
+
+            }
+
             MemoryStream memstream = new MemoryStream();
             bitmap.Compress(Bitmap.CompressFormat.Jpeg, 100, memstream);
             byte[] picData = memstream.ToArray();
-
+            
             var shopField = mView.FindViewById<EditText>(Resource.Id.ShopTextField);
             var descriptionField = mView.FindViewById<EditText>(Resource.Id.DescriptionTextField);
 

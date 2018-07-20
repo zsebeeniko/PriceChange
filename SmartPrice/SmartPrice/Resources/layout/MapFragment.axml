@@ -2,9 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000000">
     <com.google.android.gms.maps.MapView
         android:id="@+id/map"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="400dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="400px"
+            android:layout_height="100px"
+            android:layout_marginLeft="20px"
+            android:text="Nr. places:"
+            android:textSize="50px"
+            android:textColor="#795548"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:layout_marginLeft="80px"
+            android:id="@+id/nr_places"
+            android:text="Nr. places"
+            android:textSize="50px"
+            android:textColor="#E65100" />
+    </LinearLayout>
 </LinearLayout>

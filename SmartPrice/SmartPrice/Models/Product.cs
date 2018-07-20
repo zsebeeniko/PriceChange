@@ -24,6 +24,7 @@ namespace SmartPrice.Models
         public string Shop { get; set; }
         public string Description { get; set; }
         public byte[] Picture { get; set; }
+        public int pic { get; set; }
 
         public override string ToString()
         {
@@ -32,13 +33,12 @@ namespace SmartPrice.Models
                 Product_Id, Shop, Description, Picture);
         }
 
-        //public Product(int product_id, String shop, String description, byte[] picture)
-        //{
-        //    this.Product_Id = product_id;
-        //    this.Shop = shop;
-        //    this.Description = description;
-        //    this.Picture = picture;
-        //}
+        public Product( String shop, String description, int picture)
+        {
+            this.Shop = shop;
+            this.Description = description;
+            this.pic = picture;
+        }
 
         //public int product_id
         //{

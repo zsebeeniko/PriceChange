@@ -24,17 +24,17 @@ namespace SmartPrice
                 products = new JavaList<Product>();
             Product p;
 
-            //p = new Product("Picture 1", "Description1", Resource.Drawable.pic1);
-            //products.Add(p);
+            p = new Product("Picture 1", "Description1", Resource.Drawable.pic1);
+            products.Add(p);
 
-            //p = new Product("Picture 2", "Description2", Resource.Drawable.pic2);
-            //products.Add(p);
+            p = new Product("Picture 2", "Description2", Resource.Drawable.pic2);
+            products.Add(p);
 
-            //p = new Product("Picture 3", "Description3", Resource.Drawable.pic3);
-            //products.Add(p);
+            p = new Product("Picture 3", "Description3", Resource.Drawable.pic3);
+            products.Add(p);
 
-            //p = new Product("Picture 4", "Description4", Resource.Drawable.pic4);
-            //products.Add(p);
+            p = new Product("Picture 4", "Description4", Resource.Drawable.pic4);
+            products.Add(p);
 
             return products;
         }

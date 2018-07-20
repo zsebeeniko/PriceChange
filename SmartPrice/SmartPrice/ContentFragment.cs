@@ -126,36 +126,36 @@ namespace SmartPrice
             alertdialogbuilder.SetCancelable(false)
             .SetPositiveButton("Send", async delegate
             {
-                using (var client = new HttpClient())
-                {
-                    try
-                    {
-                    // Create a new post  
-                    var product = new Product()
-                    {
-                        Product_Id = 1,
-                        Shop = shopField.Text,
-                        Description = descriptionField.Text,
-                        Picture = picData
-                    };
+                //using (var client = new HttpClient())
+                //{
+                //    try
+                //    {
+                //    // Create a new post  
+                //    var product = new Product()
+                //    {
+                //        Product_Id = 1,
+                //        Shop = shopField.Text,
+                //        Description = descriptionField.Text,
+                //        Picture = picData
+                //    };
 
-                    // create the request content and define Json  
-                    var json = JsonConvert.SerializeObject(product);
-                    var content = new MultipartFormDataContent();
-                    content.Add(new StringContent(json, Encoding.UTF8, "application/json"));
-                    //  send a POST request  
-                    var uri = "http://192.168.0.110/SmartPrice/api/Product/Submit";
-                    var result = await client.PostAsync(uri, content);
-                        //var result = await client.GetAsync(uri);
-                    result.EnsureSuccessStatusCode(); 
+                //    // create the request content and define Json  
+                //    var json = JsonConvert.SerializeObject(product);
+                //    var content = new MultipartFormDataContent();
+                //    content.Add(new StringContent(json, Encoding.UTF8, "application/json"));
+                //    //  send a POST request  
+                //    var uri = "http://192.168.0.110/SmartPrice/api/Product/Submit";
+                //    var result = await client.PostAsync(uri, content);
+                //        //var result = await client.GetAsync(uri);
+                //    result.EnsureSuccessStatusCode(); 
                         
-                    Toast.MakeText(context, "Sent successfully! ", ToastLength.Short).Show();
-                    }catch
-                (Exception e)
-                    {
-                        Console.Write(e.ToString());
-                    }
-                }
+                //    Toast.MakeText(context, "Sent successfully! ", ToastLength.Short).Show();
+                //    }catch
+                //(Exception e)
+                //    {
+                //        Console.Write(e.ToString());
+                //    }
+                //}
             })
              .SetNegativeButton("Cancel", delegate
              {
