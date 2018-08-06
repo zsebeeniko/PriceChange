@@ -3669,26 +3669,26 @@ namespace SmartPrice
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f020089
-			public const int avd_hide_password_1 = 2130837641;
-			
 			// aapt resource value: 0x7f02008a
-			public const int avd_hide_password_2 = 2130837642;
+			public const int avd_hide_password_1 = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int avd_hide_password_3 = 2130837643;
+			public const int avd_hide_password_2 = 2130837643;
+			
+			// aapt resource value: 0x7f02008c
+			public const int avd_hide_password_3 = 2130837644;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f02008c
-			public const int avd_show_password_1 = 2130837644;
-			
 			// aapt resource value: 0x7f02008d
-			public const int avd_show_password_2 = 2130837645;
+			public const int avd_show_password_1 = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int avd_show_password_3 = 2130837646;
+			public const int avd_show_password_2 = 2130837646;
+			
+			// aapt resource value: 0x7f02008f
+			public const int avd_show_password_3 = 2130837647;
 			
 			// aapt resource value: 0x7f020056
 			public const int border = 2130837590;
@@ -3807,11 +3807,11 @@ namespace SmartPrice
 			// aapt resource value: 0x7f02007c
 			public const int notification_icon_background = 2130837628;
 			
-			// aapt resource value: 0x7f020087
-			public const int notification_template_icon_bg = 2130837639;
-			
 			// aapt resource value: 0x7f020088
-			public const int notification_template_icon_low_bg = 2130837640;
+			public const int notification_template_icon_bg = 2130837640;
+			
+			// aapt resource value: 0x7f020089
+			public const int notification_template_icon_low_bg = 2130837641;
 			
 			// aapt resource value: 0x7f02007d
 			public const int notification_tile_bg = 2130837629;
@@ -3835,13 +3835,16 @@ namespace SmartPrice
 			public const int psts_background_tab = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int rounded_cormer = 2130837636;
+			public const int regEditStyle = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int tooltip_frame_dark = 2130837637;
+			public const int rounded_cormer = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int tooltip_frame_light = 2130837638;
+			public const int tooltip_frame_dark = 2130837638;
+			
+			// aapt resource value: 0x7f020087
+			public const int tooltip_frame_light = 2130837639;
 			
 			static Drawable()
 			{
@@ -4189,14 +4192,14 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a00b3
 			public const int map = 2131361971;
 			
-			// aapt resource value: 0x7f0a00dd
-			public const int masked = 2131362013;
+			// aapt resource value: 0x7f0a00de
+			public const int masked = 2131362014;
 			
 			// aapt resource value: 0x7f0a00bb
 			public const int media_actions = 2131361979;
 			
-			// aapt resource value: 0x7f0a00db
-			public const int message = 2131362011;
+			// aapt resource value: 0x7f0a00dc
+			public const int message = 2131362012;
 			
 			// aapt resource value: 0x7f0a003c
 			public const int middle = 2131361852;
@@ -4210,23 +4213,23 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a00b2
 			public const int nav_view = 2131361970;
 			
-			// aapt resource value: 0x7f0a00e2
-			public const int navcalendar = 2131362018;
+			// aapt resource value: 0x7f0a00e3
+			public const int navcalendar = 2131362019;
 			
 			// aapt resource value: 0x7f0a00a3
 			public const int navigation_header_container = 2131361955;
 			
-			// aapt resource value: 0x7f0a00df
-			public const int navlist = 2131362015;
+			// aapt resource value: 0x7f0a00e0
+			public const int navlist = 2131362016;
 			
-			// aapt resource value: 0x7f0a00de
-			public const int navmain = 2131362014;
+			// aapt resource value: 0x7f0a00df
+			public const int navmain = 2131362015;
+			
+			// aapt resource value: 0x7f0a00e2
+			public const int navmap = 2131362018;
 			
 			// aapt resource value: 0x7f0a00e1
-			public const int navmap = 2131362017;
-			
-			// aapt resource value: 0x7f0a00e0
-			public const int navprice = 2131362016;
+			public const int navprice = 2131362017;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int never = 2131361862;
@@ -4279,14 +4282,17 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0080
 			public const int radio = 2131361920;
 			
-			// aapt resource value: 0x7f0a00d8
-			public const int readJson = 2131362008;
+			// aapt resource value: 0x7f0a00d9
+			public const int readJson = 2131362009;
 			
 			// aapt resource value: 0x7f0a00d6
-			public const int registration = 2131362006;
+			public const int regSpinner = 2131362006;
 			
-			// aapt resource value: 0x7f0a00d9
-			public const int resultView = 2131362009;
+			// aapt resource value: 0x7f0a00d7
+			public const int registration = 2131362007;
+			
+			// aapt resource value: 0x7f0a00da
+			public const int resultView = 2131362010;
 			
 			// aapt resource value: 0x7f0a0054
 			public const int right = 2131361876;
@@ -4360,8 +4366,8 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0095
 			public const int select_dialog_listview = 2131361941;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int sendData = 2131362007;
+			// aapt resource value: 0x7f0a00d8
+			public const int sendData = 2131362008;
 			
 			// aapt resource value: 0x7f0a00d0
 			public const int shopTxt = 2131362000;
@@ -4396,8 +4402,8 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a00af
 			public const int spinner = 2131361967;
 			
-			// aapt resource value: 0x7f0a00da
-			public const int spinnerDropdown = 2131362010;
+			// aapt resource value: 0x7f0a00db
+			public const int spinnerDropdown = 2131362011;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
@@ -4525,8 +4531,8 @@ namespace SmartPrice
 			// aapt resource value: 0x7f0a0016
 			public const int view_offset_helper = 2131361814;
 			
-			// aapt resource value: 0x7f0a00dc
-			public const int visible = 2131362012;
+			// aapt resource value: 0x7f0a00dd
+			public const int visible = 2131362013;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int wide = 2131361830;
@@ -4795,28 +4801,31 @@ namespace SmartPrice
 			public const int Registration = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int RestTest = 2130903106;
+			public const int RegSpinnerItem = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int select_dialog_item_material = 2130903107;
+			public const int RestTest = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int select_dialog_multichoice_material = 2130903108;
+			public const int select_dialog_item_material = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int select_dialog_singlechoice_material = 2130903109;
+			public const int select_dialog_multichoice_material = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int SpinnerDropdown = 2130903110;
+			public const int select_dialog_singlechoice_material = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int SpinnerItem = 2130903111;
+			public const int SpinnerDropdown = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int support_simple_spinner_dropdown_item = 2130903112;
+			public const int SpinnerItem = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int tooltip = 2130903113;
+			public const int support_simple_spinner_dropdown_item = 2130903113;
+			
+			// aapt resource value: 0x7f03004a
+			public const int tooltip = 2130903114;
 			
 			static Layout()
 			{

@@ -12,7 +12,7 @@ using SmartPrice.Activities;
 
 namespace SmartPrice
 {
-    [Activity(Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
+    [Activity(Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = false)]
     public class MainActivity : AppCompatActivity
     {
 

@@ -36,10 +36,8 @@ namespace SmartPrice.Activities
 
 
             Spinner spinner = FindViewById<Spinner>(Resource.Id.spinner);
-            var localDatas = Application.Context.GetSharedPreferences("MyDatas", Android.Content.FileCreationMode.Private);
-            int position = localDatas.GetInt("Position", 0);
-            spinner.SetSelection(position);
-            spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
+            spinner.ItemSelected += spinner_ItemSelected;
+           
             var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.car_array, Resource.Layout.SpinnerItem);
             adapter.SetDropDownViewResource(Resource.Layout.SpinnerDropdown);
             spinner.Adapter = adapter;
@@ -99,12 +97,22 @@ namespace SmartPrice.Activities
 
             var localDatas = Application.Context.GetSharedPreferences("MyDatas", Android.Content.FileCreationMode.Private);
             var localDataEdit = localDatas.Edit();
-            string spinnerValue = spinner.GetItemAtPosition(e.Position).ToString();
-            localDataEdit.PutString("SpinnerValue", spinnerValue);
-            localDataEdit.PutInt("Position", e.Position);
+            int position = localDatas.GetInt("Position", -1);
+            Boolean fromReg = localDatas.GetBoolean("FromReg", false);
+            if (position > -1 && fromReg)
+            {
+                spinner.SetSelection(position);
+                localDataEdit.PutBoolean("FromReg", false);
+            }
+            else
+            {
+                string spinnerValue = spinner.GetItemAtPosition(e.Position).ToString();
+                localDataEdit.PutString("SpinnerValue", spinnerValue);
+                localDataEdit.PutInt("Position", e.Position);
+                spinner.SetSelection(e.Position);
+            }
             localDataEdit.Commit();
-
-            string toast = string.Format("Selected car is {0}", spinner.GetItemAtPosition(e.Position));
+            string toast = string.Format("Selected value is {0}", spinner.SelectedItem.ToString());
             Toast.MakeText(this, toast, ToastLength.Long).Show();
         }
     }
