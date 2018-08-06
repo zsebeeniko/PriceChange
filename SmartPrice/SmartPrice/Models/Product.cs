@@ -5,6 +5,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -23,8 +24,7 @@ namespace SmartPrice.Models
         public int Product_Id { get; set; }
         public string Shop { get; set; }
         public string Description { get; set; }
-        public byte[] Picture { get; set; }
-        public int pic { get; set; }
+        public Bitmap Picture { get; set; }
 
         public override string ToString()
         {
@@ -33,11 +33,11 @@ namespace SmartPrice.Models
                 Product_Id, Shop, Description, Picture);
         }
 
-        public Product( String shop, String description, int picture)
+        public Product( String shop, String description, Bitmap picture)
         {
             this.Shop = shop;
             this.Description = description;
-            this.pic = picture;
+            this.Picture = picture;
         }
 
         //public int product_id

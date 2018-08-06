@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Android.App;
@@ -17,6 +18,8 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
+using SmartPrice.Models;
 using SmartPrice.VieModels;
 
 namespace SmartPrice.Fragments
@@ -100,37 +103,39 @@ namespace SmartPrice.Fragments
             alertdialogbuilder.SetCancelable(false)
             .SetPositiveButton("Send", async delegate
             {
-                // using (var client = new HttpClient())
-                // {
-                //     try
-                //     {
-                //         // Create a new post  
-                //         var product = new Product()
-                //         {
-                //             Product_Id = 1,
-                //             Shop = shopField.Text,
-                //             Description = descriptionField.Text,
-                //             Picture = picData
-                //         };
+                SavePicture(picData);
+                
+                using (var client = new HttpClient())
+                {
+                    //     try
+                    //     {
+                    //         // Create a new post  
+                    //         var product = new Product()
+                    //         {
+                    //             Product_Id = 1,
+                    //             Shop = shopField.Text,
+                    //             Description = descriptionField.Text,
+                    //             Picture = picData
+                    //         };
 
-                //         // create the request content and define Json  
-                //         var json = JsonConvert.SerializeObject(product);
-                //         var content = new MultipartFormDataContent();
-                //         content.Add(new StringContent(json, Encoding.UTF8, "application/json"));
-                //         //  send a POST request  
-                //         var uri = "http://192.168.0.110/SmartPrice/api/Product/Submit";
-                //         var result = await client.PostAsync(uri, content);
-                //         //var result = await client.GetAsync(uri);
-                //         result.EnsureSuccessStatusCode();
+                    //         // create the request content and define Json  
+                    //         var json = JsonConvert.SerializeObject(product);
+                    //         var content = new MultipartFormDataContent();
+                    //         content.Add(new StringContent(json, Encoding.UTF8, "application/json"));
+                    //         //  send a POST request  
+                    //         var uri = "http://192.168.0.110/SmartPrice/api/Product/Submit";
+                    //         var result = await client.PostAsync(uri, content);
+                    //         //var result = await client.GetAsync(uri);
+                    //         result.EnsureSuccessStatusCode();
 
-                Toast.MakeText(context, "Sent successfully! ", ToastLength.Short).Show();
-                //     }
-                //     catch
-                //(Exception e)
-                //     {
-                //         Console.Write(e.ToString());
-                //     }
-                // }
+                    //         Toast.MakeText(context, "Sent successfully! ", ToastLength.Short).Show();
+                    //     }
+                    //     catch
+                    //(Exception e)
+                    //     {
+                    //         Console.Write(e.ToString());
+                    //     }
+                }
             })
              .SetNegativeButton("Cancel", delegate
              {
@@ -138,6 +143,20 @@ namespace SmartPrice.Fragments
              });
             Android.Support.V7.App.AlertDialog alertDialogAndroid = alertdialogbuilder.Create();
             alertDialogAndroid.Show();
+        }
+
+        public void SavePicture(byte[] picture)
+        {
+            var pictures = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string filePath = System.IO.Path.Combine(pictures, "pic1.png");
+            try
+            {
+                System.IO.File.WriteAllBytes(filePath, picture);
+            }
+            catch (System.Exception e)
+            {
+                System.Console.WriteLine(e.ToString());
+            }
         }
 
         private void RegisterService()

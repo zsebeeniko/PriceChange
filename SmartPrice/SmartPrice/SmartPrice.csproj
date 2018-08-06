@@ -150,6 +150,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\Registration.cs" />
+    <Compile Include="Activities\SmartPriceActivity.cs" />
     <Compile Include="ContentFragment.cs" />
     <Compile Include="Fragments\CalendarFragment.cs" />
     <Compile Include="Fragments\ExchangeRateFragment.cs" />
@@ -238,7 +240,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Login.axml">
+    <AndroidResource Include="Resources\layout\Registration.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

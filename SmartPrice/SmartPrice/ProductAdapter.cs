@@ -48,11 +48,12 @@ namespace SmartPrice
 
             ProductAdapterViewHolder holder = new ProductAdapterViewHolder(convertView)
             {
-                ShopTxt = { Text = products[position].Shop }
+                ShopTxt = { Text = products[position].Shop },
+                DescriptionTxt = { Text = products[position].Description}
             };
 
-            //holder.Image.SetImageResource(products[position].Image);
-            
+            holder.Image.SetImageBitmap(products[position].Picture);
+
             return convertView;
         }
     }
@@ -60,13 +61,13 @@ namespace SmartPrice
     class ProductAdapterViewHolder : Object
     {
         public TextView ShopTxt;
-        public TextView DesciptionTxt;
+        public TextView DescriptionTxt;
         public ImageView Image;
 
         public ProductAdapterViewHolder(View itemView)
         {
             ShopTxt = itemView.FindViewById<TextView>(Resource.Id.shopTxt);
-            DesciptionTxt = itemView.FindViewById<TextView>(Resource.Id.descriptionTxt);
+            DescriptionTxt = itemView.FindViewById<TextView>(Resource.Id.descriptionTxt);
             Image = itemView.FindViewById<ImageView>(Resource.Id.productImg);
         }
     }
