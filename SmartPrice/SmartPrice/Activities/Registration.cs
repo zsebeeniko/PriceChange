@@ -1,33 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 
 namespace SmartPrice.Activities
 {
-    [Activity(Label = "SmartPrice", MainLauncher = true)]
+    [Activity(Label = "SmartPrice", MainLauncher = false)]
     public class Registration : Activity
     {
-        string name = string.Empty;
+        string first_name = string.Empty;
+        string last_name = string.Empty;
+
+        Android.Net.Uri uri;
+
+        public static readonly int PickImageId = 1000;
+        ImageView userImage;
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            if ((requestCode == PickImageId) && (resultCode == Result.Ok) && (data != null))
+            {
+                uri = data.Data;
+                userImage.SetImageURI(uri);
+            }
+        }
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Registration);
 
-            var firstName = FindViewById<EditText>(Resource.Id.firstname);
-            var lastName = FindViewById<EditText>(Resource.Id.lastname);
+            userImage = FindViewById<ImageView>(Resource.Id.regUserImg);
             var regButton = FindViewById<Button>(Resource.Id.registration);
-
-            string first_name = firstName.Text;
-            string last_name = lastName.Text;
-            name = first_name + " " + last_name;
+            
+            userImage.SetImageResource(Resource.Drawable.user);
 
             Spinner spinner = FindViewById<Spinner>(Resource.Id.regSpinner);
             spinner.ItemSelected += spinner_ItemSelected;
@@ -35,8 +43,19 @@ namespace SmartPrice.Activities
             adapter.SetDropDownViewResource(Resource.Layout.SpinnerDropdown);
             spinner.Adapter = adapter;
 
+            Button button = FindViewById<Button>(Resource.Id.loadPic);
+            button.Click += ButtonOnClick;
+
             regButton.Click += RegButton_Click; 
             // Create your application here
+        }
+
+        void ButtonOnClick(object sender, EventArgs eventArgs)
+        {
+            Intent = new Intent();
+            Intent.SetType("image/*");
+            Intent.SetAction(Intent.ActionGetContent);
+            StartActivityForResult(Intent.CreateChooser(Intent, "Select Picture"), PickImageId);
         }
 
         private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
@@ -51,7 +70,7 @@ namespace SmartPrice.Activities
             localDataEdit.PutBoolean("FromReg", true);
             localDataEdit.Commit();
 
-            string toast = string.Format("Selected car is {0}", spinner.GetItemAtPosition(e.Position));
+            string toast = string.Format("Selected value is {0}", spinner.GetItemAtPosition(e.Position));
             Toast.MakeText(this, toast, ToastLength.Long).Show();
         }
 
@@ -59,7 +78,16 @@ namespace SmartPrice.Activities
         {
             var localDatas = Application.Context.GetSharedPreferences("MyDatas", Android.Content.FileCreationMode.Private);
             var localDataEdit = localDatas.Edit();
-            localDataEdit.PutString("Name", name);
+
+            var firstName = FindViewById<EditText>(Resource.Id.firstname);
+            var lastName = FindViewById<EditText>(Resource.Id.lastname);
+
+            first_name = firstName.Text;
+            last_name = lastName.Text;
+
+            localDataEdit.PutString("FirstName", first_name);
+            localDataEdit.PutString("LastName", last_name);
+            localDataEdit.PutString("Uri", uri.ToString());
             localDataEdit.Commit();
 
             var smartPriceAct = new Intent(Application.Context, typeof(SmartPriceActivity));

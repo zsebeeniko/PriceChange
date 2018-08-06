@@ -5,14 +5,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000">
+    android:background="#FFF3E0">
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
-        android:background="#000000"
+        android:background="#FFF3E0"
         app:title="@string/app_name"
         app:titleTextColor="#E65100"
         app:layout_scrollFlags="scroll|enterAlways">
@@ -33,12 +33,12 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
         android:layout_width="match_parent"
-        android:background="#000000">
+        android:background="#FFF3E0">
         <FrameLayout
             android:id="@+id/framelayout"
             android:layout_height="match_parent"
             android:layout_width="match_parent"
-            android:background="#000000"
+            android:background="#FFF3E0"
             android:layout_marginTop="20dp" />
         <android.support.design.widget.NavigationView
             android:id="@+id/nav_view"
@@ -47,6 +47,7 @@
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             android:background="#795548"
+            app:headerLayout="@layout/headerlayout"
             app:menu="@menu/menu"
             app:itemTextColor="#FFFFFF" />
     </android.support.v4.widget.DrawerLayout>

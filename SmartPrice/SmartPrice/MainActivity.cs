@@ -1,18 +1,12 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
-using System;
-using Android.Support.Design.Widget;
-using Android.Views;
-using Toolbar = Android.Support.V7.Widget.Toolbar;
-using SmartPrice.Fragments;
 using Android.Content;
 using SmartPrice.Activities;
 
 namespace SmartPrice
 {
-    [Activity(Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = false)]
+    [Activity(Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
 

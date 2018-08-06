@@ -15,10 +15,24 @@
         android:text="Registration"
         android:textColor="#E65100"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+    <ImageView
+        android:id="@+id/regUserImg"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:layout_gravity="center" />
+    <Button
+        android:text="Select picture"
+        android:layout_width="300px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:id="@+id/loadPic"
+        android:background="@drawable/border" />
     <EditText
         android:layout_width="800px"
         android:layout_height="100px"
         android:layout_gravity="center"
+        android:layout_marginTop="40px"
         android:hint="First name:"
         android:id="@+id/firstname"
         android:textColor="#FFFFFF"

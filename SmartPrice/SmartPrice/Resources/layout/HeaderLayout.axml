@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/HeaderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="400px"
+    android:background="@drawable/money">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/userImg"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="5px"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5px">
+            <TextView
+                android:id="@+id/menuFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40px"
+                android:text="First Name"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/menuLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

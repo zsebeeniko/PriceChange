@@ -15,6 +15,9 @@ namespace SmartPrice.Activities
     {
         private Android.Support.V4.Widget.DrawerLayout drawerLayout;
         private NavigationView navView;
+        private TextView firstName;
+        private TextView lastName;
+        private ImageView userImage;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -26,7 +29,9 @@ namespace SmartPrice.Activities
             SetSupportActionBar(toolBar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetHomeButtonEnabled(true);
-            SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.menu);
+            SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.menu2);
+
+            var localDatas = Application.Context.GetSharedPreferences("MyDatas", Android.Content.FileCreationMode.Private);
 
             drawerLayout = FindViewById<Android.Support.V4.Widget.DrawerLayout>(Resource.Id.drawer_layout);
             navView = FindViewById<NavigationView>(Resource.Id.nav_view);
@@ -34,6 +39,26 @@ namespace SmartPrice.Activities
             HomeFragment home = new HomeFragment();
             transaction.Add(Resource.Id.framelayout, home).Commit();
 
+            var headerView = navView.GetHeaderView(0);
+            lastName = headerView.FindViewById<TextView>(Resource.Id.menuLastName);
+            firstName = headerView.FindViewById<TextView>(Resource.Id.menuFirstName);
+            userImage = headerView.FindViewById<ImageView>(Resource.Id.userImg);
+
+            string data_lastName= localDatas.GetString("LastName", "");
+            string data_firstName = localDatas.GetString("FirstName", "");
+            string data_uri = localDatas.GetString("Uri", "");
+            lastName.Text = data_lastName;
+            firstName.Text = data_firstName;
+
+            Android.Net.Uri uri = Android.Net.Uri.Parse(data_uri);
+            if (uri == null)
+            {
+                userImage.SetImageResource(Resource.Drawable.user);
+            }
+            else
+            {
+                userImage.SetImageURI(uri);
+            }
 
             Spinner spinner = FindViewById<Spinner>(Resource.Id.spinner);
             spinner.ItemSelected += spinner_ItemSelected;
@@ -110,6 +135,7 @@ namespace SmartPrice.Activities
                 localDataEdit.PutString("SpinnerValue", spinnerValue);
                 localDataEdit.PutInt("Position", e.Position);
                 spinner.SetSelection(e.Position);
+                localDataEdit.PutBoolean("FromReg", true);
             }
             localDataEdit.Commit();
             string toast = string.Format("Selected value is {0}", spinner.SelectedItem.ToString());
