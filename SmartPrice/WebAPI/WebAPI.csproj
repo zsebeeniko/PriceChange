@@ -393,6 +393,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Cluster\Cluster.csproj">
+      <Project>{f823cb8c-cd0a-4cfc-9bc5-9ee687a35dc5}</Project>
+      <Name>Cluster</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SmartPrice.BL.BusinessLayerContracts\SmartPrice.BL.BusinessLayerContracts.csproj">
       <Project>{5C7CFD7A-413D-41DA-B4FA-BFC2105D2840}</Project>
       <Name>SmartPrice.BL.BusinessLayerContracts</Name>

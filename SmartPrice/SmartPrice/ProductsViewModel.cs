@@ -29,7 +29,8 @@ namespace SmartPrice
             var images = LoadImages(filePath);
             Product p;
 
-            p = new Product("Picture 1", "Description1", images[0]);
+            p = new Product("Picture 1", "Description1", filePath);
+            //p = new Product("Picture 1", "Description1", images[0]);
             products.Add(p);
 
             return products;

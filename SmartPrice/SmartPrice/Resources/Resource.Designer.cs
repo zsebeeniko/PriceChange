@@ -3669,26 +3669,26 @@ namespace SmartPrice
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f02008d
-			public const int avd_hide_password_1 = 2130837645;
-			
 			// aapt resource value: 0x7f02008e
-			public const int avd_hide_password_2 = 2130837646;
+			public const int avd_hide_password_1 = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int avd_hide_password_3 = 2130837647;
+			public const int avd_hide_password_2 = 2130837647;
+			
+			// aapt resource value: 0x7f020090
+			public const int avd_hide_password_3 = 2130837648;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f020090
-			public const int avd_show_password_1 = 2130837648;
-			
 			// aapt resource value: 0x7f020091
-			public const int avd_show_password_2 = 2130837649;
+			public const int avd_show_password_1 = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int avd_show_password_3 = 2130837650;
+			public const int avd_show_password_2 = 2130837650;
+			
+			// aapt resource value: 0x7f020093
+			public const int avd_show_password_3 = 2130837651;
 			
 			// aapt resource value: 0x7f020056
 			public const int border = 2130837590;
@@ -3813,11 +3813,11 @@ namespace SmartPrice
 			// aapt resource value: 0x7f02007e
 			public const int notification_icon_background = 2130837630;
 			
-			// aapt resource value: 0x7f02008b
-			public const int notification_template_icon_bg = 2130837643;
-			
 			// aapt resource value: 0x7f02008c
-			public const int notification_template_icon_low_bg = 2130837644;
+			public const int notification_template_icon_bg = 2130837644;
+			
+			// aapt resource value: 0x7f02008d
+			public const int notification_template_icon_low_bg = 2130837645;
 			
 			// aapt resource value: 0x7f02007f
 			public const int notification_tile_bg = 2130837631;
@@ -3826,34 +3826,37 @@ namespace SmartPrice
 			public const int notify_panel_notification_icon_bg = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int pic1 = 2130837633;
+			public const int OrangeShape = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int pic2 = 2130837634;
+			public const int pic1 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int pic3 = 2130837635;
+			public const int pic2 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int pic4 = 2130837636;
+			public const int pic3 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int psts_background_tab = 2130837637;
+			public const int pic4 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int regEditStyle = 2130837638;
+			public const int psts_background_tab = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int rounded_cormer = 2130837639;
+			public const int regEditStyle = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int tooltip_frame_dark = 2130837640;
+			public const int rounded_cormer = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int tooltip_frame_light = 2130837641;
+			public const int tooltip_frame_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int user = 2130837642;
+			public const int tooltip_frame_light = 2130837642;
+			
+			// aapt resource value: 0x7f02008b
+			public const int user = 2130837643;
 			
 			static Drawable()
 			{

@@ -27,7 +27,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="100px"
         android:id="@+id/loadPic"
-        android:background="@drawable/border" />
+        android:background="@drawable/OrangeShape" />
     <EditText
         android:layout_width="800px"
         android:layout_height="100px"
@@ -63,5 +63,5 @@
         android:layout_gravity="center"
         android:layout_marginTop="100px"
         android:id="@+id/registration"
-        android:background="@drawable/border" />
+        android:background="@drawable/OrangeShape" />
 </LinearLayout>

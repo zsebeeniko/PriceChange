@@ -52,8 +52,9 @@ namespace SmartPrice
                 DescriptionTxt = { Text = products[position].Description}
             };
 
-            holder.Image.SetImageBitmap(products[position].Picture);
-
+            //holder.Image.SetImageBitmap(products[position].Picture);
+            Android.Net.Uri uri = Android.Net.Uri.Parse(products[position].Picture);
+            holder.Image.SetImageURI(uri);
             return convertView;
         }
     }

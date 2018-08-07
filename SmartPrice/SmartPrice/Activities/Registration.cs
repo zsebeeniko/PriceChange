@@ -87,6 +87,7 @@ namespace SmartPrice.Activities
 
             localDataEdit.PutString("FirstName", first_name);
             localDataEdit.PutString("LastName", last_name);
+            localDataEdit.PutString("Name", first_name + " " + last_name);
             localDataEdit.PutString("Uri", uri.ToString());
             localDataEdit.Commit();
 
