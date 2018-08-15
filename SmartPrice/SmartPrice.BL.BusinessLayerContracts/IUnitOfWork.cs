@@ -12,7 +12,9 @@ namespace SmartPrice.BL.BusinessLayerContracts
 
         IPriceOperations PriceOperations { get; }
 
-        IProductPriceOperations ProductPriceOperations { get; }
+        IMarkerOperations MarkerOperations { get; }
+
+        IPictureOperations PictureOperations { get; }
 
         void SaveChanges();
     }

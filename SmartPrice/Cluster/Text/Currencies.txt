@@ -1,0 +1,4 @@
+HUF, huf, forint, ft, FT,ft
+EUR, eur, eu,EU,EURO, Eu, euro, euro, euro, euro, euro, EuRo, EUro, EURRo, Euro,eurro,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EURO,EUR,EUR,EUR,EUR,EURO,EUR,EUR
+RON, RON, leu, LEU, lei, Lei, ro, RO,ronn,ronn,rro,rom,rou,
+USD, USD, dollar, dolar. Dollar, Dolar, Doll, Dol,ussd,us

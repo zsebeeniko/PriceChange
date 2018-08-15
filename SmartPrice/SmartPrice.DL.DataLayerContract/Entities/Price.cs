@@ -8,12 +8,19 @@ namespace SmartPrice.DL.DataLayerContract.Entities
     {
         public Price()
         {
-            this.ProductPrices = new List<ProductPrice>();
         }
 
-        public int PRICE_TYPE { get; set; }
-        public string DESCRIPTION { get; set; }
-        public string SIGNITURE { get; set; }
-        public virtual ICollection<ProductPrice> ProductPrices { get; set; }
+        public int PriceId { get; set; }
+        public string PriceToConvert { get; set; }
+        public string FromCurrency { get; set; }
+        public string ToCurrency { get; set; }
+        public decimal ExchangedValue { get; set; }
+        public decimal DefaultValue { get; set; }
+        public string Shop { get; set; }
+        public DateTime Date { get; set; }
+        public int PicturePathId { get; set; }
+        public int PRODUCT_ID { get; set; }
+
+        public Product product { get; set; }
     }
 }

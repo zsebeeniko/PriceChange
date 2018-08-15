@@ -62,8 +62,7 @@ namespace SmartPrice.Activities
 
             Spinner spinner = FindViewById<Spinner>(Resource.Id.spinner);
             spinner.ItemSelected += spinner_ItemSelected;
-           
-            var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.car_array, Resource.Layout.SpinnerItem);
+            var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.curr_array, Resource.Layout.SpinnerItem);
             adapter.SetDropDownViewResource(Resource.Layout.SpinnerDropdown);
             spinner.Adapter = adapter;
             setupDrawerContent(navView);

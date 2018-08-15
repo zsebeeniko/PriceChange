@@ -24,7 +24,7 @@ namespace SmartPrice.Cluster
         /// <returns></returns>
 
 
-        public static List<Centroid> PrepareDocumentCluster(int k, List<DocumentVector> documentCollection, ref int _counter)
+        public static List<Centroid> PrepareDocumentCluster(int k, List<DocumentVector> documentCollection, ref int _counter, ref int final_index, string term)
         {
             globalCounter = 0;
             //prepares k initial centroid and assign one object randomly to each centroid
@@ -59,6 +59,10 @@ namespace SmartPrice.Cluster
                 foreach (DocumentVector obj in documentCollection)
                 {
                     int index = FindClosestClusterCenter(centroidCollection, obj);
+                    if(obj.Content.Equals(term))
+                    {
+                        final_index = index;
+                    }
                     resultSet[index].GroupedDocument.Add(obj);
                 }
                 InitializeClusterCentroid(out centroidCollection, centroidCollection.Count());

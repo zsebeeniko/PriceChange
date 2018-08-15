@@ -51,9 +51,19 @@
   <ItemGroup>
     <Compile Include="EFDataAccess.cs" />
     <Compile Include="EFRepository.cs" />
+    <Compile Include="Migrations\201808151334142_alma.cs" />
+    <Compile Include="Migrations\201808151334142_alma.Designer.cs">
+      <DependentUpon>201808151334142_alma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808151408331_foreignKey.cs" />
+    <Compile Include="Migrations\201808151408331_foreignKey.Designer.cs">
+      <DependentUpon>201808151408331_foreignKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Mapping\MarkerMap.cs" />
+    <Compile Include="Models\Mapping\PictureMap.cs" />
     <Compile Include="Models\Mapping\PriceMap.cs" />
     <Compile Include="Models\Mapping\ProductMap.cs" />
-    <Compile Include="Models\Mapping\ProductPriceMap.cs" />
     <Compile Include="Models\SmartPriceContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -69,6 +79,14 @@
       <Project>{37D9804D-7640-48BC-B513-AE8B5208CD4E}</Project>
       <Name>SmartPrice.DL.DataLayerContract</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201808151334142_alma.resx">
+      <DependentUpon>201808151334142_alma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808151408331_foreignKey.resx">
+      <DependentUpon>201808151408331_foreignKey.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

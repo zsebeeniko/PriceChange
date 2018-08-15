@@ -39,7 +39,7 @@ namespace SmartPrice.Cluster
             foreach (string documentContent in collection.DocumentList)
             {
                 foreach (string term in r.Split(documentContent))
-                {
+                { //sztem ez nem kell, marmint ez a csekk 
                     if (!StopWordsHandler.IsStotpWord(term))
                         distinctTerms.Add(term);
                     else

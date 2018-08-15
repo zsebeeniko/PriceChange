@@ -41,13 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTOs\MarkerDTO.cs" />
+    <Compile Include="DTOs\PictureDTO.cs" />
+    <Compile Include="IMarkerOperations.cs" />
+    <Compile Include="IPictureOperations.cs" />
     <Compile Include="IPriceOperations.cs" />
     <Compile Include="IProductOperations.cs" />
-    <Compile Include="IProductPriceOperations.cs" />
     <Compile Include="IUnitOfWork.cs" />
     <Compile Include="DTOs\PriceDTO.cs" />
     <Compile Include="DTOs\ProductDTO.cs" />
-    <Compile Include="DTOs\ProductPriceDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -14,7 +14,8 @@ namespace SmartPrice.DL.EFDataLayer
         private SmartPriceContext _ctx;
         private IDataAccess<DataLayerContract.Entities.Product> _productDataAccess;
         private IDataAccess<DataLayerContract.Entities.Price> _priceDataAccess;
-        private IDataAccess<DataLayerContract.Entities.ProductPrice> _productPriceDataAccess;
+        private IDataAccess<DataLayerContract.Entities.Marker> _markerDataAccess;
+        private IDataAccess<DataLayerContract.Entities.Picture> _pictureDataAccess;
 
         public EFRepository(SmartPriceContext ctx)
         {
@@ -48,22 +49,42 @@ namespace SmartPrice.DL.EFDataLayer
             }
         }
 
-        public IDataAccess<DataLayerContract.Entities.ProductPrice> ProductPriceRepository
+        public IDataAccess<DataLayerContract.Entities.Marker> MarkerRepository
         {
             get
             {
-                if (_productPriceDataAccess == null)
+                if (_markerDataAccess == null)
                 {
-                    _productPriceDataAccess = new EFDataAccess<DataLayerContract.Entities.ProductPrice>(_ctx);
+                    _markerDataAccess = new EFDataAccess<DataLayerContract.Entities.Marker>(_ctx);
                 }
 
-                return _productPriceDataAccess;
+                return _markerDataAccess;
+            }
+        }
+
+        public IDataAccess<DataLayerContract.Entities.Picture> PictureRepository
+        {
+            get
+            {
+                if (_pictureDataAccess == null)
+                {
+                    _pictureDataAccess = new EFDataAccess<DataLayerContract.Entities.Picture>(_ctx);
+                }
+
+                return _pictureDataAccess;
             }
         }
 
         public void SaveChanges()
         {
-            _ctx.SaveChanges();
+            try
+            {
+                _ctx.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                Console.Write(ex);
+            }
         }
     }
 }

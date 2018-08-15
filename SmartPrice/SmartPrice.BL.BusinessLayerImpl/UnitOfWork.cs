@@ -8,7 +8,8 @@ namespace SmartPrice.BL.BusinessLayerImpl
         private IRepository _repository;
         private IProductOperations _productOperations;
         private IPriceOperations _priceOperations;
-        private IProductPriceOperations _productPriceOperations;
+        private IMarkerOperations _markerOperations;
+        private IPictureOperations _pictureOperations;
 
         public UnitOfWork(IRepository repository)
         {
@@ -41,19 +42,28 @@ namespace SmartPrice.BL.BusinessLayerImpl
             }
         }
 
-        public IProductPriceOperations ProductPriceOperations
+        public IMarkerOperations MarkerOperations
         {
             get
             {
-                if (_productPriceOperations == null)
+                if (_markerOperations == null)
                 {
-                    _productPriceOperations = new BusinessLayerImpl.ProductPriceOperations(
-                        _repository.ProductPriceRepository,
-                        _repository.ProductRepository,
-                        _repository.PriceRepository);
+                    _markerOperations = new MarkerOperations(_repository.MarkerRepository);
                 }
 
-                return _productPriceOperations;
+                return _markerOperations;
+            }
+        }
+        public IPictureOperations PictureOperations
+        {
+            get
+            {
+                if (_pictureOperations == null)
+                {
+                    _pictureOperations = new PictureOperations(_repository.PictureRepository);
+                }
+
+                return _pictureOperations;
             }
         }
 

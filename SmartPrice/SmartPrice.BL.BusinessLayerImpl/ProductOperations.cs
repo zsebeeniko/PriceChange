@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using SmartPrice.BL.BusinessLayerContracts;
 using SmartPrice.BL.BusinessLayerContracts.DTOs;
@@ -15,24 +16,26 @@ namespace SmartPrice.BL.BusinessLayerImpl
         {
             _productDataAccess = productDataAccess;
         }
-        public void Create(ProductDTO product)
+
+        public int Create(ProductDTO product)
         {
+            product.Product_Id = _productDataAccess.Read().Count() + 1;
             _productDataAccess.Add(new Product()
             {
                 PRODUCT_ID = product.Product_Id,
-                SHOP = product.Shop,
                 DESCRIPTION = product.Description,
-                PICTURE = product.Picture
+                Name = product.Name
             });
+
+            return product.Product_Id;
         }
 
         public void Delete(ProductDTO product)
         {
             Product entity = new Product();
-            entity.PICTURE = product.Picture;
             entity.PRODUCT_ID = product.Product_Id;
-            entity.SHOP = product.Shop;
             entity.DESCRIPTION = product.Description;
+            entity.Name = product.Name;
             _productDataAccess.Delete(entity);
         }
 
@@ -43,9 +46,13 @@ namespace SmartPrice.BL.BusinessLayerImpl
                 {
                     Product_Id = x.PRODUCT_ID,
                     Description = x.DESCRIPTION,
-                    Picture = x.PICTURE,
-                    Shop = x.SHOP
+                    Name = x.Name
                 });
+        }
+
+        public List<String> GetNames()
+        {
+            return _productDataAccess.Read().Select(x => x.Name).ToList();
         }
     }
 }

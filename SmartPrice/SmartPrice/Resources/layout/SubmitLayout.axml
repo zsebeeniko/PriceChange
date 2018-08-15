@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/ExValue"
+        android:layout_width="350px"
+        android:layout_height="80px"
+        android:layout_marginTop="40px"
+        android:text="Exchanged value"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/OrangeShape" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:background="#FFF3E0"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/FromCurr"
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300px"
+            android:text="EUR"
+            android:textColor="#E65100"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="100px"
+            android:layout_height="80px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/ToCurr"
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:text="HUF"
+            android:textColor="#E65100"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Properties"
+        android:layout_marginLeft="20px"
+        android:textColor="#795548"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:background="#FFF3E0"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px">
+        <Button
+            android:text="Get existing products"
+            android:layout_width="250px"
+            android:layout_height="100px"
+            android:layout_marginLeft="20px"
+            android:id="@+id/getNames"
+            android:background="@drawable/OrangeShape" />
+        <Spinner
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:layout_marginLeft="30px"
+            android:dropDownSelector="@android:color/transparent"
+            android:popupBackground="#F57C00"
+            android:spinnerMode="dropdown"
+            android:id="@+id/submitSpinner"
+            android:background="@drawable/regEditStyle" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="800px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:hint="Product name:"
+        android:id="@+id/productName"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/regEditStyle" />
+    <EditText
+        android:layout_width="800px"
+        android:layout_height="220px"
+        android:layout_gravity="center"
+        android:layout_marginTop="40px"
+        android:hint="Product description:"
+        android:id="@+id/productDescription"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/regEditStyle" />
+    <EditText
+        android:layout_width="800px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:layout_marginTop="40px"
+        android:hint="Shop:"
+        android:id="@+id/shop"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/regEditStyle" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:background="#FFF3E0"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px">
+        <Button
+            android:text="Submit"
+            android:layout_width="300px"
+            android:layout_height="60px"
+            android:layout_marginLeft="180px"
+            android:id="@+id/Submit"
+            android:background="@drawable/OrangeShape" />
+        <Button
+            android:text="Cancel"
+            android:layout_width="300px"
+            android:layout_height="60px"
+            android:layout_marginLeft="20px"
+            android:id="@+id/Cancel"
+            android:background="@drawable/OrangeShape" />
+    </LinearLayout>
+</LinearLayout>

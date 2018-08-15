@@ -39,7 +39,7 @@ namespace SmartPrice.Activities
 
             Spinner spinner = FindViewById<Spinner>(Resource.Id.regSpinner);
             spinner.ItemSelected += spinner_ItemSelected;
-            var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.car_array, Resource.Layout.RegSpinnerItem);
+            var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.curr_array, Resource.Layout.RegSpinnerItem);
             adapter.SetDropDownViewResource(Resource.Layout.SpinnerDropdown);
             spinner.Adapter = adapter;
 
@@ -47,7 +47,6 @@ namespace SmartPrice.Activities
             button.Click += ButtonOnClick;
 
             regButton.Click += RegButton_Click; 
-            // Create your application here
         }
 
         void ButtonOnClick(object sender, EventArgs eventArgs)

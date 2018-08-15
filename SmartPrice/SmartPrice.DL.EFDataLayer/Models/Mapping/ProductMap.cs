@@ -12,20 +12,17 @@ namespace SmartPrice.DL.EFDataLayer.Models.Mapping
             this.HasKey(t => t.PRODUCT_ID);
 
             // Properties
-            this.Property(t => t.SHOP)
+            this.Property(t => t.Name)
                 .HasMaxLength(50);
 
             this.Property(t => t.DESCRIPTION)
                 .HasMaxLength(50);
 
-            this.Property(t => t.PICTURE);
-
             // Table & Column Mappings
             this.ToTable("Products");
             this.Property(t => t.PRODUCT_ID).HasColumnName("PRODUCT_ID");
-            this.Property(t => t.SHOP).HasColumnName("SHOP");
+            this.Property(t => t.Name).HasColumnName("Name");
             this.Property(t => t.DESCRIPTION).HasColumnName("DESCRIPTION");
-            this.Property(t => t.PICTURE).HasColumnName("PICTURE");
         }
     }
 }

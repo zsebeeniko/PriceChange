@@ -18,14 +18,21 @@ namespace SmartPrice.DL.EFDataLayer.Models
         }
 
         public DbSet<Price> Prices { get; set; }
-        public DbSet<ProductPrice> ProductPrices { get; set; }
+        public DbSet<Marker> Markers { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Picture> Pictures { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new PriceMap());
-            modelBuilder.Configurations.Add(new ProductPriceMap());
+            modelBuilder.Configurations.Add(new MarkerMap());
             modelBuilder.Configurations.Add(new ProductMap());
+            modelBuilder.Configurations.Add(new PictureMap());
+
+            modelBuilder.Entity<Price>()
+            .HasRequired<Product>(s => s.product)
+            .WithMany(g => g.prices)
+            .HasForeignKey<int>(s => s.PRODUCT_ID);
         }
     }
 }

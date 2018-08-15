@@ -1,14 +1,14 @@
 ﻿using SmartPrice.BL.BusinessLayerContracts.DTOs;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartPrice.BL.BusinessLayerContracts
 {
     public interface IPriceOperations
     {
         IEnumerable<PriceDTO> Get();
+        decimal GetExchangedValue(string priceToConvert, string to_currency);
+        string GetFromCurrency(string priceToConvert);
+        int GetNextPathId();
+        void Create(PriceDTO priceDto);
     }
 }

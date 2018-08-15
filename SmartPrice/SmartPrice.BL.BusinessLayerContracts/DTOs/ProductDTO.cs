@@ -13,10 +13,8 @@ namespace SmartPrice.BL.BusinessLayerContracts.DTOs
         [DataMember]
         public int Product_Id { get; set; }
         [DataMember]
-        public string Shop { get; set; }
+        public string Name { get; set; }
         [DataMember]
         public string Description { get; set; }
-        [DataMember]
-        public byte[] Picture { get; set; }
     }
 }

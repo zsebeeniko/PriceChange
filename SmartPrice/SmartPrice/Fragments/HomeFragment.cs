@@ -1,24 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using Android.App;
 using Android.Content;
 using Android.Gms.Maps.Model;
 using Android.Gms.Vision;
 using Android.Gms.Vision.Texts;
 using Android.Graphics;
-using Android.Locations;
 using Android.OS;
 using Android.Provider;
-using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Newtonsoft.Json;
+using SmartPrice.Activities;
 using SmartPrice.Models;
 using SmartPrice.VieModels;
 
@@ -36,6 +33,11 @@ namespace SmartPrice.Fragments
         GPSServiceConnection _gpsServiceConnection;
         Intent _gpsServiceIntent;
         private GPSServiceReciever _receiver;
+
+        private string convertString = "";
+        private string to_currency = "";
+        private string from_currency = "";
+        private decimal value;
 
         public static HomeFragment instance;
         public override void OnCreate(Bundle savedInstanceState)
@@ -55,7 +57,7 @@ namespace SmartPrice.Fragments
             return view;
         }
 
-        public override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        public override async void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
 
@@ -65,14 +67,44 @@ namespace SmartPrice.Fragments
             Bitmap bitmap = (Bitmap)data.Extras.Get("data");
             imageView.SetImageBitmap(bitmap);
 
-            LayoutInflater layoutInflaterAndroid = LayoutInflater.From(context);
-            View mView = layoutInflaterAndroid.Inflate(Resource.Layout.AdditionalProps, null);
-            Android.Support.V7.App.AlertDialog.Builder alertdialogbuilder = new Android.Support.V7.App.AlertDialog.Builder(context);
-            alertdialogbuilder.SetView(mView);
+            convertString = TextRecognition(bitmap);
+            MemoryStream memstream = new MemoryStream();
+            bitmap.Compress(Bitmap.CompressFormat.Jpeg, 100, memstream);
+            byte[] picData = memstream.ToArray();
 
+            using (var client = new HttpClient())
+            {
+                string currency_from = await client.GetStringAsync("http://192.168.0.103/SmartPrice/api/Product/GetFromCurrency?priceToConvert=" + convertString);
+                from_currency = currency_from;
 
+                var localDatas = Application.Context.GetSharedPreferences("MyDatas", Android.Content.FileCreationMode.Private);
+                var localDataEdit = localDatas.Edit();
+                string spinnerValue = localDatas.GetString("SpinnerValue", "");
+                to_currency = spinnerValue.Split('-')[0];
+
+                var exchanged = await client.GetStringAsync("http://192.168.0.103/SmartPrice/api/Product/GetExchangedValue?priceToConvert=" + convertString + "&to_currency=" + to_currency);
+                exchanged = Regex.Replace(exchanged.ToString(), "[.]", ",");
+                value = decimal.Parse(exchanged);
+
+                string nextId = await client.GetStringAsync("http://192.168.0.103/SmartPrice/api/Picture/GetNextPathId");
+                int picId = int.Parse(nextId);
+                SavePicture(picData, picId);
+
+                var smartPriceAct = new Intent(Application.Context, typeof(SubmitActivity));
+                smartPriceAct.PutExtra("toCurr", to_currency);
+                smartPriceAct.PutExtra("fromCurr", from_currency);
+                smartPriceAct.PutExtra("exValue", value.ToString());
+                smartPriceAct.PutExtra("picId", picId.ToString());
+                smartPriceAct.PutExtra("priceToConvert", convertString);
+                StartActivity(smartPriceAct);
+            }
+        }
+
+        private string TextRecognition(Bitmap bitmap)
+        {
             TextRecognizer textrec = new TextRecognizer.Builder(context).Build();
-            if(!textrec.IsOperational)
+            StringBuilder builder = new StringBuilder();
+            if (!textrec.IsOperational)
             {
                 Log.Error("Error", "Detector dependencies are not yet available");
             }
@@ -80,75 +112,21 @@ namespace SmartPrice.Fragments
             {
                 Frame frame = new Frame.Builder().SetBitmap(bitmap).Build();
                 SparseArray items = textrec.Detect(frame);
-                StringBuilder builder = new StringBuilder();
-                for(int i=0; i<items.Size(); ++i)
+                for (int i = 0; i < items.Size(); ++i)
                 {
                     TextBlock text = (TextBlock)items.ValueAt(i);
                     builder.Append(text.Value);
                     builder.Append("\n");
                 }
-
-                var textField = mView.FindViewById<TextView>(Resource.Id.AdditionalProp);
-                textField.Text = builder.ToString(); 
-
             }
 
-            MemoryStream memstream = new MemoryStream();
-            bitmap.Compress(Bitmap.CompressFormat.Jpeg, 100, memstream);
-            byte[] picData = memstream.ToArray();
-            
-            var shopField = mView.FindViewById<EditText>(Resource.Id.ShopTextField);
-            var descriptionField = mView.FindViewById<EditText>(Resource.Id.DescriptionTextField);
-
-            alertdialogbuilder.SetCancelable(false)
-            .SetPositiveButton("Send", async delegate
-            {
-                SavePicture(picData);
-                
-                //using (var client = new HttpClient())
-                //{
-               //     try
-               //     {
-               //         Create a new post
-               //         var product = new Product()
-               //         {
-               //             Product_Id = 1,
-               //             Shop = shopField.Text,
-               //             Description = descriptionField.Text,
-               //             Picture = picData
-               //         };
-
-               //         create the request content and define Json
-               //        var json = JsonConvert.SerializeObject(product);
-               //         var content = new MultipartFormDataContent();
-               //         content.Add(new StringContent(json, Encoding.UTF8, "application/json"));
-               //         send a POST request
-               //         var uri = "http://192.168.0.110/SmartPrice/api/Product/Submit";
-               //         var result = await client.PostAsync(uri, content);
-               //         var result = await client.GetAsync(uri);
-               //         result.EnsureSuccessStatusCode();
-
-               //         Toast.MakeText(context, "Sent successfully! ", ToastLength.Short).Show();
-               //     }
-               //     catch
-               //(Exception e)
-               //     {
-               //         Console.Write(e.ToString());
-               //     }
-               // }
-            })
-             .SetNegativeButton("Cancel", delegate
-             {
-                 alertdialogbuilder.Dispose();
-             });
-            Android.Support.V7.App.AlertDialog alertDialogAndroid = alertdialogbuilder.Create();
-            alertDialogAndroid.Show();
+            return builder.ToString();
         }
 
-        public void SavePicture(byte[] picture)
+        public void SavePicture(byte[] picture, int picId)
         {
             var pictures = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            string filePath = System.IO.Path.Combine(pictures, "pic1.png");
+            string filePath = System.IO.Path.Combine(pictures, "pic" + picId + ".png");
             try
             {
                 System.IO.File.WriteAllBytes(filePath, picture);
@@ -185,7 +163,6 @@ namespace SmartPrice.Fragments
             double lng = intent.GetDoubleExtra("Longitude", 0.0);
             Models.Marker marker = new Models.Marker(Title, lat, lng);
             markers = markersViewModel.AddMarker(marker);
-            Console.Write(markers.Count);
         }
 
         public MarkersViewModel MarkersViewModelInstance()

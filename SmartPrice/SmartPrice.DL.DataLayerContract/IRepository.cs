@@ -11,7 +11,8 @@ namespace SmartPrice.DL.DataLayerContract
     {
         IDataAccess<Product> ProductRepository { get; }
         IDataAccess<Price> PriceRepository { get; }
-        IDataAccess<ProductPrice> ProductPriceRepository { get; }
+        IDataAccess<Marker> MarkerRepository { get; }
+        IDataAccess<Picture> PictureRepository { get; }
 
         void SaveChanges();
     }
