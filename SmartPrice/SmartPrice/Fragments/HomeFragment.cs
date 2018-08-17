@@ -15,8 +15,8 @@ using Android.Provider;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
 using SmartPrice.Activities;
-using SmartPrice.Models;
 using SmartPrice.VieModels;
 
 namespace SmartPrice.Fragments
@@ -52,9 +52,15 @@ namespace SmartPrice.Fragments
             context = view.Context;
             instance.markersViewModel = new MarkersViewModel();
             imageView = view.FindViewById<ImageView>(Resource.Id.imageView);
+            Button camera = view.FindViewById<Button>(Resource.Id.camera);
+            camera.Click += Camera_Click;
+            return view;
+        }
+
+        private void Camera_Click(object sender, EventArgs e)
+        {
             Intent intent = new Intent(MediaStore.ActionImageCapture);
             StartActivityForResult(intent, 0);
-            return view;
         }
 
         public override async void OnActivityResult(int requestCode, Result resultCode, Intent data)
@@ -72,21 +78,28 @@ namespace SmartPrice.Fragments
             bitmap.Compress(Bitmap.CompressFormat.Jpeg, 100, memstream);
             byte[] picData = memstream.ToArray();
 
+            if (convertString == String.Empty || convertString == "")
+            {
+                string toast = string.Format("The quality of the picture is not enough good. Please take an other picture!");
+                Toast.MakeText(context, toast, ToastLength.Long).Show();
+                return;
+            }
+
             using (var client = new HttpClient())
             {
-                string currency_from = await client.GetStringAsync("http://192.168.0.103/SmartPrice/api/Product/GetFromCurrency?priceToConvert=" + convertString);
-                from_currency = currency_from;
+                string currency_from = await client.GetStringAsync(Utils.baseUrl + "Product/GetFromCurrency?priceToConvert=" + convertString);
+                from_currency = JsonConvert.DeserializeObject<string>(currency_from);
 
                 var localDatas = Application.Context.GetSharedPreferences("MyDatas", Android.Content.FileCreationMode.Private);
                 var localDataEdit = localDatas.Edit();
                 string spinnerValue = localDatas.GetString("SpinnerValue", "");
                 to_currency = spinnerValue.Split('-')[0];
 
-                var exchanged = await client.GetStringAsync("http://192.168.0.103/SmartPrice/api/Product/GetExchangedValue?priceToConvert=" + convertString + "&to_currency=" + to_currency);
+                var exchanged = await client.GetStringAsync(Utils.baseUrl + "Product/GetExchangedValue?priceToConvert=" + convertString + "&to_currency=" + to_currency);
                 exchanged = Regex.Replace(exchanged.ToString(), "[.]", ",");
                 value = decimal.Parse(exchanged);
 
-                string nextId = await client.GetStringAsync("http://192.168.0.103/SmartPrice/api/Picture/GetNextPathId");
+                string nextId = await client.GetStringAsync(Utils.baseUrl + "Picture/GetNextPathId");
                 int picId = int.Parse(nextId);
                 SavePicture(picData, picId);
 

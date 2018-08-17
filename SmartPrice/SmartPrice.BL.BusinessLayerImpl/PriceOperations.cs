@@ -15,21 +15,64 @@ namespace SmartPrice.BL.BusinessLayerImpl
     public class PriceOperations : IPriceOperations
     {
         private IDataAccess<Price> _priceDataAccess;
+        private IDataAccess<Product> _productDataAccess;
 
         private DocumentCollection docCollection;
         private decimal value;
         private string currency;
         private string currency_path = "C:\\Users\\ZsEni\\Documents\\Disszertacio\\Projekt\\SmartPrice\\Cluster\\Text\\Currencies.txt";
 
-        public PriceOperations(IDataAccess<Price> priceDataAccess)
+        public PriceOperations(IDataAccess<Price> priceDataAccess, IDataAccess<Product> productDataAccess)
         {
             _priceDataAccess = priceDataAccess;
+            _productDataAccess = productDataAccess;
             docCollection = new DocumentCollection() { DocumentList = new List<string>() };
+        }
+
+        public List<PriceDTO> GetFilteredProducts(string pDate)
+        {
+            DateTime date = DateTime.Parse(pDate);
+
+            return _priceDataAccess.Read().Where(x => x.Date == date).
+                    Select(x => new PriceDTO()
+                    {
+                        Price_Id = x.PriceId,
+                        PriceToConvert = x.PriceToConvert,
+                        FromCurrency = x.FromCurrency,
+                        ToCurrency = x.ToCurrency,
+                        ExchangedValue = x.ExchangedValue,
+                        DefaultValue = x.DefaultValue,
+                        Shop = x.Shop,
+                        Date = x.Date,
+                        Product_Id = x.PRODUCT_ID,
+                        PicturePathId = x.PicturePathId,
+                        product = new ProductDTO() { Description = x.product.DESCRIPTION, Name = x.product.Name, Product_Id = x.PRODUCT_ID }
+                    }).ToList();
+        }
+
+        public PriceDTO GetBestPrice(string name)
+        {
+            decimal minvalue = _priceDataAccess.Read().Where(x => x.product.Name == name).Min(x => x.DefaultValue);
+            return _priceDataAccess.Read().Where(x => x.DefaultValue == minvalue).
+                    Select( x => new PriceDTO() {
+                        Price_Id = x.PriceId,
+                        PriceToConvert = x.PriceToConvert,
+                        FromCurrency = x.FromCurrency,
+                        ToCurrency = x.ToCurrency,
+                        ExchangedValue = x.ExchangedValue,
+                        DefaultValue = x.DefaultValue,
+                        Shop = x.Shop,
+                        Date = x.Date,
+                        Product_Id = x.PRODUCT_ID,
+                        PicturePathId = x.PicturePathId,
+                        product = new ProductDTO() { Description = x.product.DESCRIPTION, Name = x.product.Name, Product_Id = x.PRODUCT_ID }
+                    }).FirstOrDefault();
         }
 
         public void Create(PriceDTO price)
         {
             price.Price_Id = _priceDataAccess.Read().Count() + 1;
+            Product entity = _productDataAccess.Read().Where(x => x.Name == price.product.Name).FirstOrDefault();
             _priceDataAccess.Add(new Price()
             {
                 PriceId = price.Price_Id,
@@ -38,10 +81,11 @@ namespace SmartPrice.BL.BusinessLayerImpl
                 ToCurrency = price.ToCurrency,
                 ExchangedValue = price.ExchangedValue,
                 DefaultValue = price.DefaultValue,
-                Date = DateTime.Now,
+                Date = DateTime.Today,
                 Shop = price.Shop,
                 PicturePathId = price.PicturePathId,
-                PRODUCT_ID = price.Product_Id
+                PRODUCT_ID = price.Product_Id,
+                product = entity == null ? new Product() { DESCRIPTION = price.product.Description, PRODUCT_ID = price.Product_Id, Name = price.product.Name } :entity
             });
         }
 
@@ -62,7 +106,10 @@ namespace SmartPrice.BL.BusinessLayerImpl
                     ExchangedValue = x.ExchangedValue,
                     DefaultValue = x.DefaultValue,
                     Shop = x.Shop,
-                    Product_Id = x.PRODUCT_ID                    
+                    Date = x.Date,
+                    Product_Id = x.PRODUCT_ID,
+                    PicturePathId = x.PicturePathId,
+                    product = new ProductDTO() { Description = x.product.DESCRIPTION, Name = x.product.Name, Product_Id = x.PRODUCT_ID }
                 });
         }
 
@@ -132,7 +179,7 @@ namespace SmartPrice.BL.BusinessLayerImpl
 
         private void Preprocess(string price)
         {
-            string newPrice = price.Substring(0, price.Length - 2);
+            string newPrice = price;
             System.Text.StringBuilder numBuilder = new System.Text.StringBuilder("");
             newPrice = Regex.Replace(newPrice, @"\s+", "");
             newPrice = Regex.Replace(newPrice, "[,]", ".");

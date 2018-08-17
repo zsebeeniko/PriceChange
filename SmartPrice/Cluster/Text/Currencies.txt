@@ -1,4 +1,4 @@
-HUF, huf, forint, ft, FT,ft
-EUR, eur, eu,EU,EURO, Eu, euro, euro, euro, euro, euro, EuRo, EUro, EURRo, Euro,eurro,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EURO,EUR,EUR,EUR,EUR,EURO,EUR,EUR
-RON, RON, leu, LEU, lei, Lei, ro, RO,ronn,ronn,rro,rom,rou,
+HUF, huf, forint, ft, FT,ft,HU,HU,HUF,HUF,HUF,HUF,H,HUF,HUF,HU,HUF,HU,HUF,HU,HU,FU,FUE,HUF,FUF,HU,HU,HUE,HUE,HU,HU,H,H,H,H,HUF,HUF,HU,HU
+EUR, eur, eu,EU,EURO, Eu, euro, euro, euro, euro, euro, EuRo, EUro, EURRo, Euro,eurro,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EURO,EUR,EUR,EUR,EUR,EURO,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR,EUR
+RON, RON, RON, RON, ROn, ROu, leu, LEU, lei, Lei, ro, RO,ronn,ronn,rro,rom,rou,,RO,RO,RO,RO
 USD, USD, dollar, dolar. Dollar, Dolar, Doll, Dol,ussd,us

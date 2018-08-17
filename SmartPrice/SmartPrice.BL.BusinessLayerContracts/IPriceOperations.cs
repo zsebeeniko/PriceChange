@@ -10,5 +10,7 @@ namespace SmartPrice.BL.BusinessLayerContracts
         string GetFromCurrency(string priceToConvert);
         int GetNextPathId();
         void Create(PriceDTO priceDto);
+        PriceDTO GetBestPrice(string name);
+        List<PriceDTO> GetFilteredProducts(string date);
     }
 }

@@ -17,7 +17,22 @@ namespace SmartPrice.BL.BusinessLayerImpl
             _productDataAccess = productDataAccess;
         }
 
-        public int Create(ProductDTO product)
+        public ProductDTO GetProductByName(string name)
+        {
+           return _productDataAccess.Read().
+                Select(x => new ProductDTO {
+                    Product_Id = x.PRODUCT_ID,
+                    Description = x.DESCRIPTION,
+                    Name = x.Name }).
+                    Where(x => x.Name == name).FirstOrDefault();
+        }
+
+        public int LastProductId()
+        {
+            return _productDataAccess.Read().Count();
+        }
+
+        public void Create(ProductDTO product)
         {
             product.Product_Id = _productDataAccess.Read().Count() + 1;
             _productDataAccess.Add(new Product()
@@ -26,8 +41,6 @@ namespace SmartPrice.BL.BusinessLayerImpl
                 DESCRIPTION = product.Description,
                 Name = product.Name
             });
-
-            return product.Product_Id;
         }
 
         public void Delete(ProductDTO product)

@@ -4,10 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    android:background="#FFF3E0">
+    <Button
+        android:text="Open Camera"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:layout_marginBottom="20px"
+        android:id="@+id/camera"
+        android:background="@drawable/OrangeShape" />
     <ImageView
-        android:layout_weight="9"
-        android:layout_width="match_parent"
+        android:background="#FFF3E0"
+        android:layout_width="600px"
         android:layout_height="fill_parent"
+        android:layout_margin="30px"
+        android:layout_gravity="center"
         android:id="@+id/imageView" />
 </LinearLayout>

@@ -11,7 +11,6 @@
   </style>
 
   <style name="Widget.CalendarView.Custom" parent="android:Widget.CalendarView">
-    <item name="android:focusedMonthDateColor">#E65100</item>
-    <item name="android:weekNumberColor">#795548</item>
+    <item name="android:weekNumberColor">#E65100</item>
   </style>
 </resources>

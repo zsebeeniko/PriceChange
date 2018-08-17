@@ -3,11 +3,18 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF3E0">
+    android:background="#795548">
     <CalendarView
         android:id="@+id/calendar"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@drawable/border"
         android:theme="@style/Theme.Custom" />
+    <ListView
+        android:background="#FFF3E0"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/productsListCalendar" />
 </LinearLayout>

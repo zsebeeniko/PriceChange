@@ -18,5 +18,6 @@ namespace SmartPrice.BL.BusinessLayerContracts.DTOs
         public int Product_Id { get; set; }
         public int PicturePathId { get; set; }
         public DateTime Date { get; set; }
+        public ProductDTO product { get; set; }
     }
 }

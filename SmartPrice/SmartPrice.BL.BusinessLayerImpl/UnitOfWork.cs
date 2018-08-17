@@ -35,7 +35,7 @@ namespace SmartPrice.BL.BusinessLayerImpl
             {
                 if (_priceOperations == null)
                 {
-                    _priceOperations = new PriceOperations(_repository.PriceRepository);
+                    _priceOperations = new PriceOperations(_repository.PriceRepository, _repository.ProductRepository);
                 }
 
                 return _priceOperations;

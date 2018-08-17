@@ -14,7 +14,7 @@
     android:textColor="#FFFFFF"></item>
   <item
     android:id="@+id/navmap"
-    android:title="Maps"
+    android:title="Map"
     android:textColor="#FFFFFF"></item>
   <item
    android:id="@+id/navcalendar"

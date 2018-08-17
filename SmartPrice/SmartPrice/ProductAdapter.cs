@@ -1,19 +1,21 @@
 ﻿using Android.Content;
-using Android.Runtime;
+using Android.Graphics;
 using Android.Views;
 using Android.Widget;
 using Java.Lang;
-using SmartPrice.Models;
+using SmartPrice.BL.BusinessLayerContracts.DTOs;
+using System.Collections.Generic;
+using System.IO;
 
 namespace SmartPrice
 {
     class ProductAdapter : BaseAdapter
     {
         private readonly Context context;
-        private readonly JavaList<Product> products;
+        private readonly List<PriceDTO> products;
         private LayoutInflater inflater;
 
-        public ProductAdapter(Context c, JavaList<Product> products)
+        public ProductAdapter(Context c, List<PriceDTO> products)
         {
             this.context = c;
             this.products = products;
@@ -21,17 +23,22 @@ namespace SmartPrice
 
         public override int Count
         {
-            get { return products.Size(); }
+            get { return products.Count; }
         }
 
         public override Object GetItem(int position)
         {
-            return products.Get(position);
+            throw new System.NotImplementedException();
         }
 
         public override long GetItemId(int position)
         {
             return position;
+        }
+
+        public PriceDTO GetItemById(int position)
+        {
+            return products[position];
         }
 
         public override View GetView(int position, View convertView, ViewGroup parent)
@@ -48,26 +55,40 @@ namespace SmartPrice
 
             ProductAdapterViewHolder holder = new ProductAdapterViewHolder(convertView)
             {
-                ShopTxt = { Text = products[position].Shop },
-                DescriptionTxt = { Text = products[position].Description}
+                ValueTxt = { Text = products[position].FromCurrency + " -> " + products[position].ToCurrency + " : " + products[position].ExchangedValue },
+                NameTxt = { Text = products[position].product.Name },
+                DescriptionTxt = { Text = products[position].product.Description}
             };
+            
+            var pictures = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string filePath = System.IO.Path.Combine(pictures, "pic" + products[position].PicturePathId + ".png");
 
-            //holder.Image.SetImageBitmap(products[position].Picture);
-            Android.Net.Uri uri = Android.Net.Uri.Parse(products[position].Picture);
-            holder.Image.SetImageURI(uri);
+            try
+            {
+                var f = File.ReadAllBytes(filePath);
+                Bitmap pic = BitmapFactory.DecodeStream(new MemoryStream(f));
+
+                holder.Image.SetImageBitmap(pic);
+            }
+            catch(Exception ex)
+            {
+
+            }
             return convertView;
         }
     }
 
     class ProductAdapterViewHolder : Object
     {
-        public TextView ShopTxt;
+        public TextView NameTxt;
         public TextView DescriptionTxt;
+        public TextView ValueTxt;
         public ImageView Image;
 
         public ProductAdapterViewHolder(View itemView)
         {
-            ShopTxt = itemView.FindViewById<TextView>(Resource.Id.shopTxt);
+            ValueTxt = itemView.FindViewById<TextView>(Resource.Id.valueTxt);
+            NameTxt = itemView.FindViewById<TextView>(Resource.Id.nameTxt);
             DescriptionTxt = itemView.FindViewById<TextView>(Resource.Id.descriptionTxt);
             Image = itemView.FindViewById<ImageView>(Resource.Id.productImg);
         }
